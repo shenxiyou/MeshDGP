@@ -35,7 +35,7 @@ MeshDGP can also be used to learn the basic algorithms in 3ds Max, Maya
 
 ## Textbook
 
-We provides several textbook based on MeshDGP:
+We provides several textbooks based on MeshDGP:
 [Textbook](http://item.jd.com/11587555.html)  .
 ![](opengl.jpg)
 ![](para.jpg)
