@@ -17,11 +17,11 @@ MeshDGP demonstrates the dozens of keystone mesh processing algorithms. it could
 MeshDGP can also be used to learn the basic algorithms in 3ds Max, Maya
 
 
- ## Demo
+# Demo
  
  <http://meshdgp.github.io/MeshDGP/MeshDGP.html>
 
- ## Features
+# Features
 1. This mesh processing framework(MeshDGP) is developed by the Team of Hui Zhao. All Right is Reserved!
 
 2. MeshDGP is developed with C Sharp and includes the dozens of Keystone Siggraph Mesh Processing Algorithms.
