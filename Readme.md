@@ -1,6 +1,6 @@
 # MeshDGP - A simple C# geometry processing framework
 
-![](meshdgp-teaser.bmp)
+![](./images/meshdgp-teaser.bmp)
 
 <https://github.com/meshdgp/MeshDGP>
 
@@ -37,10 +37,10 @@ MeshDGP can also be used to learn the basic algorithms in 3ds Max, Maya
 
 We provides several textbooks based on MeshDGP:
 [Textbook](http://item.jd.com/11587555.html)  .
-![](opengl.jpg)
-![](para.jpg)
-![](advanced.jpg)
-![](GLSL.jpg)
+![](./images/opengl.jpg)
+![](./images/para.jpg)
+![](./images/advanced.jpg)
+![](./images/GLSL.jpg)
 
 ## Installation
 
