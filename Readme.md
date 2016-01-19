@@ -86,10 +86,9 @@ us](mailto:graphicsresearch@qq.com) if you have
 questions or comments. For troubleshooting, please post an
 [issue](https://github.com/meshdgp/MeshDGP/issues) on github.
 
-If you're using MeshDGP in your projects, quickly [drop us a
-note](mailto:graphicsresearch@qq.com). Tell us who you
-are and what you're using it for. This helps us apply for funding and justify
-spending time maintaining this.
+If you're using MeshDGP in your projects, Please [email us ](mailto:graphicsresearch@qq.com). Tell us who you
+are and what you're using it for. This helps us apply for its further development and justify
+effort spent on it.
 
 If you find bugs or have problems please use our [github issue tracking
 page](https://github.com/meshdgp/MeshDGP/issues).
