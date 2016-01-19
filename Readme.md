@@ -31,6 +31,8 @@ MeshDGP can also be used to learn the basic algorithms in 3ds Max, Maya
 
 7. We also provides a series of book to support and explain the algorithms and implementations in MeshDGP.
 
+8. Primilary link and interface to Matlab, Maya, Wolfram mathematica.
+
 8. Any question,Please email to graphicsresearch@qq.com
 
 ## Textbook
