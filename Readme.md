@@ -1,6 +1,6 @@
 # MeshDGP - A simple C# geometry processing framework
 
-![](meshdgp-teaser.png)
+![](meshdgp-teaser.bmp)
 
 <https://github.com/meshdgp/MeshDGP>
 
