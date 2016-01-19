@@ -73,7 +73,7 @@ BibTeX entry:
    Author = {Hui, Zhao},
    Year = {2016},
    Note = {http://meshdgp.github.io/},
-   Title = {MeshDGP mesh processing framework}
+   Title = {MeshDGP: A C# mesh processing framework}
 } 
 
 ```
