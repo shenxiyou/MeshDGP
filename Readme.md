@@ -10,7 +10,7 @@
 git clone --recursive https://github.com/meshdgp/MeshDGP.git
 ```
 
-MeshDGP is a simple C# geometry processing library. This mesh processing framework(MeshDGP) is developed by the Team of Hui Zhao. All Right is Reserved! A lot of students have contributed to MeshDGP. They are Luwei Yang, Tong Wu, Fada Li, Nan Dong, Han Meng, Xun Meng, Zihao Li, Haibo Jiang, Anan Zhou, Leyuan Liu. Thanks to them
+MeshDGP is a simple C# geometry processing library. This mesh processing framework(MeshDGP) is developed by the Team of Hui Zhao. All Right is Reserved! 
 
 MeshDGP demonstrates the dozens of keystone mesh processing algorithms. it could be used as a learning or research framework for students ,researchers and engineers
 
@@ -94,6 +94,8 @@ effort spent on it.
 
 If you find bugs or have problems please use our [github issue tracking
 page](https://github.com/meshdgp/MeshDGP/issues).
+
+A lot of students have contributed to MeshDGP. They are Luwei Yang, Tong Wu, Fada Li, Nan Dong, Han Meng, Xun Meng, Zihao Li, Haibo Jiang, Anan Zhou, Leyuan Liu,..... Thanks to them!
 
 ## Copyright
 2016 Hui Zhao and others.
