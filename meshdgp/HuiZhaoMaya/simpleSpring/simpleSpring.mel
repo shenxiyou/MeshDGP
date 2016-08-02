@@ -1,0 +1,22 @@
+file -force -new;
+loadPlugin -qt examples.nll.dll;
+currentUnit -linear centimeter -angle degree -time film;   
+
+// Create the spring node.
+createNode simpleSpringCSharp -name simpleSpringCSharp;
+
+curve -d 3 -p -9 6 0 -p -4 6 0 -p 4 6 0 -p 9 6 0 -k 0 -k 0 -k 0 -k 1 -k 1 -k 1 ;
+
+particle -n fourParticles -p 11 -2 0 -p 4 -2 0 -p -3 -2 0 -p -7 4 0 -c 1 ;
+
+gravity -pos 0 0 0 -m 9.8 -dx 0 -dy -1 -dz 0 ;
+connectDynamic -f gravityField1  fourParticles;
+
+select -r fourParticles curve1 simpleSpringCSharp;
+spring -add -noDuplicate false -minMax true -mnd 0 -mxd 0 -useRestLengthPS true -s 1 -d 0.2 -sfw 1 -efw 1 ;
+
+playbackOptions -e -min 0.00 -max 600.0;
+currentTime -e 0;
+play -wait -forward true;
+
+

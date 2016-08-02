@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F4A8A691-27DA-4F85-A713-F8E4F7E0694E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GraphicResearchHuiZhao</RootNamespace>
+    <AssemblyName>HuiZhaoShape</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigShape.cs" />
+    <Compile Include="EnumShape.cs" />
+    <Compile Include="FormConfigShape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfigShape.Designer.cs">
+      <DependentUpon>FormConfigShape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuShape.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuShape.Designer.cs">
+      <DependentUpon>MenuShape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TriMeshShapeDeform.cs" />
+    <Compile Include="TriMeshShapePara.cs" />
+    <Compile Include="TriMeshShape.cs" />
+    <Compile Include="TriMeshShapeSelection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HuiZhaoBasicMesh\HuiZhaoBasicMesh.csproj">
+      <Project>{a989d08b-f70a-4af7-90af-4650157f22d9}</Project>
+      <Name>HuiZhaoBasicMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoGlobalData\HuiZhaoGlobalData.csproj">
+      <Project>{d4ee05fc-3a59-4979-a1cd-8b4ef2da6bec}</Project>
+      <Name>HuiZhaoGlobalData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoHalfEdge\HuiZhaoHalfEdgeMesh.csproj">
+      <Project>{1ad84890-edb1-4665-835b-defe285c995f}</Project>
+      <Name>HuiZhaoHalfEdgeMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoMeshInfo\HuiZhaoMeshInfo.csproj">
+      <Project>{6c29b97d-7cc5-4625-9233-8cc4ad2cb0a9}</Project>
+      <Name>HuiZhaoMeshInfo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormConfigShape.resx">
+      <DependentUpon>FormConfigShape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuShape.resx">
+      <DependentUpon>MenuShape.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

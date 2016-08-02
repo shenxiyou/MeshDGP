@@ -1,0 +1,12 @@
+global proc rotateManipTest() 
+{
+	// Load the plug-in field. 
+	//
+	loadPlugin -qt examples.nll.dll;
+	file -force -new;
+	
+	rotateContextCSharp;
+	setToolTo rotateContextCSharp1;
+}
+
+rotateManipTest();

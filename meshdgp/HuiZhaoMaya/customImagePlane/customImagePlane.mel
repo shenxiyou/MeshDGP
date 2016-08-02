@@ -1,0 +1,33 @@
+// Description: 
+//   Demonstrates how to create your own custom image plane based on
+//   Maya's internal image plane classes. This allows API users to
+//   override the default Maya image plane behavior. This class works
+//   like typical API nodes in that it can have a compute method and
+//   can contain static attributes added by the API user.  This
+//   example class overrides the default image plane behavior and
+//   allows users to add transparency to an image plane using the
+//   transparency attribute on the node. Note, this code also 
+//   illustrates how to use MImage to control the floating point
+//   depth buffer.  When useDepthMap is set to true, depth is added
+//   is added to the image such that half of the iamge is at the near 
+//   clip plane and the remaining half is at the far clip plane. 
+//
+//   Note, once the image plane node has been created it you must
+//   attached it to the camera shape that is displaying the node.
+//   Image planes are attached to cameras via the imagePlane message
+//   attribute on the camera shape.  To attach this example image
+//   plane you should connect the image plane's message attribute to
+//   the cameraShapes imagePlane attribute.  Note, the imagePlane
+//   attribute is a multi attribute and can hold references to
+//   multiple image planes.
+//
+//   This example works only with renderers that use node evaluation
+//   as a part of the rendering process, e.g. Maya Software. It does 
+//   not work with renderes that rely on a scene translation mechanism,
+//   e.g. mental ray.
+// 
+
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+string $imageP = `createNode customImagePlaneCSharp`;
+connectAttr -f ($imageP + ".message") "perspShape.imagePlane[0]";

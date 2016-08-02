@@ -1,0 +1,79 @@
+// Copyright (C) 1997-2011 Autodesk, Inc., and/or its licensors.
+// All rights reserved.
+//
+// The coded instructions, statements, computer programs, and/or related
+// material (collectively the "Data") in these files contain unpublished
+// information proprietary to Autodesk, Inc. ("Autodesk") and/or its licensors,
+// which is protected by U.S. and Canadian federal copyright law and by
+// international treaties.
+//
+// The Data is provided for use exclusively by You. You have the right to use,
+// modify, and incorporate this Data into other products for purposes authorized 
+// by the Autodesk software license agreement, without fee.
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. AUTODESK
+// DOES NOT MAKE AND HEREBY DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTIES
+// INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF NON-INFRINGEMENT,
+// MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, OR ARISING FROM A COURSE 
+// OF DEALING, USAGE, OR TRADE PRACTICE. IN NO EVENT WILL AUTODESK AND/OR ITS
+// LICENSORS BE LIABLE FOR ANY LOST REVENUES, DATA, OR PROFITS, OR SPECIAL,
+// DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES, EVEN IF AUTODESK AND/OR ITS
+// LICENSORS HAS BEEN ADVISED OF THE POSSIBILITY OR PROBABILITY OF SUCH DAMAGES.
+
+//-
+// ==========================================================================
+//
+//
+//
+//
+//
+// ==========================================================================
+//+
+
+global proc exampleCSV()
+//
+//	Description:
+//
+{
+	string $g__MpTestPrimaryCamera;
+
+	string $window = `window`;
+	string $form = `formLayout`;
+	string $editor = `exampleCameraSetViewCSharp`;
+	string $column = `columnLayout -adjustableColumn true`;
+
+	//  Set up the window layout attachments.
+	//
+	formLayout -edit
+		-attachForm	$column "top"	0
+		-attachForm	$column "left"   0
+		-attachNone	$column "bottom"
+		-attachNone	$column "right"
+		-attachForm	$editor "top"	0
+		-attachControl $editor "left"   0 $column
+		-attachForm	$editor "bottom" 0
+		-attachForm	$editor "right"  0
+		$form;
+
+	showWindow $window;
+
+	//  Create a camera for the editor.  This particular camera will
+	//  have a close up perspective view of the centre of the ground plane.
+	//
+	string $camera[] = `camera -centerOfInterest 2.450351
+		-position 1.535314 1.135712 1.535314
+		-rotation -27.612504 45 0
+		-worldUp -0.1290301 0.3488592 -0.1290301`;
+
+	$g__MpTestPrimaryCamera = $camera[0];
+
+	//  Attach the camera to the model editor.
+	//
+	exampleCameraSetViewCSharp -edit -camera $camera[0] $editor;
+	currentTime -edit 10.0;
+	exampleCameraSetViewCSharp -edit -i $editor;
+	exampleCameraSetViewCSharp -edit -r $editor;
+}
+
+
+loadPlugin -qt examples.nll.dll;
+exampleCSV;

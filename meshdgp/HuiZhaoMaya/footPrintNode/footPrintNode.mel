@@ -1,0 +1,12 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc testfootPrintNode()
+{
+	//create a footPrint
+	createNode footPrintCSharp;
+	//transfer to viewport 2.0, the footPrint is redrawed in viewport.
+	ActivateViewport20;
+}
+
+testfootPrintNode();

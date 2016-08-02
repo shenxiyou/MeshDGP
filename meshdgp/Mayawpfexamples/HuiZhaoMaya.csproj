@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{14C968A0-EE50-4D22-87E0-51CF5B74DE0E}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GraphicResearchHuiZhao</RootNamespace>
+    <AssemblyName>HuiZhaoMaya.nll</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|X64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <OutputPath>bin\Debug\</OutputPath>
+    <BaseIntermediateOutputPath>$(SolutionDir)..\..\build\Debug\IntDir\wpfexamples</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(SolutionDir)..\..\build\Debug\IntDir\wpfexamples</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|X64'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>X64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <OutputPath>$(SolutionDir)..\..\build\Release\assemblies\wpfexamples</OutputPath>
+    <BaseIntermediateOutputPath>$(SolutionDir)..\..\build\Release\IntDir\wpfexamples</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(SolutionDir)..\..\build\Release\IntDir\wpfexamples</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HuiZhaoBasicMesh, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\HuiZhaoBasicMesh.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoDeformation">
+      <HintPath>..\..\Publish\bin\Debug\HuiZhaoDeformation.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoDifferentialGeometry, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Publish\bin\Debug\HuiZhaoDifferentialGeometry.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoGlobalData, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\HuiZhaoGlobalData.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoHalfEdgeMesh, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\HuiZhaoHalfEdgeMesh.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoLaplace, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Publish\bin\Debug\HuiZhaoLaplace.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoMeshInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\HuiZhaoMeshInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoMeshOperation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\HuiZhaoMeshOperation.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoOpenGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\HuiZhaoOpenGL.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoPara, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\HuiZhaoPara.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoSMD">
+      <HintPath>..\..\Publish\bin\Debug\HuiZhaoSMD.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoUILaplace, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Publish\bin\Debug\HuiZhaoUILaplace.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoUIPara">
+      <HintPath>..\HuiZhaoUIParameterization\obj\Debug\HuiZhaoUIPara.dll</HintPath>
+    </Reference>
+    <Reference Include="openmayacs">
+      <HintPath>..\dll\openmayacs.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Help\BackupDAGExplorer.xaml.cs" />
+    <Compile Include="Forms\FormMaya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMaya.Designer.cs">
+      <DependentUpon>FormMaya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigMaya.cs" />
+    <Compile Include="Forms\EnumMaya.cs" />
+    <Compile Include="Forms\FormConfigMaya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormConfigMaya.Designer.cs">
+      <DependentUpon>FormConfigMaya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMainMaya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MayaController.cs" />
+    <Compile Include="Forms\MenuMainMaya.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\MenuMainMaya.Designer.cs">
+      <DependentUpon>MenuMainMaya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help\DAGExplorer.xaml.cs">
+      <DependentUpon>DAGExplorer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Help\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MenuMaya.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\MenuMaya.Designer.cs">
+      <DependentUpon>MenuMaya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help\HWNDWrapper.cs" />
+    <Compile Include="Forms\MayaBridge.cs" />
+    <Compile Include="Help\MayaObject.cs" />
+    <Compile Include="Help\MayaProxy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Help\SetMayaDir.cs" />
+    <Compile Include="Help\TriangleMeshAdapater.cs" />
+    <Compile Include="MayaPluginUI.cs" />
+    <EmbeddedResource Include="Forms\FormMaya.resx">
+      <DependentUpon>FormMaya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormConfigMaya.resx">
+      <DependentUpon>FormConfigMaya.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMainMaya.resx">
+      <DependentUpon>FormMainMaya.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MenuMainMaya.resx">
+      <DependentUpon>MenuMainMaya.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MenuMaya.resx">
+      <DependentUpon>MenuMaya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Help\DAGExplorer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HuiZhaoShape\HuiZhaoShape.csproj">
+      <Project>{f4a8a691-27da-4f85-a713-f8e4f7e0694e}</Project>
+      <Name>HuiZhaoShape</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoToolLibrary\HuiZhaoToolLibrary.csproj">
+      <Project>{d389869d-4de3-4c74-aa87-d8a51cb1dc7b}</Project>
+      <Name>HuiZhaoToolLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoUIMatlab\HuiZhaoUIMatlab.csproj">
+      <Project>{3a8b3169-babd-4835-81a2-f9f0988a0258}</Project>
+      <Name>HuiZhaoUIMatlab</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoUIMenu\HuiZhaoUIMenu.csproj">
+      <Project>{00c6c845-67b8-46cf-8af3-0d2ec14d0b3b}</Project>
+      <Name>HuiZhaoUIMenu</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoUIOpenGL\HuiZhaoUIOpenGL.csproj">
+      <Project>{b71f1a57-f072-40ab-ada2-68dec0e97688}</Project>
+      <Name>HuiZhaoUIOpenGL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,24 @@
+// If plug-in has not been loaded
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc testLineManipContainer()
+{
+	lineManipContainerContextCSharp;
+
+	setParent General;
+	toolButton -cl toolCluster
+				-i1 "moveManip.xpm"
+				-t lineManipContainerContextCSharp1
+				lineManipContainer1;
+	//uninstall
+	uninstallLineManioContainer();
+}
+
+global proc uninstallLineManioContainer()
+{
+	deleteUI lineManipContainerContextCSharp1;
+	deleteUI lineManipContainer1;
+}
+
+testLineManipContainer();

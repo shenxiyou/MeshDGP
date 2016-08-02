@@ -1,0 +1,33 @@
+global proc dynExprFieldTest() 
+{
+	file -force -new;
+	currentUnit -linear centimeter -angle degree -time film;   
+
+	// Load the plug-in field. 
+	//
+	loadPlugin -qt examples.nll.dll;
+
+	// Create the new field node
+	particle -p -8.487083 0 3.977805 -p -8.364536 0 6.178587 -c 1 -name owner;
+	createNode dynExprFieldCSharp -name dynExpr;
+	setAttr dynExpr.applyPerVertex 1;
+    	select -tgl owner;
+    	addDynamic;
+
+	// create particle object.
+	particle -ll -4 0 -5 -ur 5 0 4 -grs 1 -c 1 -name particles;
+	// connect dynExpr field node with the particle object.
+	connectDynamic -f dynExpr particles ;
+
+	// Creation expression to control the attributes on dynExpr.
+	addAttr -ln dynExpr_magnitude -dt doubleArray  ownerShape;
+	addAttr -ln dynExpr_direction -dt vectorArray  ownerShape;
+	dynExpression -s "dynExpr_direction = <<rand(-1,1), rand(-1,1), rand(-1,1)>>;\ndynExpr_magnitude = rand(1,10);" -c ownerShape;
+
+	playbackOptions -e -min 0.00 -max 50.0;
+	currentTime -e 0;
+	play -wait -forward true;
+
+}
+
+dynExprFieldTest();

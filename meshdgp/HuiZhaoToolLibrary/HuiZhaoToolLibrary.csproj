@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D389869D-4DE3-4C74-AA87-D8A51CB1DC7B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GraphicResearchHuiZhao</RootNamespace>
+    <AssemblyName>HuiZhaoToolLibrary</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basic\EnumMouseButton.cs" />
+    <Compile Include="HalfEdgeTools\Cicle\ToolEdgebyCircle.cs" />
+    <Compile Include="Basic\EnumTool.cs" />
+    <Compile Include="HalfEdgeTools\Curve\ToolEdgeByCurve.cs" />
+    <Compile Include="HalfEdgeTools\Rectangle\ToolEdgeByRectangle.cs" />
+    <Compile Include="HalfEdgeTools\Point\ToolEdgeByPoint.cs" />
+    <Compile Include="HalfEdgeTools\Cicle\ToolFaceByCircle.cs" />
+    <Compile Include="HalfEdgeTools\Rectangle\ToolFaceByRectangle.cs" />
+    <Compile Include="HalfEdgeTools\Point\ToolFaceByPoint.cs" />
+    <Compile Include="HalfEdgeTools\ToolPool.cs" />
+    <Compile Include="HalfEdgeTools\Cicle\ToolVertexByCircle.cs" />
+    <Compile Include="HalfEdgeTools\ToolBaseTriMesh.cs" />
+    <Compile Include="HalfEdgeTools\Point\ToolPointByPoint.cs" />
+    <Compile Include="HalfEdgeTools\Rectangle\ToolPointByRectangle.cs" />
+    <Compile Include="HalfEdgeTools\Curve\ToolPointByCurve.cs" />
+    <Compile Include="HalfEdgeTools\Point\ToolLaserPointByPoint.cs" />
+    <Compile Include="HalfEdgeTools\Move\ToolMovePoint.cs" />
+    <Compile Include="HalfEdgeTools\Move\ToolMoveSinglePoint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Basic\AbstractTool.cs" />
+    <Compile Include="NonManifoldMesh\BaseMeshTool.cs" />
+    <Compile Include="NonManifoldMesh\ExtendSelectionTool.cs" />
+    <Compile Include="NonManifoldMesh\SelectCurveTool.cs" />
+    <Compile Include="NonManifoldMesh\SelectionTool.cs" />
+    <Compile Include="NonManifoldMesh\SelectPointLaserTool.cs" />
+    <Compile Include="NonManifoldMesh\SelectPointTool.cs" />
+    <Compile Include="NonManifoldMesh\SelectRandomTool.cs" />
+    <Compile Include="NonManifoldMesh\SelectRectangleLaserTool.cs" />
+    <Compile Include="NonManifoldMesh\SelectRectangleTool.cs" />
+    <Compile Include="NonManifoldMesh\ToolSetting.cs" />
+    <Compile Include="NonManifoldMesh\ToolsSettingRecord.cs" />
+    <Compile Include="Basic\Arcball.cs" />
+    <Compile Include="Basic\ViewTool.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HuiZhaoBasicMesh\HuiZhaoBasicMesh.csproj">
+      <Project>{a989d08b-f70a-4af7-90af-4650157f22d9}</Project>
+      <Name>HuiZhaoBasicMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoGlobalData\HuiZhaoGlobalData.csproj">
+      <Project>{d4ee05fc-3a59-4979-a1cd-8b4ef2da6bec}</Project>
+      <Name>HuiZhaoGlobalData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoHalfEdge\HuiZhaoHalfEdgeMesh.csproj">
+      <Project>{1ad84890-edb1-4665-835b-defe285c995f}</Project>
+      <Name>HuiZhaoHalfEdgeMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoMeshInfo\HuiZhaoMeshInfo.csproj">
+      <Project>{6c29b97d-7cc5-4625-9233-8cc4ad2cb0a9}</Project>
+      <Name>HuiZhaoMeshInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoOpenGL\HuiZhaoOpenGL.csproj">
+      <Project>{ae3731aa-8971-423c-b398-5f3d32526efe}</Project>
+      <Name>HuiZhaoOpenGL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

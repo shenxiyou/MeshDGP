@@ -1,0 +1,13 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+string $tmpDir = `internalVar -utd`;
+
+global proc testCustomNodeTranslator()
+{
+	// export a file in type spCustomNodeTranslator : test.spcnt
+	file -force -options "" -type "spCustomNodeTranslator" -pr -ea "$tmpDir/test.spcnt";
+	// import the file test.spcnt
+	file -import -type "spCustomNodeTranslator" -ra true -mergeNamespacesOnClash true -rpr ":"  -pr -loadReferenceDepth "all" "$tmpDir/test.spcnt";
+}
+
+testCustomNodeTranslator();

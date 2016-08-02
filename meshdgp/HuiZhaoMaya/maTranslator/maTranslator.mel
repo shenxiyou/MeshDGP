@@ -1,0 +1,15 @@
+// If plug-in has not been loaded
+loadPlugin -qt examples.nll.dll;
+string $tmpDir = `internalVar -utd`;
+
+// Create some geometry
+file -f -new;
+polySphere -ch on -o on -r 1.0;
+polyCylinder -ch on -o on -r 0.8 -h 2.0 -sc 1 -cuv 3;
+
+// Then export the scene with following command:
+file -force -options "v=0;" -type "Maya ASCII (via csharp plugin)" -pr -ea "$tmpDir/test.pma";
+
+// Import back the exported ASCII file with following command:
+file -f -new;
+file -import -type "mayaAscii" -ra true -mergeNamespacesOnClash false -namespace "test" -options "v=0;"  -pr -loadReferenceDepth "all" "$tmpDir/test.pma";

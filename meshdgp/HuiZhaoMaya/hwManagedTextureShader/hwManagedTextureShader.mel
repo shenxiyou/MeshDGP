@@ -1,0 +1,17 @@
+loadPlugin -qt examples.nll.dll;
+
+// Create a spherical polygon in a new scene.
+file -f -new;
+polySphere;
+
+// Turn on smooth shading and hardware texturing for the perspective viewport.
+modelEditor -edit -displayAppearance smoothShaded -activeOnly false modelPanel4;
+modelEditor -e -displayTextures true modelPanel4;
+
+// Assign the sphere with hwManagedTextureShaderCSharp.
+shadingNode -asShader hwManagedTextureShaderCSharp;
+sets -renderable true -noSurfaceShader true -empty -name hwManagedTextureShaderCSharp1SG;
+connectAttr -f hwManagedTextureShaderCSharp1.outColor hwManagedTextureShaderCSharp1SG.surfaceShader;
+source createAndAssignShader.mel;
+assignCreatedShader "hwManagedTextureShaderCSharp" "" hwManagedTextureShaderCSharp1 "pSphere1";
+sets -e -forceElement hwManagedTextureShaderCSharp1SG;

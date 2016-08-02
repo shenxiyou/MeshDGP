@@ -1,0 +1,8 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+global proc testprogressWindowCmd()
+{
+	progressWindowCmdCSharp;
+}
+
+testprogressWindowCmd();

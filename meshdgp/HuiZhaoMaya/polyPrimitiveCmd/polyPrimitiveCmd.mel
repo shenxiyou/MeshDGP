@@ -1,0 +1,71 @@
+// Copyright 2012 Autodesk, Inc. All rights reserved. 
+//
+// Use of this software is subject to the terms of the Autodesk 
+// license agreement provided at the time of installation or download, 
+// or which otherwise accompanies this software in either electronic 
+// or hard copy form.
+
+global proc polyPrimitiveCreateUI()
+{
+	global string $gMainPrimitivesMenu;
+
+	if (`menu -exists $gMainPrimitivesMenu`)
+	{
+		if (!`menuItem -exists polyPrimitivesItem`)
+		{
+			//
+			//  Force creation of the menu's menu items.
+			//
+			string $postMenuCmd = `menu -q -pmc $gMainPrimitivesMenu`;
+			catch(eval ($postMenuCmd));
+		}
+
+		if (`menuItem -exists polyPrimitivesItem`)
+		{
+			menuItem -p polyPrimitivesItem -l "Other Primitive" -c "polyPrimitiveWindow"
+				-annotation "Polygon Icosahedron: Create other primitives on the grid"
+				polyPrimitiveWindowItem;
+		}
+	}
+}
+global proc polyPrimitiveDeleteUI()
+{
+	global string $gMainPrimitivesMenu;
+
+	if (`menu -exists $gMainPrimitivesMenu`)
+	{
+		if (`menuItem -exists polyPrimitivesItem`)
+		{
+			deleteUI -menuItem polyPrimitiveWindowItem;
+		}
+	}
+}
+global proc polyPrimitiveWindow ()
+{
+	if ( !`window -exists primWindow` )
+	{
+		window -rtf true -t "polyPrimitive" primWindow;
+
+			columnLayout -adj true -cal "left" polyPrim;
+				button -l "icosahedron" -c "polyPrimitiveCSharp 1";
+				button -l "dodecahedron" -c "polyPrimitiveCSharp 2";
+				button -l "tetrahedron" -c "polyPrimitiveCSharp 3";
+				button -l "cube" -c "polyPrimitiveCSharp 4";
+				button -l "octahedron" -c "polyPrimitiveCSharp 5";
+				button -l "soccerBall" -c "polyPrimitiveCSharp 8";
+				button -l "plane" -c "polyPrimitiveCSharp 6";
+				button -l "cylinder" -c "polyPrimitiveCSharp 7";
+				setParent ..;
+	}
+	showWindow primWindow;
+}
+
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc testpolyPrimitiveCmd()
+{
+	polyPrimitiveCSharp;
+}
+
+testpolyPrimitiveCmd();

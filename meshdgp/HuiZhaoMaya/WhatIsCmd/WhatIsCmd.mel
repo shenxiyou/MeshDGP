@@ -1,0 +1,16 @@
+loadPlugin -qt examples.nll.dll;
+
+// Create a new scene with some built-in polygonal meshes.
+file -f -new;
+polySphere;
+polyCube;
+polyCylinder;
+polyCone;
+polyPlane;
+polyTorus;
+polyPyramid;
+polyPipe;
+
+// Show the information.
+SelectAll;
+netWhatIsCSharp;

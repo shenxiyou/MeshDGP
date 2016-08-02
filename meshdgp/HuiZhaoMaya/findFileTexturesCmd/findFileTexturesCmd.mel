@@ -1,0 +1,50 @@
+// Load the .NET plugin.
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+// Create a spherical polygon, by default it is assigned with lambertian material.
+polySphere -ch on -o on -r 1.0;
+
+// Test: expecting "pSphere1: is not in a shading group, skipping".
+netFindFileTexturesCmdCSharp pSphere1;
+
+// Test: expecting "pSphereShape1: is not connected to a file texture".
+netFindFileTexturesCmdCSharp pSphereShape1;
+
+// Create a file texture.
+shadingNode -asTexture file;
+shadingNode -asUtility place2dTexture;
+connectAttr -f place2dTexture1.coverage file1.coverage;
+connectAttr -f place2dTexture1.translateFrame file1.translateFrame;
+connectAttr -f place2dTexture1.rotateFrame file1.rotateFrame;
+connectAttr -f place2dTexture1.mirrorU file1.mirrorU;
+connectAttr -f place2dTexture1.mirrorV file1.mirrorV;
+connectAttr -f place2dTexture1.stagger file1.stagger;
+connectAttr -f place2dTexture1.wrapU file1.wrapU;
+connectAttr -f place2dTexture1.wrapV file1.wrapV;
+connectAttr -f place2dTexture1.repeatUV file1.repeatUV;
+connectAttr -f place2dTexture1.offset file1.offset;
+connectAttr -f place2dTexture1.rotateUV file1.rotateUV;
+connectAttr -f place2dTexture1.noiseUV file1.noiseUV;
+connectAttr -f place2dTexture1.vertexUvOne file1.vertexUvOne;
+connectAttr -f place2dTexture1.vertexUvTwo file1.vertexUvTwo;
+connectAttr -f place2dTexture1.vertexUvThree file1.vertexUvThree;
+connectAttr -f place2dTexture1.vertexCameraOne file1.vertexCameraOne;
+connectAttr place2dTexture1.outUV file1.uv;
+connectAttr place2dTexture1.outUvFilterSize file1.uvFilterSize;
+
+// Connect the file texture's output color to the lambertian material's input color.
+connectAttr -force file1.outColor lambert1.color;
+
+// Test: expecting "place2dTexture1: is not a renderable object, skipping
+//                  file1: is not a renderable object, skipping".
+netFindFileTexturesCmdCSharp place2dTexture1 file1;
+
+// Test: expecting "pSphere1: is not in a shading group, skipping".
+select -r pSphere1;
+netFindFileTexturesCmdCSharp;
+
+// Test: expecting "Name:    file1
+//                  Texture: 
+//                  Path:    pSphereShape1(mesh) -> initialShadingGroup(shadingEngine) -> lambert1(lambert) -> file1(file)".
+netFindFileTexturesCmdCSharp pSphereShape1;

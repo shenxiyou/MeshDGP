@@ -1,0 +1,12 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// blindDoubleData
+//
+// Implements a new type of node in maya called blindDoubleData, and use blindDoubleData to manipulate it.
+//
+// After loading this MEL script, you will see blindDoubleData binary and ascii content in output window.
+//
+
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+blindDoubleDataCmdCSharp;

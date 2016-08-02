@@ -1,0 +1,10 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+createNode transform -n firstGuy;
+createNode transform -n secondGuy;
+// Connect the translation of two nodes together
+connectAttr firstGuy.t secondGuy.translate;
+// Connect the rotation of one node to the override colour
+// of a second node.
+connectAttr firstGuy.rotate secondGuy.overrideColor;
+scanDagCSharp;

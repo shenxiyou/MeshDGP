@@ -1,0 +1,26 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc testaffectsNode()
+{
+	loadPlugin -qt examples.nll.dll;
+	file -f -new;
+	$affectsnode = `createNode affectsCSharp`;
+	addAttr -ln A -at long $affectsnode;
+	addAttr -ln B -at long $affectsnode;
+	
+	$affectsA = $affectsnode + ".A";
+	
+	setAttr $affectsA 10;
+	
+	$affectsB = $affectsnode + ".B";
+	
+	$affectsBresult = `getAttr $affectsB`;
+
+	if($affectsBresult != 10)
+	{
+		print "FAIL! affectsNode test faild";
+	}
+}
+
+testaffectsNode();

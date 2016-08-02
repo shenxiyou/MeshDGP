@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EigenArpackUtil", "EigenArpackUtil.vcproj", "{FC973836-B8A2-403F-B0F7-4EFE5987D68C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC973836-B8A2-403F-B0F7-4EFE5987D68C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC973836-B8A2-403F-B0F7-4EFE5987D68C}.Debug|Win32.Build.0 = Debug|Win32
+		{FC973836-B8A2-403F-B0F7-4EFE5987D68C}.Release|Win32.ActiveCfg = Release|Win32
+		{FC973836-B8A2-403F-B0F7-4EFE5987D68C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

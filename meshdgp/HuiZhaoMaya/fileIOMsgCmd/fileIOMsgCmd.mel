@@ -1,0 +1,21 @@
+global proc testfileIOMsgCmdCSharp()
+{
+	loadPlugin -qt examples.nll.dll;
+	
+	file -f -new;
+	fileIOMsgCSharpCmdCSharp;
+
+	// prepare a file
+	file -rename "haibo.ma";
+	
+	// file pre save
+	file -f -save -type "mayaAscii";
+
+	// file pre import
+	file -import -type "mayaAscii" "haibo.ma";
+
+	// file pre open
+	file -f -typ "mayaAscii" -o "haibo.ma";
+}
+
+testfileIOMsgCmdCSharp();

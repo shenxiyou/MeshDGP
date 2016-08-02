@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{18B83AAE-350D-11E2-A30B-2C27D721D777}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MayaNET_Examples</RootNamespace>
+    <AssemblyName>examples.nll</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <BaseIntermediateOutputPath>$(SolutionDir)..\..\build\Debug\IntDir\examples</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(SolutionDir)..\..\build\Debug\IntDir\examples</IntermediateOutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>$(SolutionDir)..\..\build\Release\assemblies\examples</OutputPath>
+    <BaseIntermediateOutputPath>$(SolutionDir)..\..\build\Release\IntDir\examples</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(SolutionDir)..\..\build\Release\IntDir\examples</IntermediateOutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="openmayacs">
+      <HintPath>..\dll\openmayacs.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="affectsNode\affectsNode.cs" />
+    <Compile Include="animCubeNode\animCubeNode.cs" />
+    <Compile Include="animImportExport\animFileUtils.cs" />
+    <Compile Include="animImportExport\animImportExport.cs" />
+    <Compile Include="apiMeshShape\apiMeshCreator.cs" />
+    <Compile Include="apiMeshShape\apiMeshData.cs" />
+    <Compile Include="apiMeshShape\apiMeshGeom.cs" />
+    <Compile Include="apiMeshShape\apiMeshIterator.cs" />
+    <Compile Include="apiMeshShape\apiMeshShape.cs" />
+    <Compile Include="apiMeshShape\apiMeshShapeUI.cs" />
+    <Compile Include="apiSimpleShape\apiSimpleShape.cs" />
+    <Compile Include="apiSimpleShape\apiSimpleShapeIterator.cs" />
+    <Compile Include="apiSimpleShape\apiSimpleShapeUI.cs" />
+    <Compile Include="blindDoubleDataCmd\blindDoubleData.cs" />
+    <Compile Include="blindDoubleDataCmd\blindDoubleDataCmd.cs" />
+    <Compile Include="cameraSetSubclass\cameraSetSubclass.cs" />
+    <Compile Include="common\OpenGL.cs" />
+    <Compile Include="common\PluginInfo.cs" />
+    <Compile Include="conditionTest\conditionTest.cs" />
+    <Compile Include="createClipCmd\createClipCmd.cs" />
+    <Compile Include="customImagePlane\customImagePlane.cs" />
+    <Compile Include="customNodeTranslator\customNodeTranslator.cs" />
+    <Compile Include="dagMessageCmd\dagMessageCmd.cs" />
+    <Compile Include="dynExprField\dynExprField.cs" />
+    <Compile Include="eventTest\eventTest.cs" />
+    <Compile Include="exportSkinClusterDataCmd\exportSkinClusterDataCmd.cs" />
+    <Compile Include="fileIOMsgCmd\fileIOMsgCmd.cs" />
+    <Compile Include="filteredAsciiFile\filteredAsciiFile.cs" />
+    <Compile Include="findFileTexturesCmd\findFileTexturesCmd.cs" />
+    <Compile Include="flipUVCmd\flipUVCmd.cs" />
+    <Compile Include="footPrintNode\footPrintNode.cs" />
+    <Compile Include="garbageCollect\garbageCollect.cs" />
+    <Compile Include="genericAttributeNode\genericAttributeNode.cs" />
+    <Compile Include="geometrySurfaceConstraint\geometrySurfaceConstraint.cs" />
+    <Compile Include="helloCmd\helloCmd.cs" />
+    <Compile Include="helloWorldCmd\helloWorldCmd.cs" />
+    <Compile Include="hwManagedTextureShader\hwManagedTextureShader.cs" />
+    <Compile Include="ik2Bsolver\AwMath.cs" />
+    <Compile Include="ik2Bsolver\AwMatrix.cs" />
+    <Compile Include="ik2Bsolver\AwPoint.cs" />
+    <Compile Include="ik2Bsolver\AwQuaternion.cs" />
+    <Compile Include="ik2Bsolver\AwVector.cs" />
+    <Compile Include="ik2Bsolver\ik2Bsolver.cs" />
+    <Compile Include="instanceCallbackCmd\instanceCallbackCmd.cs" />
+    <Compile Include="jlcVcrDevice\jlcVcrDevice.cs" />
+    <Compile Include="lineManipContainer\lineManipContainer.cs" />
+    <Compile Include="lineManip\lineManip.cs" />
+    <Compile Include="marqueeTool\marqueeTool.cs" />
+    <Compile Include="maTranslator\maTranslator.cs" />
+    <Compile Include="MetaData\cmdUtils.cs" />
+    <Compile Include="MetaData\CreateMetadataCmd.cs" />
+    <Compile Include="MetaData\CreateMetadataFromTypeCmd.cs" />
+    <Compile Include="MetaData\ExportMetadataCmd.cs" />
+    <Compile Include="MetaData\ImportMetadataCmd.cs" />
+    <Compile Include="MetaData\metadataBase.cs" />
+    <Compile Include="MetaData\metadataPluginStrings.cs" />
+    <Compile Include="MetaData\structureSerializeXML.cs" />
+    <Compile Include="MetaData\WriteMetadataToConsoleCmd.cs" />
+    <Compile Include="moveTool\moveTool.cs" />
+    <Compile Include="multiPlugInfoCmd\multiPlugInfoCmd.cs" />
+    <Compile Include="nodeInfoCmd\nodeInfoCmd.cs" />
+    <Compile Include="nodeMessageCmd\nodeMessageCmd.cs" />
+    <Compile Include="pluginCallbacks\pluginCallbacks.cs" />
+    <Compile Include="polyPrimitiveCmd\polyPrimitiveCmd.cs" />
+    <Compile Include="polyTrgNode\polyTrgNode.cs" />
+    <Compile Include="progressWindowCmd\progressWindowCmd.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quadricShape\quadricShape.cs" />
+    <Compile Include="referenceQueryCmd\referenceQueryCmd.cs" />
+    <Compile Include="rockingTransformCheck\rockingTransformCheck.cs" />
+    <Compile Include="rotateManip\rotateManip.cs" />
+    <Compile Include="scanDagCmd\scanDagCmd.cs" />
+    <Compile Include="simpleImageFile\simpleImageFile.cs" />
+    <Compile Include="simpleSolverNode\simpleSolverNode.cs" />
+    <Compile Include="simpleSpring\simpleSpring.cs" />
+    <Compile Include="sineNode\sineNode.cs" />
+    <Compile Include="slopeShader\slopeShader.cs" />
+    <Compile Include="testAttributePatternFactory\testAttributePatternFactory.cs" />
+    <Compile Include="testHLSLShader\testHLSLShader.cs" />
+    <Compile Include="testObjectSetCmd\testObjectSetCmd.cs" />
+    <Compile Include="testRenderPass\testRenderPass.cs" />
+    <Compile Include="undoRedoMsgCmd\undoRedoMsgCmd.cs" />
+    <Compile Include="userMsgCmd\userMsgCmd.cs" />
+    <Compile Include="vertexBufferGenerator\vertexBufferGenerator.cs" />
+    <Compile Include="WhatIsCmd\WhatIsCmd.cs" />
+    <Compile Include="xmlGeometryCacheDesc\xmlGeometryCacheDesc.cs" />
+    <Compile Include="xmlGeometryCache\xmlGeometryCache.cs" />
+    <Compile Include="yTwistNode\yTwistNode.cs" />
+    <Compile Include="zoomCameraCmd\zoomCameraCmd.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="affectsNode\affectsNode.mel" />
+    <None Include="animCubeNode\animCubeNode.mel" />
+    <None Include="animImportExport\animImportExport.mel" />
+    <None Include="apiMeshShape\apiMeshShape.mel" />
+    <None Include="apiSimpleShape\apiSimpleShape.mel" />
+    <None Include="blindDoubleDataCmd\blindDoubleData.mel" />
+    <None Include="cameraSetSubclass\cameraSetSubclass.mel" />
+    <None Include="conditionTest\conditionTest.mel" />
+    <None Include="createClipCmd\createClipCmd.mel" />
+    <None Include="customImagePlane\customImagePlane.mel" />
+    <None Include="customNodeTranslator\customNodeTranslator.mel" />
+    <None Include="dagMessageCmd\dagMessageCmd.mel" />
+    <None Include="dynExprField\dynExprFieldTest.mel" />
+    <None Include="eventTest\eventTest.mel" />
+    <None Include="exportSkinClusterDataCmd\exportSkinClusterDataCmd.mel" />
+    <None Include="fileIOMsgCmd\fileIOMsgCmd.mel" />
+    <None Include="filteredAsciiFile\filteredAsciiFile.mel" />
+    <None Include="findFileTexturesCmd\findFileTexturesCmd.mel" />
+    <None Include="flipUVCmd\flipUVCmd.mel" />
+    <None Include="footPrintNode\footPrintNode.mel" />
+    <None Include="genericAttributeNode\genericAttributeNode.mel" />
+    <None Include="geometrySurfaceConstraint\geometrySurfaceConstraint.mel" />
+    <None Include="helloCmd\helloCmd.mel" />
+    <None Include="helloWorldCmd\helloWorldCmd.mel" />
+    <None Include="hwManagedTextureShader\hwManagedTextureShader.mel" />
+    <None Include="ik2Bsolver\ik2Bsolver.mel" />
+    <None Include="instanceCallbackCmd\instanceCallbackCmd.mel" />
+    <None Include="jlcVcrDevice\jlcVcrDevice.mel" />
+    <None Include="lineManip\lineManip.mel" />
+    <None Include="lineManipContainer\lineManipContainer.mel" />
+    <None Include="marqueeTool\marqueeTool.mel" />
+    <None Include="marqueeTool\marqueeTool.xpm" />
+    <None Include="maTranslator\maTranslator.mel" />
+    <None Include="moveTool\moveTool.mel" />
+    <None Include="moveTool\moveTool.xpm" />
+    <None Include="multiPlugInfoCmd\multiPlugInfoCmd.mel" />
+    <None Include="nodeInfoCmd\nodeInfoCmd.mel" />
+    <None Include="nodeMessageCmd\nodeMessageCmd.mel" />
+    <None Include="pluginCallbacks\pluginCallbacks.mel" />
+    <None Include="polyPrimitiveCmd\polyPrimitiveCreateUI.mel" />
+    <None Include="polyPrimitiveCmd\polyPrimitiveDeleteUI.mel" />
+    <None Include="polyPrimitiveCmd\polyPrimitiveWindow.mel" />
+    <None Include="polyTrgNode\polyTrgNode.mel" />
+    <None Include="progressWindowCmd\progressWindowCmd.mel" />
+    <None Include="quadricShape\quadricShape.mel" />
+    <None Include="referenceQueryCmd\referenceQueryCmd.mel" />
+    <None Include="rockingTransformCheck\rockingTransformCheck.mel" />
+    <None Include="scanDagCmd\scanDagCmd.mel" />
+    <None Include="simpleImageFile\simpleImageFile.mel" />
+    <None Include="simpleImageFile\simpleImageFile.moo" />
+    <None Include="simpleSolverNode\simpleSolverNode.mel" />
+    <None Include="simpleSpring\simpleSpring.mel" />
+    <None Include="sineNode\sineNode.mel" />
+    <None Include="slopeShader\AEslopeShaderTemplate.mel" />
+    <None Include="slopeShader\slopeShader.mel" />
+    <None Include="testAttributePatternFactory\testAttributePatternFactory.mel" />
+    <None Include="testHLSLShader\testHLSLShader.mel" />
+    <None Include="testObjectSetCmd\testObjectSetCmd.mel" />
+    <None Include="testRenderPass\testRenderPass.mel" />
+    <None Include="undoRedoMsgCmd\undoRedoMsgCmd.mel" />
+    <None Include="userMsgCmd\userMsgCmd.mel" />
+    <None Include="vertexBufferGenerator\vertexBufferGenerator.mel" />
+    <None Include="vertexBufferGenerator\vertexBufferGeneratorDX11.fx" />
+    <None Include="vertexBufferGenerator\vertexBufferGeneratorGL.cgfx" />
+    <None Include="WhatIsCmd\WhatIsCmd.mel" />
+    <None Include="xmlGeometryCache\xmlGeometryCache.mel" />
+    <None Include="xmlGeometryCacheDesc\xmlGeometryCacheDesc.mel" />
+    <None Include="yTwistNode\yTwistNode.mel" />
+    <None Include="zoomCameraCmd\zoomCameraCmd.mel" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NodeIdList.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "$(SolutionDir)assemblies" mkdir "$(SolutionDir)assemblies"
+copy "$(TargetPath)" "$(SolutionDir)assemblies\$(TargetName).nll.dll"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

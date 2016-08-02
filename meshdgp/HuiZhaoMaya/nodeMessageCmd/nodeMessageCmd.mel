@@ -1,0 +1,23 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc testnodeMessageCmd()
+{
+	// Make the two node
+	string $node1 = `createNode lambert`;
+	string $node2 = `createNode lambert`;
+
+	//select the two nodes
+	select -r $node1 $node2;
+	
+	//regist nodeMessage for the two nodes
+	nodeMessageCSharp;
+
+	//connect some attributes from node1 to node2
+	connectAttr -f ($node1+".lightAbsorbance") ($node2+".lightAbsorbance");
+	connectAttr -f ($node2+".matteOpacity") ($node1+".matteOpacity");
+
+	//break connects of the two nodes
+	disconnectAttr ($node2+".matteOpacity") ($node1+".matteOpacity");
+	disconnectAttr ($node1+".lightAbsorbance") ($node2+".lightAbsorbance");
+}

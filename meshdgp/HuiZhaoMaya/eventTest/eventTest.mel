@@ -1,0 +1,59 @@
+global proc eventTestCase() 
+{
+	file -force -new;
+	loadPlugin -qt examples.nll.dll;
+
+	eventTestCSharp "hello" "world";
+	// expected output
+	// Event Name            Msgs On
+	// 
+	// --------------------  -------
+	// 
+	// hello				 invalid
+	// world                 invalid
+
+	eventTestCSharp;
+	// Event Name            Msgs On
+	// 
+	// --------------------  -------
+	// 
+	// linearUnitChanged     no
+	// 
+	// timeUnitChanged       no
+	// 
+	// angularUnitChanged    no
+	// 
+	// ... about 80 events
+
+	// add callback
+	eventTestCSharp -m true "NewSceneOpened";
+	// Event Name            Msgs On
+	// 
+	// --------------------  -------
+	// NewSceneOpened        yes
+
+	file -force -new;
+	// expected output
+	// event NewSceneOpened occurred
+	
+	// remove callback
+	eventTestCSharp -m false "NewSceneOpened";
+	// Event Name            Msgs On
+	// 
+	// --------------------  -------
+	// NewSceneOpened        no
+	
+	file -force -new;
+
+
+	eventTestCSharp -m true "NewSceneOpened" "hello" "world";
+	// Event Name            Msgs On
+	// 
+	// --------------------  -------
+	// NewSceneOpened        yes
+	// hello                 invalid
+	// world                 invalid
+
+}
+
+eventTestCase();

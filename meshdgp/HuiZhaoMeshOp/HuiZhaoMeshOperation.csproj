@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DBF5036-9AD4-4C22-BB58-819CB55BAFAB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GraphicResearchHuiZhao</RootNamespace>
+    <AssemblyName>HuiZhaoMeshOperation</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HuiZhaoLinearSystem, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\HuiZhaoLinearSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="567\Test567.cs" />
+    <Compile Include="567\TriMeshCut.cs" />
+    <Compile Include="567\TriMeshEnhancement.cs" />
+    <Compile Include="Basic\progressmesh\MergeEdge.cs" />
+    <Compile Include="Basic\progressmesh\SplitVertex.cs" />
+    <Compile Include="Basic\progressmesh\TriMeshMergeEdge.cs" />
+    <Compile Include="Basic\progressmesh\TriMeshModifySplit.cs" />
+    <Compile Include="Color\ColorBalance.cs" />
+    <Compile Include="Color\CriteriaInfo.cs" />
+    <Compile Include="Color\CriteriaRange.cs" />
+    <Compile Include="Color\EnumColorBalance.cs" />
+    <Compile Include="Color\EnumColorItem.cs" />
+    <Compile Include="Color\TriMeshColorByCriteria.cs" />
+    <Compile Include="Color\TriMeshInfo.cs" />
+    <Compile Include="Color\TriMeshVertexColor.cs" />
+    <Compile Include="Config\ConfigMeshOP.cs" />
+    <Compile Include="Curve\ConfigCurve.cs" />
+    <Compile Include="Cut\TriMeshEdgeCut.cs" />
+    <Compile Include="Cut\VertexMap.cs" />
+    <Compile Include="Dual\EnumDual.cs" />
+    <Compile Include="Dual\TriMeshDual.cs" />
+    <Compile Include="Dual\TriMeshDual2.cs" />
+    <Compile Include="Function\FunctionSmoothedCurvature.cs" />
+    <Compile Include="Lapalce\LapalceRecon.cs" />
+    <Compile Include="Segementation\EnumSegemenation.cs" />
+    <Compile Include="Segementation\Region.cs" />
+    <Compile Include="Segementation\Segementation.cs" />
+    <Compile Include="Segementation\SegementationAreaGrow.cs" />
+    <Compile Include="Segementation\SegementationConfig.cs" />
+    <Compile Include="Segementation\SegementationGrow.cs" />
+    <Compile Include="Segementation\SegementationKMean.cs" />
+    <Compile Include="Segementation\SegementationRegion.cs" />
+    <Compile Include="Segementation\SegmentationBase.cs" />
+    <Compile Include="Curve\CurveBezier.cs" />
+    <Compile Include="Curve\CurveBSpline.cs" />
+    <Compile Include="Curve\CurveNURBS.cs" />
+    <Compile Include="Curve\EnumCurve.cs" />
+    <Compile Include="Curve\ParameterCurve.cs" />
+    <Compile Include="Curve\ParameterCurveS.cs" />
+    <Compile Include="Cut\Map.cs" />
+    <Compile Include="Cut\TriMeshColor.cs" />
+    <Compile Include="Cut\TriMeshEdgeCutBackup.cs" />
+    <Compile Include="Cut\TriMeshEdgeSort.cs" />
+    <Compile Include="Cut\TriMeshFaceCut.cs" />
+    <Compile Include="Cut\TriMeshPlaneCut.cs" />
+    <Compile Include="Cut\TriMeshComponent.cs" />
+    <Compile Include="Eigen\EigenManager.cs" />
+    <Compile Include="Function\FunctionHarmonic.cs" />
+    <Compile Include="Function\TriMeshFunctionBalance.cs" />
+    <Compile Include="Function\ConfigFunction.cs" />
+    <Compile Include="Function\TriMeshFunctionEigen.cs" />
+    <Compile Include="Function\EnumFunction.cs" />
+    <Compile Include="Enum\EnumOperation.cs" />
+    <Compile Include="Basic\TriMeshInverse.cs" />
+    <Compile Include="morse\MoreseComplex.cs" />
+    <Compile Include="morse\EnumMorseVertexType.cs" />
+    <Compile Include="morse\MorseVertice.cs" />
+    <Compile Include="morse\TriMeshMorse.cs" />
+    <Compile Include="Quad\QuadShape.cs" />
+    <Compile Include="Quad\SubdivisionQuad.cs" />
+    <Compile Include="Basic\Extensions.cs" />
+    <Compile Include="Basic\EdgeContext.cs" />
+    <Compile Include="Simplication\CornerCuttingSimplication.cs" />
+    <Compile Include="Simplication\EnumDecimationType.cs" />
+    <Compile Include="Simplication\IErrorGoalSimplication.cs" />
+    <Compile Include="Simplication\LengthAndAngleSimplication.cs" />
+    <Compile Include="Simplication\MergeEdgeSimplicationBase.cs" />
+    <Compile Include="Simplication\MergeSimplicationBase.cs" />
+    <Compile Include="Simplication\MergeTriangleSimplicationBase.cs" />
+    <Compile Include="Simplication\MethodCollector.cs" />
+    <Compile Include="Simplication\Metro.cs" />
+    <Compile Include="Simplication\MinCurvatureSimplication.cs" />
+    <Compile Include="Simplication\MinHeap.cs" />
+    <Compile Include="Simplication\PM\EdgeContext.cs" />
+    <Compile Include="Simplication\PM\MergeEdge.cs" />
+    <Compile Include="Simplication\PM\ProgressiveMesh.cs" />
+    <Compile Include="Simplication\PM\QEMProgressive.cs" />
+    <Compile Include="Simplication\PM\SplitVertex.cs" />
+    <Compile Include="Simplication\QEMSimplication.cs" />
+    <Compile Include="Simplication\ShortEdgeSimplication.cs" />
+    <Compile Include="Simplication\SimplicationCluster.cs" />
+    <Compile Include="Simplication\SmallFaceSimplication.cs" />
+    <Compile Include="Simplication\SquareVolumeSimplication.cs" />
+    <Compile Include="Simplication\SurfaceFittingSimplication.cs" />
+    <Compile Include="Simplication\TraitsMember.cs" />
+    <Compile Include="Simplication\TriMeshSimplifyController.cs" />
+    <Compile Include="Simplication\TriMeshTraits.cs" />
+    <Compile Include="Simplication\Util.cs" />
+    <Compile Include="Noise.cs" />
+    <Compile Include="Remove\EnumRemove.cs" />
+    <Compile Include="SimplicationOld\MeasureSimplify.cs" />
+    <Compile Include="SimplicationOld\ProgressiveMesh.cs" />
+    <Compile Include="SimplicationOld\SimplicationDecimation.cs" />
+    <Compile Include="SimplicationOld\SimplicationQEM.cs" />
+    <Compile Include="SimplicationOld\TriMeshSimpification.cs" />
+    <Compile Include="Basic\TriMeshSmooth.cs" />
+    <Compile Include="Subdivision\EnumSubdivion.cs" />
+    <Compile Include="Subdivision\SubdivisionLoop.cs" />
+    <Compile Include="Subdivision\SubdivisionModifiedBufferfly.cs" />
+    <Compile Include="Subdivision\SubdivisionSelected.cs" />
+    <Compile Include="Subdivision\SubdivisionSqrt3.cs" />
+    <Compile Include="Subdivision\TriMeshSubdivision.cs" />
+    <Compile Include="TriMeshCoverter.cs" />
+    <Compile Include="TriMeshCreateFace.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Function\TriMeshFunction.cs" />
+    <Compile Include="Boundary\TriMeshBoundary.cs" />
+    <Compile Include="Remove\TriMeshRemoveController.cs" />
+    <Compile Include="Remove\TriMeshRemove.cs" />
+    <Compile Include="Remove\TriMeshRemoveBasic.cs" />
+    <Compile Include="Basic\TriMeshMergeEdge.cs" />
+    <Compile Include="Basic\TriMeshModifySplit.cs" />
+    <Compile Include="Basic\TriMeshModifySwap.cs" />
+    <Compile Include="TriMeshOPController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HuiZhaoBasicMesh\HuiZhaoBasicMesh.csproj">
+      <Project>{A989D08B-F70A-4AF7-90AF-4650157F22D9}</Project>
+      <Name>HuiZhaoBasicMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoHalfEdge\HuiZhaoHalfEdgeMesh.csproj">
+      <Project>{1AD84890-EDB1-4665-835B-DEFE285C995F}</Project>
+      <Name>HuiZhaoHalfEdgeMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoLinearSystem\TriMesh2PInvoke\TriMesh2PInvoke.csproj">
+      <Project>{e29112de-8a5b-4902-beb6-ca69fae360e8}</Project>
+      <Name>TriMesh2PInvoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoMeshInfo\HuiZhaoMeshInfo.csproj">
+      <Project>{6C29B97D-7CC5-4625-9233-8CC4AD2CB0A9}</Project>
+      <Name>HuiZhaoMeshInfo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

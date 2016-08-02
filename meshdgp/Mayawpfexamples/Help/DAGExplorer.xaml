@@ -1,0 +1,68 @@
+﻿<Window x:Class="GraphicResearchHuiZhao.DAGExplorer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DAGExplorer" Height="465" Width="1420" Loaded="Window_Loaded" Background="#FF444444">
+    <Grid Height="425" Width="1389">
+        <TabControl Height="425" HorizontalAlignment="Left" Name="tabControl1" VerticalAlignment="Top" Width="1389" BorderBrush="#FF444444" SelectionChanged="tabControl1_SelectionChanged">
+            <TabItem Header="Search Condition" Name="tabItem1" Background="#FF424242" Foreground="#FFC8C8C8">
+                <Grid Background="#FF444444">
+                    <Label Content="(dagpath) =&gt;" Height="23" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Width="76" Foreground="#FFC8C8C8" Margin="0,27,0,0" />
+                    <TextBox Height="322" HorizontalAlignment="Left" Margin="82,30,0,0" Name="textBox1" VerticalAlignment="Top" Width="1280" AcceptsReturn="True" AcceptsTab="True" FontFamily="Courier New" FontSize="12" Cursor="IBeam" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" TabIndex="1" Background="#FF2A2A2A" BorderBrush="#FF9D9D9D" Foreground="#FFC8C8C8" />
+                    <Button Content="Search DAG" Height="27" HorizontalAlignment="Left" Margin="82,359,0,0" Name="SearchButton" VerticalAlignment="Top" Width="86" Background="#FFA2A2A2" Click="SearchButton_Click" FontWeight="Bold" />
+                    <Label Content="Lambda Expression Body" Height="28" HorizontalAlignment="Left" Margin="82,5,0,0" Name="label2" VerticalAlignment="Top" Width="339" Foreground="#FFBABABA" />
+                    <Button Content="Type" Height="28" HorizontalAlignment="Left" Margin="299,0,0,6" Name="MeshPreset" VerticalAlignment="Bottom" Width="43" Click="MeshPreset_Click" Background="#FFA2A2A2" />
+                    <Button Content="PolyCnt" Height="27" HorizontalAlignment="Right" Margin="0,358,988,0" Name="PolyCntPreset" VerticalAlignment="Top" Width="43" Click="PolyCntPreset_Click" Background="#FFA2A2A2" />
+                    <Label Content="Presets:" Height="28" HorizontalAlignment="Left" Margin="193,357,0,0" Name="label3" VerticalAlignment="Top" Foreground="#FFC8C8C8" />
+                    <Button Content="Name" Height="27" HorizontalAlignment="Right" Margin="0,358,938,0" Name="NamePreset" VerticalAlignment="Top" Width="44" Click="NamePreset_Click" Background="#FFA2A2A2" />
+                    <Button Content="All" Height="28" HorizontalAlignment="Left" Margin="248,358,0,0" Name="AllPreset" VerticalAlignment="Top" Width="44" Background="#FFA2A2A2" Click="AllPreset_Click" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Result Grid" Name="tabItem2" Background="#FF404040" Foreground="#FFC8C8C8">
+                <Grid Background="#FF444444" Height="389" Width="1380">
+                    <DataGrid AutoGenerateColumns="True" Height="383" HorizontalAlignment="Left" Name="ResultGrid" VerticalAlignment="Top" Width="1378" ItemsSource="{Binding}" CanUserReorderColumns="True" IsReadOnly="True" SelectionChanged="ResultGrid_SelectionChanged" FontSize="10" Margin="2,0,0,0" FontFamily="Verdana" MouseDoubleClick="ResultGrid_MouseDoubleClick" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Polygon 3D View" Name="tabItem3" Background="#FF444444" Foreground="#FFC8C8C8">
+                <Grid Background="#FF444444">
+                    <Viewport3D Name="viewport" VerticalAlignment="Top" Height="380" Margin="6,6,6,0">
+                        <Viewport3D.Camera>
+                            <PerspectiveCamera x:Name="camMain" Position="12 10 8" LookDirection="-12 -10 -8"></PerspectiveCamera>
+                        </Viewport3D.Camera>
+                        <Viewport3D.Children>
+                            <ModelVisual3D x:Name="Root">
+                                <ModelVisual3D.Transform>
+                                    <Transform3DGroup>
+                                        <RotateTransform3D>
+                                            <RotateTransform3D.Rotation>
+                                                <AxisAngleRotation3D x:Name="myAngleRotationX" Axis="1,0,0" Angle="0"></AxisAngleRotation3D>
+                                            </RotateTransform3D.Rotation>
+                                        </RotateTransform3D>
+                                        <RotateTransform3D>
+                                            <RotateTransform3D.Rotation>
+                                                <AxisAngleRotation3D x:Name="myAngleRotationY" Axis="0,1,0" Angle="0"></AxisAngleRotation3D>
+                                            </RotateTransform3D.Rotation>
+                                        </RotateTransform3D>
+                                        <RotateTransform3D>
+                                            <RotateTransform3D.Rotation>
+                                                <AxisAngleRotation3D x:Name="myAngleRotationZ" Axis="0,0,1" Angle="0"></AxisAngleRotation3D>
+                                            </RotateTransform3D.Rotation>
+                                        </RotateTransform3D>
+                                    </Transform3DGroup>
+                                </ModelVisual3D.Transform>
+                                <ModelVisual3D.Content>
+                                    <DirectionalLight x:Name="dirLightMain" Direction="-1,-1,-1"></DirectionalLight>
+                                </ModelVisual3D.Content>
+                            </ModelVisual3D>
+                        </Viewport3D.Children>
+                        <Viewport3D.OpacityMask>
+                            <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                                <GradientStop Color="Black" Offset="0" />
+                                <GradientStop Color="White" Offset="1" />
+                            </LinearGradientBrush>
+                        </Viewport3D.OpacityMask>
+                    </Viewport3D>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

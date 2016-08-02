@@ -1,0 +1,4 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+polySphere;
+flipUVCmdCSharp-h true -fg true -es true;

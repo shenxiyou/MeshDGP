@@ -1,0 +1,6 @@
+// If plug-in has not been loaded
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+//print something in output window
+helloCmdCSharp "Fisher";

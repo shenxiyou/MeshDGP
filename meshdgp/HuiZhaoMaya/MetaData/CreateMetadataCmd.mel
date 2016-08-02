@@ -1,0 +1,32 @@
+loadPlugin -qt examples.nll.dll;
+polySphere -ch on -o on -r 8.725524 ;
+DeleteHistory;
+dataStructure -format "raw" -asString "name=MyStruct:int32=ID";
+createMetadataCSharp -ct "MyChannel" -sn "MyStream" -s "MyStruct";
+WriteMetadataToConsoleCSharp;
+string $getWrkspc = `workspace -q -directory`;
+string $file1 = $getWrkspc + "testMetaData1.txt";
+string $file2 = $getWrkspc + "testMetaData2.txt";
+exportMetadataCSharp -fn $file1;
+doDelete;
+polySphere -ch on -o on -r 8.725524 ;
+DeleteHistory;
+importMetadataCSharp -fn $file1;
+exportMetadataCSharp -fn $file2;
+
+string $scpt =
+"import sys, os\n\
+def compare_file():\n\
+    file1 ='" + $file1 + "'\n\
+    file2 ='" + $file2 + "'\n\
+    import filecmp \n\
+    if filecmp.cmp(file1, file2):\n\
+        return 'True'\n\
+    return 'False'\n";
+
+python($scpt);
+string $cmdResult = python("compare_file()");
+if( $cmdResult == "True" )
+	print "PASS! test on metadata succeeds";
+else 
+	print "FAILED! test on metadata fails";

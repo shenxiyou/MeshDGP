@@ -1,0 +1,19 @@
+global proc AEslopeShaderTemplate( string $nodeName )
+{
+	AEswatchDisplay $nodeName;
+	editorTemplate -beginScrollLayout;
+
+	editorTemplate -beginLayout "Slope Shader Attributes" -collapse 0;
+		editorTemplate -addControl "walkableColor";
+		editorTemplate -addControl "nonWalkableColor";
+		editorTemplate -addControl "angle";
+	editorTemplate -endLayout;
+
+	editorTemplate -suppress "matrixEyeToWorld";
+	editorTemplate -suppress "dirtyShaderPlug";
+
+	AEdependNodeTemplate $nodeName;
+
+	editorTemplate -addExtraControls;
+	editorTemplate -endScrollLayout;
+}

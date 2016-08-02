@@ -1,0 +1,12 @@
+loadPlugin -qt examples.nll.dll;
+string $tmpDir = `internalVar -utd`;
+
+file -f -new;
+polySphere;
+
+setKeyframe -breakdown 0 -hierarchy none -controlPoints 0 -shape 0 {"pSphere1"};
+
+file -force  -type "animExportCSharp" -pr -ea "$tmpDir/test.anim";
+file -import -type "animImportCSharp" -ra true -mergeNamespacesOnClash false -namespace "test"   -pr -loadReferenceDepth "all" "$tmpDir/test.anim";
+
+

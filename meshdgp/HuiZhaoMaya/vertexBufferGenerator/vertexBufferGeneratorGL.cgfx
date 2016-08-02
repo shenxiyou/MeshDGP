@@ -1,0 +1,75 @@
+//**************************************************************************/
+// Copyright (c) 2011 Autodesk, Inc.
+// All rights reserved.
+// 
+// These coded instructions, statements, and computer programs contain
+// unpublished proprietary information written by Autodesk, Inc., and are
+// protected by Federal copyright law. They may not be disclosed to third
+// parties or copied or duplicated in any form, in whole or in part, without
+// the prior written consent of Autodesk, Inc.
+//**************************************************************************/
+
+// World-view-projection transformation.
+float4x4 gWVPXf : WorldViewProjection < string UIWidget = "None"; >;
+
+// Vertex shader input structure.
+struct VS_INPUT
+{
+    float3 Pos : POSITION;
+
+    // this is the custom stream
+    // the vertex buffer provider will fill in the stream
+    // when a matching custom semantic is found
+    float2 CustomStream : ATTR8;
+};
+
+// Vertex shader output structure.
+struct VS_TO_PS
+{
+    // The vertex position in clip space.
+    float4 HPos : POSITION;
+
+    // Color.
+    float4 Color : COLOR0;
+};
+
+// Vertex shader.
+VS_TO_PS VS_cgExample(VS_INPUT In)
+{
+    VS_TO_PS Out;
+    
+    float4 HPm = float4(In.Pos, 1.0f);
+
+    // Transform the position from object space to clip space for output.
+    Out.HPos = mul(gWVPXf, float4(In.Pos, 1.0f));
+
+    // here we use our custom stream data to affect the output.  
+    // In this case a alternating, R, G, B pattern based on the vertex index.
+    Out.Color = float4(0,0,0,1);
+
+    int index = (int)In.CustomStream.y;
+    if (index == 0)
+        Out.Color.x = In.CustomStream.x;
+    if (index == 1)
+        Out.Color.y = In.CustomStream.x;
+    if (index == 2)
+        Out.Color.z = In.CustomStream.x;
+ 
+    return Out;
+}
+
+
+float4 PS_cgExample(VS_TO_PS In) : COLOR0
+{
+    return In.Color;
+}
+
+// The main technique.
+technique Main
+{
+    pass P0
+    {
+        VertexProgram = compile glslv VS_cgExample();
+        FragmentProgram = compile glslf PS_cgExample();
+    }
+}

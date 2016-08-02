@@ -1,0 +1,22 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc testMarqueeTool()
+{
+	marqueeToolContextCSharp marqueeToolContext1;
+	setParent General;
+	toolButton -cl toolCluster
+			-t marqueeToolContext1
+			-i1 "marqueeTool.xpm"
+			marqueeTool1;
+	//uninstall
+	uninstallMarqueeTool();
+}
+
+global proc uninstallMarqueeTool()
+{
+	deleteUI marqueeToolContext1;
+	deleteUI marqueeTool1;
+}
+
+testMarqueeTool();

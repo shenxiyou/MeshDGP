@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE3731AA-8971-423C-B398-5F3D32526EFE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GraphicResearchHuiZhao</RootNamespace>
+    <AssemblyName>HuiZhaoOpenGL</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK, Version=1.0.0.201, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\dll\OpenTK.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="OpenTK.Compatibility, Version=1.0.0.201, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\OpenTK.Compatibility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basic\OpenGLClipPlane.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OpenGLClipPlane.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\OpenGLEnableCaps.cs" />
+    <Compile Include="Basic\OpenGLFlatShape.cs" />
+    <Compile Include="Basic\OpenGLInfo.cs" />
+    <Compile Include="Basic\OpenGLLight.cs" />
+    <Compile Include="Basic\OpenGLMaterial.cs" />
+    <Compile Include="Basic\OpenGLRenderData.cs" />
+    <Compile Include="Basic\OpenGLTextureGPU.cs" />
+    <Compile Include="Basic\OpenGLTextureLoader.cs" />
+    <Compile Include="Basic\OpenGLTextures.cs" />
+    <Compile Include="Setting\SettingTransform.cs" />
+    <Compile Include="ConfigNPREnable.cs" />
+    <Compile Include="Demo\EnumOpenGLDemo.cs" />
+    <Compile Include="Demo\LightDemo.cs" />
+    <Compile Include="Demo\OpenGLDemo.cs" />
+    <Compile Include="Demo\ShadowDemo.cs" />
+    <Compile Include="Demo\StencilDemo.cs" />
+    <Compile Include="Demo\TeapotDemo.cs" />
+    <Compile Include="Demo\TransparentDemo.cs" />
+    <Compile Include="OpenGLNPRData.cs" />
+    <Compile Include="Setting\SettingBlend.cs" />
+    <Compile Include="Setting\SettingClipPlane.cs" />
+    <Compile Include="Setting\SettingClipPlane1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SettingClipPlane.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\SettingEnableCaps.cs" />
+    <Compile Include="Setting\SettingFog.cs" />
+    <Compile Include="Setting\SettingLight.cs" />
+    <Compile Include="Setting\SettingLightDirect.cs" />
+    <Compile Include="Setting\SettingMaterial.cs" />
+    <Compile Include="Setting\SettingLightPoint.cs" />
+    <Compile Include="Setting\SettingLightSpot.cs" />
+    <Compile Include="Setting\SettingTest.cs" />
+    <Compile Include="Basic\TextureInfo.cs" />
+    <Compile Include="NonManfoldMesh\OpenGLNonManifold.cs" />
+    <Compile Include="render\IRender.cs" />
+    <Compile Include="Quad\OpenGLHalfedgeQuadMesh.cs" />
+    <Compile Include="Setting\SettingTexture.cs" />
+    <Compile Include="OpenGLNPR.cs" />
+    <Compile Include="Tet\EnumDisplayTet.cs" />
+    <Compile Include="Tet\GlobalTetSetting.cs" />
+    <Compile Include="Tet\TetMeshBasic.cs" />
+    <Compile Include="Tet\TetMeshCore.cs" />
+    <Compile Include="Tet\TetMeshDrawDirection.cs" />
+    <Compile Include="Tet\TetMeshDrawSelected.cs" />
+    <Compile Include="Tet\TetMeshDrawTransparent.cs" />
+    <Compile Include="TriMesh\OpenGLBuffer.cs" />
+    <Compile Include="TriMesh\OpenGLOctree.cs" />
+    <Compile Include="TriMesh\OpenGLTreeCotree.cs" />
+    <Compile Include="TriMesh\OpenGLTriMeshBasic.cs" />
+    <Compile Include="TriMesh\OpenGLTriMeshDirection.cs" />
+    <Compile Include="TriMesh\OpenGLTriMeshDistance.cs" />
+    <Compile Include="TriMesh\OpenGLTriMeshCore.cs" />
+    <Compile Include="TriMesh\OpenGLTriMeshDrawSelected.cs" />
+    <Compile Include="TriMesh\OpenGLTriMeshDual.cs" />
+    <Compile Include="TriMesh\OpenGLTriMeshEnhanced.cs" />
+    <Compile Include="TriMesh\OpenGLTriMeshTexture.cs" />
+    <Compile Include="OpenGL\DisplayList.cs" />
+    <Compile Include="OpenGL\DisplayListStruct.cs" />
+    <Compile Include="Basic\EnumDisplay.cs" />
+    <Compile Include="Basic\Exceptions.cs" />
+    <Compile Include="Basic\GlobalSetting.cs" />
+    <Compile Include="Setting\SettingDisplay.cs" />
+    <Compile Include="OpenGL\OpenGLDrawShape.cs" />
+    <Compile Include="NonManfoldMesh\OpenGLNonManifoldDraw.cs" />
+    <Compile Include="Basic\OpenGLModelViewMatrix.cs" />
+    <Compile Include="Basic\OpenGLManager.cs" />
+    <Compile Include="Basic\OpenGLProjector.cs" />
+    <Compile Include="OpenGL\Picking.cs" />
+    <Compile Include="OpenGL\Shape\AdPlane.cs" />
+    <Compile Include="OpenGL\Shape\Capsule.cs" />
+    <Compile Include="OpenGL\Shape\ChamferCube.cs" />
+    <Compile Include="OpenGL\Shape\Chunk.cs" />
+    <Compile Include="OpenGL\Shape\Cube.cs" />
+    <Compile Include="OpenGL\Shape\DrawableShape.cs" />
+    <Compile Include="OpenGL\Shape\Floor.cs" />
+    <Compile Include="OpenGL\Shape\IsoSphere.cs" />
+    <Compile Include="OpenGL\Shape\KochTetrahedron.cs" />
+    <Compile Include="OpenGL\Shape\LoaderDDS.cs" />
+    <Compile Include="OpenGL\Shape\LoaderGDI.cs" />
+    <Compile Include="OpenGL\Shape\LoaderStatics.cs" />
+    <Compile Include="OpenGL\Shape\MengerCube.cs" />
+    <Compile Include="OpenGL\Shape\MengerSponge.cs" />
+    <Compile Include="OpenGL\Shape\Plane.cs" />
+    <Compile Include="OpenGL\Shape\Shape.cs" />
+    <Compile Include="OpenGL\Shape\SierpinskiTetrahedron.cs" />
+    <Compile Include="OpenGL\Shape\SlicedHose.cs" />
+    <Compile Include="OpenGL\Shape\SlicedSphere.cs" />
+    <Compile Include="OpenGL\Shape\TetrahedronFace.cs" />
+    <Compile Include="OpenGL\Shape\TorusKnot.cs" />
+    <Compile Include="OpenGL\Shape\Utilities.cs" />
+    <Compile Include="OpenGL\Shape\VboShape.cs" />
+    <Compile Include="OpenGL\Shape\VertexPositionColor.cs" />
+    <Compile Include="OpenGL\Shape\VertexStructs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TriMesh\OpenGLTriMeshVector.cs" />
+    <Compile Include="TriMesh\TriMeshDrawEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HuiZhaoBasicMesh\HuiZhaoBasicMesh.csproj">
+      <Project>{a989d08b-f70a-4af7-90af-4650157f22d9}</Project>
+      <Name>HuiZhaoBasicMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoGlobalData\HuiZhaoGlobalData.csproj">
+      <Project>{d4ee05fc-3a59-4979-a1cd-8b4ef2da6bec}</Project>
+      <Name>HuiZhaoGlobalData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoHalfEdge\HuiZhaoHalfEdgeMesh.csproj">
+      <Project>{1ad84890-edb1-4665-835b-defe285c995f}</Project>
+      <Name>HuiZhaoHalfEdgeMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoMeshInfo\HuiZhaoMeshInfo.csproj">
+      <Project>{6C29B97D-7CC5-4625-9233-8CC4AD2CB0A9}</Project>
+      <Name>HuiZhaoMeshInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoTetMesh\HuiZhaoTetMesh.csproj">
+      <Project>{3487c0d2-9362-4199-bb61-7e7885a4d5c2}</Project>
+      <Name>HuiZhaoTetMesh</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Basic\OpenGLClipPlane.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>OpenGLClipPlane.cs</LastGenOutput>
+    </None>
+    <None Include="Setting\SettingClipPlane.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SettingClipPlane1.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

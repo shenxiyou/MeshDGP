@@ -1,0 +1,22 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc testMoveTool()
+{
+	moveToolContextCSharp;
+	setParent General;
+	toolButton	-cl toolCluster
+				-t moveToolContextCSharp1
+				-i1 "moveTool.xpm"
+				moveToolCSharp1;
+	//uninstall
+	uninstallMoveTool;
+}
+
+global proc uninstallMoveTool()
+{
+	deleteUI moveToolContextCSharp1;
+	deleteUI moveToolCSharp1;
+}
+
+testMoveTool();

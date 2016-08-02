@@ -1,0 +1,9 @@
+loadPlugin -qt examples.nll.dll;
+
+file -f -new;
+
+userMessageCSharp -r "testUserMsgCmd";
+userMessageCSharp -p "testUserMsgCmd";
+userMessageCSharp -d "testUserMsgCmd";
+
+userMessageCSharp -t;

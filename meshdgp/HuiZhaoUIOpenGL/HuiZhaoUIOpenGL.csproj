@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B71F1A57-F072-40AB-ADA2-68DEC0E97688}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GraphicResearchHuiZhao</RootNamespace>
+    <AssemblyName>HuiZhaoUIOpenGL</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExtensionControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\ExtensionControl.dll</HintPath>
+    </Reference>
+    <Reference Include="HuiZhaoGPURender, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\HuiZhaoGPURender.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK, Version=1.0.0.201, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Compatibility, Version=1.0.0.201, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\OpenTK.Compatibility.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.GLControl, Version=1.0.0.201, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\OpenTK.GLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.XML.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAttributeTransform.cs" />
+    <Compile Include="FormColorVis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormColorVis.Designer.cs">
+      <DependentUpon>FormColorVis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMVPMatrix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMVPMatrix.Designer.cs">
+      <DependentUpon>FormMVPMatrix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOpenGL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOpenGL.Designer.cs">
+      <DependentUpon>FormOpenGL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAttributeOpenGL.cs" />
+    <Compile Include="MenuOpenGL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuOpenGL.Designer.cs">
+      <DependentUpon>MenuOpenGL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HuiZhaoMeshView3D.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OpenGLViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OpenGLViewer.Designer.cs">
+      <DependentUpon>OpenGLViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RenderBasic.cs" />
+    <Compile Include="RenderGPUEnhanced.cs" />
+    <Compile Include="UserControlMatrix.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlMatrix.Designer.cs">
+      <DependentUpon>UserControlMatrix.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormColorVis.resx">
+      <DependentUpon>FormColorVis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMVPMatrix.resx">
+      <DependentUpon>FormMVPMatrix.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOpenGL.resx">
+      <DependentUpon>FormOpenGL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuOpenGL.resx">
+      <DependentUpon>MenuOpenGL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HuiZhaoMeshView3D.resx">
+      <DependentUpon>HuiZhaoMeshView3D.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenGLViewer.resx">
+      <DependentUpon>OpenGLViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HuiZhaoBasicMesh\HuiZhaoBasicMesh.csproj">
+      <Project>{a989d08b-f70a-4af7-90af-4650157f22d9}</Project>
+      <Name>HuiZhaoBasicMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoGlobalData\HuiZhaoGlobalData.csproj">
+      <Project>{D4EE05FC-3A59-4979-A1CD-8B4EF2DA6BEC}</Project>
+      <Name>HuiZhaoGlobalData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoHalfEdge\HuiZhaoHalfEdgeMesh.csproj">
+      <Project>{1ad84890-edb1-4665-835b-defe285c995f}</Project>
+      <Name>HuiZhaoHalfEdgeMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoMeshInfo\HuiZhaoMeshInfo.csproj">
+      <Project>{6C29B97D-7CC5-4625-9233-8CC4AD2CB0A9}</Project>
+      <Name>HuiZhaoMeshInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoMeshOp\HuiZhaoMeshOperation.csproj">
+      <Project>{8dbf5036-9ad4-4c22-bb58-819cb55bafab}</Project>
+      <Name>HuiZhaoMeshOperation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoOpenGL\HuiZhaoOpenGL.csproj">
+      <Project>{AE3731AA-8971-423C-B398-5F3D32526EFE}</Project>
+      <Name>HuiZhaoOpenGL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoToolLibrary\HuiZhaoToolLibrary.csproj">
+      <Project>{D389869D-4DE3-4C74-AA87-D8A51CB1DC7B}</Project>
+      <Name>HuiZhaoToolLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

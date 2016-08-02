@@ -1,0 +1,29 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc zoomCameraCmdTest()
+{
+	float $focallength_before = getAttr("perspShape.focalLength");
+	$result = eval("zoomCameraCmdCSharp");
+	
+	float $focallength_after = getAttr("perspShape.focalLength");
+	if ($focallength_after != $focallength_before*2)
+	{
+		print("FAIL! zoomCamera command excute error!\n");
+	}
+	undo;
+	float $focallength_undo = getAttr("perspShape.focalLength");
+	if($focallength_undo != $focallength_before)
+	{
+		print("FAIL! zoomCamera undo command excute error!\n");
+	}
+	redo;
+	float $focallength_redo = getAttr("perspShape.focalLength");
+	if($focallength_redo != $focallength_after)
+	{
+		print("FAIL! zoomCamera redo command excute error!\n");
+	}
+	undo;
+}
+
+zoomCameraCmdTest();

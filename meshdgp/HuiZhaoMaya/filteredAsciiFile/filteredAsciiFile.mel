@@ -1,0 +1,10 @@
+// If plug-in has not been loaded
+loadPlugin -qt examples.nll.dll;
+
+// Create some geometry
+file -f -new;
+polySphere -ch on -o on -r 1.0;
+polyCylinder -ch on -o on -r 0.8 -h 2.0 -sc 1 -cuv 3;
+
+// Then export the scene with following command:
+file -force -options "" -type "filteredAsciiFileCSharp" -pr -ea "test.faf";

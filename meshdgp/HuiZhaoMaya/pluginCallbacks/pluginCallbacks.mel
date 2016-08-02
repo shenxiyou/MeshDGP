@@ -1,0 +1,7 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+// This plug-in is an example of a user-defined callbacks for plugin loading/unloading.
+// During load/unload, specific user callbacks can be invoked to provide information about 
+// the file path, and plugin names being manipulated.
+loadPlugin hlslShader;
+unloadPlugin hlslShader;

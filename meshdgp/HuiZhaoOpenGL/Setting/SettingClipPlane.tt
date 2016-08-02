@@ -1,0 +1,29 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".cs" #>
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace GraphicResearchHuiZhao 
+{
+    public class SettingClipPlane
+    {
+<#for(int i=0;i<6;i++){	#>
+		private bool enable<#=i#> = false;
+
+        private Plane plane<#=i#> = new Plane(<#=(i+1)/4#>, <#=(i+1)/2%2#>, <#=(i+1)%2#>, 0);
+	
+        public bool Enable<#=i#>
+        {
+            get { return enable<#=i#>; }
+            set { enable<#=i#> = value; }
+        }
+
+        public Plane Plane<#=i#>
+        {
+            get { return plane<#=i#>; }
+            set { plane<#=i#> = value; }
+        }
+<#}#>
+    }
+}

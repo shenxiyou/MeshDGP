@@ -1,0 +1,32 @@
+loadPlugin -qt examples.nll.dll;
+polySphere -ch on -o on -r 8.725524 ;
+DeleteHistory;
+dataStructure -format "XML" -asString "<?xml version='1.0' encoding='UTF-8'?><structure name='StructureSample'><member name='BoolSample' type='bool' /><member name='Int32Sample' type='int32' dim='2' /></structure>";
+createMetadataCSharp -ct "vertex" -sn "MyStream" -s StructureSample;
+WriteMetadataToConsoleCSharp;
+string $getWrkspc = `workspace -q -directory`;
+string $file1 = $getWrkspc + "testMetaDataXML1.txt";
+string $file2 = $getWrkspc + "testMetaDataXML2.txt";
+exportMetadataCSharp -fn $file1;
+doDelete;
+polySphere -ch on -o on -r 8.725524 ;
+DeleteHistory;
+importMetadataCSharp -fn $file1;
+exportMetadataCSharp -fn $file2;
+
+string $scpt =
+"import sys, os\n\
+def compare_file():\n\
+    file1 ='" + $file1 + "'\n\
+    file2 ='" + $file2 + "'\n\
+    import filecmp \n\
+    if filecmp.cmp(file1, file2):\n\
+        return 'True'\n\
+    return 'False'\n";
+
+python($scpt);
+string $cmdResult = python("compare_file()");
+if( $cmdResult == "True" )
+	print "PASS! test on metadata XML succeeds";
+else 
+	print "FAILED! test on metadata XML fails";
