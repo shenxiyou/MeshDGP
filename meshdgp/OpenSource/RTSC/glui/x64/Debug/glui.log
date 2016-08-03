@@ -1,0 +1,751 @@
+﻿生成启动时间为 6/15/2015 1:25:16 PM。
+     1>项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\OpenSource\RTSC\glui\glui.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\include /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GLUI_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt glui.cc glui_add_controls.cc glui_algebra3.cc glui_arcball.cc glui_bitmaps.cc glui_bitmap_img_data.cc glui_button.cc glui_checkbox.cc glui_column.cc glui_control.cc glui_edittext.cc glui_listbox.cc glui_mouse_iaction.cc glui_node.cc glui_panel.cc glui_quaternion.cc glui_radio.cc glui_rollout.cc glui_rotation.cc glui_separator.cc glui_slider.cc glui_spinner.cc glui_statictext.cc glui_translation.cc
+         glui_translation.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_translation.cc(157): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>glui_translation.cc(302): warning C4305: “初始化”: 从“double”到“float”截断
+     1>glui_translation.cc(309): warning C4305: “参数”: 从“double”到“const float”截断
+     1>glui_translation.cc(310): warning C4305: “参数”: 从“double”到“const float”截断
+     1>glui_translation.cc(329): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>glui_translation.cc(331): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>glui_translation.cc(388): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_translation.cc(391): warning C4305: “参数”: 从“double”到“GLfloat”截断
+     1>glui_translation.cc(420): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_translation.cc(421): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_translation.cc(422): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_translation.cc(423): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_translation.cc(424): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_translation.cc(425): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+         glui_statictext.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_statictext.cc(61): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+         glui_spinner.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_spinner.cc(81): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>glui_spinner.cc(83): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         glui_slider.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_slider.cc(227): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>glui_slider.cc(395): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_slider.cc(398): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_slider.cc(399): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_slider.cc(429): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_slider.cc(432): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_slider.cc(456): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>glui_slider.cc(462): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_slider.cc(612): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>glui_slider.cc(613): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>glui_slider.cc(614): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>glui_slider.cc(707): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         glui_separator.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         glui_rotation.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_rotation.cc(107): warning C4305: “参数”: 从“double”到“float”截断
+     1>glui_rotation.cc(127): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>glui_rotation.cc(131): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>glui_rotation.cc(132): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>glui_rotation.cc(141): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>glui_rotation.cc(142): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>glui_rotation.cc(364): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>glui_rotation.cc(375): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         glui_rollout.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         glui_radio.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_radio.cc(82): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+         glui_quaternion.cc
+     1>glui_quaternion.cc(174): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>glui_quaternion.cc(185): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>glui_quaternion.cc(187): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>glui_quaternion.cc(205): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         glui_panel.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_panel.cc(130): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+         glui_node.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         glui_mouse_iaction.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_mouse_iaction.cc(161): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_mouse_iaction.cc(164): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_mouse_iaction.cc(166): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_mouse_iaction.cc(168): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+         glui_listbox.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_listbox.cc(86): warning C4305: “参数”: 从“double”到“float”截断
+     1>glui_listbox.cc(171): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>glui_listbox.cc(384): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+         glui_edittext.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_edittext.cc(283): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>glui_edittext.cc(315): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>glui_edittext.cc(317): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>glui_edittext.cc(323): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>glui_edittext.cc(876): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>glui_edittext.cc(989): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_edittext.cc(1011): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         glui_control.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_control.cc(205): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui_control.cc(562): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>glui_control.cc(646): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>glui_control.cc(647): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>glui_control.cc(823): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>glui_control.cc(1014): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+         glui_column.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         glui_checkbox.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         glui_button.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         glui_bitmap_img_data.cc
+         glui_bitmaps.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_bitmaps.cc(76): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         glui_arcball.cc
+     1>glui_arcball.cc(93): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>glui_arcball.cc(201): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         glui_algebra3.cc
+     1>glui_algebra3.cc(958): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>glui_algebra3.cc(985): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         glui_add_controls.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui_add_controls.cc(174): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+         glui.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(208): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(759): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(803): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(859): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1006): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1404): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1499): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\opensource\rtsc\glui\glui.h(1664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui.cc(43): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 参见“strncpy”的声明
+     1>glui.cc(432): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>glui.cc(491): warning C4244: “参数”: 从“double”转换到“GLclampf”，可能丢失数据
+     1>glui.cc(513): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui.cc(516): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui.cc(1015): warning C4305: “=”: 从“double”到“float”截断
+     1>glui.cc(1016): warning C4305: “=”: 从“double”到“float”截断
+     1>glui.cc(1017): warning C4305: “=”: 从“double”到“float”截断
+     1>glui.cc(1798): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>glui.cc(1801): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\include /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GLUI_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt glui_img_checkbox_0.c glui_img_checkbox_0_dis.c glui_img_checkbox_1.c glui_img_checkbox_1_dis.c glui_img_downarrow.c glui_img_leftarrow.c glui_img_listbox_down.c glui_img_listbox_up.c glui_img_listbox_up_dis.c glui_img_radiobutton_0.c glui_img_radiobutton_0_dis.c glui_img_radiobutton_1.c glui_img_radiobutton_1_dis.c glui_img_rightarrow.c glui_img_spindown_0.c glui_img_spindown_1.c glui_img_spindown_dis.c glui_img_spinup_0.c glui_img_spinup_1.c glui_img_spinup_dis.c glui_img_uparrow.c
+         glui_img_uparrow.c
+         glui_img_spinup_dis.c
+         glui_img_spinup_1.c
+         glui_img_spinup_0.c
+         glui_img_spindown_dis.c
+         glui_img_spindown_1.c
+         glui_img_spindown_0.c
+         glui_img_rightarrow.c
+         glui_img_radiobutton_1_dis.c
+         glui_img_radiobutton_1.c
+         glui_img_radiobutton_0_dis.c
+         glui_img_radiobutton_0.c
+         glui_img_listbox_up_dis.c
+         glui_img_listbox_up.c
+         glui_img_listbox_down.c
+         glui_img_leftarrow.c
+         glui_img_downarrow.c
+         glui_img_checkbox_1_dis.c
+         glui_img_checkbox_1.c
+         glui_img_checkbox_0_dis.c
+         正在生成代码...
+         正在编译...
+         glui_img_checkbox_0.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\Framework\..\bin\Debug\glui64.lib" /NOLOGO /MACHINE:X64 x64\Debug\glui.obj
+         x64\Debug\glui_add_controls.obj
+         x64\Debug\glui_algebra3.obj
+         x64\Debug\glui_arcball.obj
+         x64\Debug\glui_bitmaps.obj
+         x64\Debug\glui_bitmap_img_data.obj
+         x64\Debug\glui_button.obj
+         x64\Debug\glui_checkbox.obj
+         x64\Debug\glui_column.obj
+         x64\Debug\glui_control.obj
+         x64\Debug\glui_edittext.obj
+         x64\Debug\glui_img_checkbox_0.obj
+         x64\Debug\glui_img_checkbox_0_dis.obj
+         x64\Debug\glui_img_checkbox_1.obj
+         x64\Debug\glui_img_checkbox_1_dis.obj
+         x64\Debug\glui_img_downarrow.obj
+         x64\Debug\glui_img_leftarrow.obj
+         x64\Debug\glui_img_listbox_down.obj
+         x64\Debug\glui_img_listbox_up.obj
+         x64\Debug\glui_img_listbox_up_dis.obj
+         x64\Debug\glui_img_radiobutton_0.obj
+         x64\Debug\glui_img_radiobutton_0_dis.obj
+         x64\Debug\glui_img_radiobutton_1.obj
+         x64\Debug\glui_img_radiobutton_1_dis.obj
+         x64\Debug\glui_img_rightarrow.obj
+         x64\Debug\glui_img_spindown_0.obj
+         x64\Debug\glui_img_spindown_1.obj
+         x64\Debug\glui_img_spindown_dis.obj
+         x64\Debug\glui_img_spinup_0.obj
+         x64\Debug\glui_img_spinup_1.obj
+         x64\Debug\glui_img_spinup_dis.obj
+         x64\Debug\glui_img_uparrow.obj
+         x64\Debug\glui_listbox.obj
+         x64\Debug\glui_mouse_iaction.obj
+         x64\Debug\glui_node.obj
+         x64\Debug\glui_panel.obj
+         x64\Debug\glui_quaternion.obj
+         x64\Debug\glui_radio.obj
+         x64\Debug\glui_rollout.obj
+         x64\Debug\glui_rotation.obj
+         x64\Debug\glui_separator.obj
+         x64\Debug\glui_slider.obj
+         x64\Debug\glui_spinner.obj
+         x64\Debug\glui_statictext.obj
+         x64\Debug\glui_translation.obj
+         glui.vcxproj -> C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\Framework\..\bin\Debug\glui64.lib
+     1>已完成生成项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\OpenSource\RTSC\glui\glui.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.59

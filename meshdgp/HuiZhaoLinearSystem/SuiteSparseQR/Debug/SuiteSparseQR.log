@@ -1,0 +1,31 @@
+﻿Build started 2015/2/16 13:56:06.
+     1>Project "C:\kuaipanzhaohui\vs2013\HuiZhaoGraphicResearch\LinearSystem\SuiteSparseQR\SuiteSparseQR.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./cholmod_include /I./include /ZI /nologo /W3 /WX- /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SuiteSparseQR_solver.cpp
+         SuiteSparseQR_solver.cpp
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(128): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(164): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(184): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(240): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(246): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(252): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(274): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(304): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(314): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(346): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(356): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(388): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(398): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(430): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\suitesparseqr\suitesparseqr_solver.cpp(440): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Debug\SuiteSparseQR.dll" /NOLOGO /LIBPATH:..\..\lib\x86\ libatlas.lib libf77blas.lib libg2c.lib libgcc.lib liblapack.lib libcamd.lib libccolamd.lib metis.lib libtmglib.lib libcholmod.lib libcolamd.lib libamd.lib libsuitesparseconfig.lib libgfortran.lib libmingw32.lib libmingwex.lib liblapacke.lib libspqr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Debug\SuiteSparseQR.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Debug\SuiteSparseQR.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO /DLL Debug\SuiteSparseQR_solver.obj
+            Creating library ..\..\bin\Debug\SuiteSparseQR.lib and object ..\..\bin\Debug\SuiteSparseQR.exp
+         SuiteSparseQR.vcxproj -> C:\kuaipanzhaohui\vs2013\HuiZhaoGraphicResearch\LinearSystem\SuiteSparseQR\..\..\bin\Debug\SuiteSparseQR.dll
+     1>Done Building Project "C:\kuaipanzhaohui\vs2013\HuiZhaoGraphicResearch\LinearSystem\SuiteSparseQR\SuiteSparseQR.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.39

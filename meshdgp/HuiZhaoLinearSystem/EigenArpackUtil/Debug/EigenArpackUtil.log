@@ -1,0 +1,333 @@
+﻿生成启动时间为 5/30/2015 2:02:57 PM。
+     1>项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoLinearSystem\EigenArpackUtil\EigenArpackUtil.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./include /ZI /nologo /W3 /WX- /Od /Oy- /D __GNUG__ /D WIN32 /D _DEBUG /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ArpackUtil.cpp ComputeEigen.cpp Util.cpp
+         Util.cpp
+         ComputeEigen.cpp
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arsnsym.h(63): warning C4250: “ARNonSymStdEig<ARFLOAT,ARluNonSymMatrix<ARFLOAT,ARFLOAT>>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::ValSize”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(39) : 参见“ARrcNonSymStdEig<ARFLOAT>::ValSize”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlsnsym.h(29): 参见对正在编译的类 模板 实例化“ARNonSymStdEig<ARFLOAT,ARluNonSymMatrix<ARFLOAT,ARFLOAT>>”的引用
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\areig.h(699): 参见对正在编译的类 模板 实例化“ARluNonSymStdEig<ARFLOAT>”的引用
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\computeeigen.cpp(24): 参见对正在编译的函数 模板 实例化“int AREig<double>(ARFLOAT [],ARFLOAT [],ARFLOAT [],int,int,ARFLOAT [],int [],int [],ARFLOAT,int,char *,int,ARFLOAT,int,ARFLOAT *,bool)”的引用
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arsnsym.h(63): warning C4250: “ARNonSymStdEig<ARFLOAT,ARluNonSymMatrix<ARFLOAT,ARFLOAT>>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::ValAllocate”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(42) : 参见“ARrcNonSymStdEig<ARFLOAT>::ValAllocate”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arsnsym.h(63): warning C4250: “ARNonSymStdEig<ARFLOAT,ARluNonSymMatrix<ARFLOAT,ARFLOAT>>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::WorkspaceAllocate”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(45) : 参见“ARrcNonSymStdEig<ARFLOAT>::WorkspaceAllocate”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arsnsym.h(63): warning C4250: “ARNonSymStdEig<ARFLOAT,ARluNonSymMatrix<ARFLOAT,ARFLOAT>>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::Aupp”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(51) : 参见“ARrcNonSymStdEig<ARFLOAT>::Aupp”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arsnsym.h(63): warning C4250: “ARNonSymStdEig<ARFLOAT,ARluNonSymMatrix<ARFLOAT,ARFLOAT>>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::Eupp”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(54) : 参见“ARrcNonSymStdEig<ARFLOAT>::Eupp”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arsnsym.h(63): warning C4250: “ARNonSymStdEig<ARFLOAT,ARluNonSymMatrix<ARFLOAT,ARFLOAT>>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::CheckNev”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(60) : 参见“ARrcNonSymStdEig<ARFLOAT>::CheckNev”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arsnsym.h(63): warning C4250: “ARNonSymStdEig<ARFLOAT,ARluNonSymMatrix<ARFLOAT,ARFLOAT>>”: 通过域控制继承“ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::FindArnoldiBasis”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arseig.h(89) : 参见“ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::FindArnoldiBasis”的声明
+                 with
+                 [
+                     ARFLOAT=double
+         ,            ARFOP=ARluNonSymMatrix<double,double>
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlsnsym.h(81): warning C4250: “ARluNonSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::ValSize”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(39) : 参见“ARrcNonSymStdEig<ARFLOAT>::ValSize”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlsnsym.h(81): warning C4250: “ARluNonSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::ValAllocate”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(42) : 参见“ARrcNonSymStdEig<ARFLOAT>::ValAllocate”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlsnsym.h(81): warning C4250: “ARluNonSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::WorkspaceAllocate”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(45) : 参见“ARrcNonSymStdEig<ARFLOAT>::WorkspaceAllocate”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlsnsym.h(81): warning C4250: “ARluNonSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::Aupp”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(51) : 参见“ARrcNonSymStdEig<ARFLOAT>::Aupp”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlsnsym.h(81): warning C4250: “ARluNonSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::Eupp”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(54) : 参见“ARrcNonSymStdEig<ARFLOAT>::Eupp”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlsnsym.h(81): warning C4250: “ARluNonSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcNonSymStdEig<ARFLOAT>::ARrcNonSymStdEig<ARFLOAT>::CheckNev”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrsnsym.h(60) : 参见“ARrcNonSymStdEig<ARFLOAT>::CheckNev”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlsnsym.h(81): warning C4250: “ARluNonSymStdEig<ARFLOAT>”: 通过域控制继承“ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::FindArnoldiBasis”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arseig.h(89) : 参见“ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::FindArnoldiBasis”的声明
+                 with
+                 [
+                     ARFLOAT=double
+         ,            ARFOP=ARluNonSymMatrix<double,double>
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arssym.h(63): warning C4250: “ARSymStdEig<ARFLOAT,ARluSymMatrix<ARFLOAT>>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::WorkspaceAllocate”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(38) : 参见“ARrcSymStdEig<ARFLOAT>::WorkspaceAllocate”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlssym.h(31): 参见对正在编译的类 模板 实例化“ARSymStdEig<ARFLOAT,ARluSymMatrix<ARFLOAT>>”的引用
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\areig.h(999): 参见对正在编译的类 模板 实例化“ARluSymStdEig<ARFLOAT>”的引用
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\computeeigen.cpp(222): 参见对正在编译的函数 模板 实例化“int AREig<double>(ARFLOAT [],ARFLOAT [],int,int,ARFLOAT [],int [],int [],char,ARFLOAT,int,char *,int,ARFLOAT,int,ARFLOAT *,bool)”的引用
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arssym.h(63): warning C4250: “ARSymStdEig<ARFLOAT,ARluSymMatrix<ARFLOAT>>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::Aupp”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(44) : 参见“ARrcSymStdEig<ARFLOAT>::Aupp”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arssym.h(63): warning C4250: “ARSymStdEig<ARFLOAT,ARluSymMatrix<ARFLOAT>>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::Eupp”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(47) : 参见“ARrcSymStdEig<ARFLOAT>::Eupp”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arssym.h(63): warning C4250: “ARSymStdEig<ARFLOAT,ARluSymMatrix<ARFLOAT>>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::CheckWhich”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(53) : 参见“ARrcSymStdEig<ARFLOAT>::CheckWhich”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arssym.h(63): warning C4250: “ARSymStdEig<ARFLOAT,ARluSymMatrix<ARFLOAT>>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::PutVector”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(74) : 参见“ARrcSymStdEig<ARFLOAT>::PutVector”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arssym.h(63): warning C4250: “ARSymStdEig<ARFLOAT,ARluSymMatrix<ARFLOAT>>”: 通过域控制继承“ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::FindArnoldiBasis”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arseig.h(89) : 参见“ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::FindArnoldiBasis”的声明
+                 with
+                 [
+                     ARFLOAT=double
+         ,            ARFOP=ARluSymMatrix<double>
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arssym.h(63): warning C4250: “ARSymStdEig<ARFLOAT,ARluSymMatrix<ARFLOAT>>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::FindSchurVectors”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(82) : 参见“ARrcSymStdEig<ARFLOAT>::FindSchurVectors”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlssym.h(83): warning C4250: “ARluSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::WorkspaceAllocate”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(38) : 参见“ARrcSymStdEig<ARFLOAT>::WorkspaceAllocate”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlssym.h(83): warning C4250: “ARluSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::Aupp”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(44) : 参见“ARrcSymStdEig<ARFLOAT>::Aupp”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlssym.h(83): warning C4250: “ARluSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::Eupp”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(47) : 参见“ARrcSymStdEig<ARFLOAT>::Eupp”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlssym.h(83): warning C4250: “ARluSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::CheckWhich”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(53) : 参见“ARrcSymStdEig<ARFLOAT>::CheckWhich”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlssym.h(83): warning C4250: “ARluSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::PutVector”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(74) : 参见“ARrcSymStdEig<ARFLOAT>::PutVector”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlssym.h(83): warning C4250: “ARluSymStdEig<ARFLOAT>”: 通过域控制继承“ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::FindArnoldiBasis”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arseig.h(89) : 参见“ARStdEig<ARFLOAT,ARFLOAT,ARFOP>::FindArnoldiBasis”的声明
+                 with
+                 [
+                     ARFLOAT=double
+         ,            ARFOP=ARluSymMatrix<double>
+                 ]
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arlssym.h(83): warning C4250: “ARluSymStdEig<ARFLOAT>”: 通过域控制继承“ARrcSymStdEig<ARFLOAT>::ARrcSymStdEig<ARFLOAT>::FindSchurVectors”
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+                 c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\eigenarpackutil\include\arrssym.h(82) : 参见“ARrcSymStdEig<ARFLOAT>::FindSchurVectors”的声明
+                 with
+                 [
+                     ARFLOAT=double
+                 ]
+         ArpackUtil.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Debug\EigenArpackUtil.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../lib/x86 libarpack.lib libmingwex.lib libmingw32.lib libamd.lib libcblas.lib libatlas.lib libf77blas.lib libg2c.lib libgcc.lib libgfortran.lib liblapack.lib libumfpack.lib libsuperlu_2.lib libtmglib.lib libsuitesparseconfig.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Debug\EigenArpackUtil.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Debug\EigenArpackUtil.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO /DLL Debug\ArpackUtil.obj
+         Debug\ComputeEigen.obj
+         Debug\Util.obj
+            正在创建库 ..\..\bin\Debug\EigenArpackUtil.lib 和对象 ..\..\bin\Debug\EigenArpackUtil.exp
+         EigenArpackUtil.vcxproj -> C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoLinearSystem\EigenArpackUtil\..\..\bin\Debug\EigenArpackUtil.dll
+     1>已完成生成项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoLinearSystem\EigenArpackUtil\EigenArpackUtil.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.33

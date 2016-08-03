@@ -1,0 +1,169 @@
+﻿Build started 2016/8/1 星期一 0:38:51.
+     1>Project "D:\ToBe\OpenSource\RTSC\trimesh\trimesh.vcxproj" on node 5 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include" /I"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TRIMESH_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt conn_comps.cc diffuse.cc edgeflip.cc faceflip.cc filter.cc GLCamera.cc ICP.cc KDtree.cc lmsmooth.cc overlap.cc remove.cc reorder_verts.cc subdiv.cc TriMesh_bounding.cc TriMesh_connectivity.cc TriMesh_curvature.cc TriMesh_grid.cc TriMesh_io.cc TriMesh_normals.cc TriMesh_pointareas.cc TriMesh_stats.cc TriMesh_tstrips.cc
+         TriMesh_tstrips.cc
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_tstrips.cc(50): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_tstrips.cc(147): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_tstrips.cc(156): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_tstrips.cc(193): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_tstrips.cc(229): warning C4018: '<' : signed/unsigned mismatch
+         TriMesh_stats.cc
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_stats.cc(26): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         TriMesh_pointareas.cc
+         TriMesh_normals.cc
+         TriMesh_io.cc
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(232): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(235): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : see declaration of 'strerror'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(279): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(356): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(358): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(367): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(378): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(419): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(432): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(471): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(506): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(525): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(696): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(700): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(706): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(728): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(734): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(748): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(779): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(795): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(802): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(993): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1000): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1005): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1011): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1016): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1019): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1107): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1113): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1118): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1163): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1172): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1210): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1213): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1497): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1500): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : see declaration of 'strerror'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(1812): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(2145): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(337) : see declaration of 'vsnprintf'
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_io.cc(2172): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(337) : see declaration of 'vsnprintf'
+         TriMesh_grid.cc
+         TriMesh_curvature.cc
+         TriMesh_connectivity.cc
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_connectivity.cc(113): warning C4018: '<' : signed/unsigned mismatch
+         TriMesh_bounding.cc
+     1>d:\tobe\opensource\rtsc\trimesh\trimesh_bounding.cc(24): warning C4018: '<' : signed/unsigned mismatch
+         subdiv.cc
+     1>d:\tobe\opensource\rtsc\trimesh\subdiv.cc(161): warning C4018: '<' : signed/unsigned mismatch
+         reorder_verts.cc
+     1>d:\tobe\opensource\rtsc\trimesh\reorder_verts.cc(192): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\reorder_verts.cc(201): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\reorder_verts.cc(210): warning C4018: '<' : signed/unsigned mismatch
+         remove.cc
+     1>d:\tobe\opensource\rtsc\trimesh\remove.cc(56): warning C4018: '<' : signed/unsigned mismatch
+         overlap.cc
+         lmsmooth.cc
+         KDtree.cc
+         ICP.cc
+     1>d:\tobe\opensource\rtsc\trimesh\icp.cc(652): warning C4018: '<' : signed/unsigned mismatch
+         GLCamera.cc
+         filter.cc
+     1>d:\tobe\opensource\rtsc\trimesh\filter.cc(396): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\filter.cc(412): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\filter.cc(436): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\filter.cc(449): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\filter.cc(460): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\filter.cc(490): warning C4018: '<' : signed/unsigned mismatch
+         faceflip.cc
+         edgeflip.cc
+         Generating Code...
+         Compiling...
+         diffuse.cc
+     1>d:\tobe\opensource\rtsc\trimesh\diffuse.cc(125): warning C4018: '<' : signed/unsigned mismatch
+                 d:\tobe\opensource\rtsc\trimesh\diffuse.cc(154) : see reference to function template instantiation 'void diffuse_vert_field<AccumVec<vec>,Vec<3,float>>(TriMesh *,const ACCUM &,int,float,T &)' being compiled
+                 with
+                 [
+                     ACCUM=AccumVec<vec>
+         ,            T=Vec<3,float>
+                 ]
+         conn_comps.cc
+     1>d:\tobe\opensource\rtsc\trimesh\conn_comps.cc(74): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\conn_comps.cc(94): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\conn_comps.cc(101): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\conn_comps.cc(103): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\conn_comps.cc(107): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\tobe\opensource\rtsc\trimesh\conn_comps.cc(157): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\ToBe\Framework\..\bin\Debug\trimesh32.lib" /NOLOGO Debug\conn_comps.obj
+         Debug\diffuse.obj
+         Debug\edgeflip.obj
+         Debug\faceflip.obj
+         Debug\filter.obj
+         Debug\GLCamera.obj
+         Debug\ICP.obj
+         Debug\KDtree.obj
+         Debug\lmsmooth.obj
+         Debug\overlap.obj
+         Debug\remove.obj
+         Debug\reorder_verts.obj
+         Debug\subdiv.obj
+         Debug\TriMesh_bounding.obj
+         Debug\TriMesh_connectivity.obj
+         Debug\TriMesh_curvature.obj
+         Debug\TriMesh_grid.obj
+         Debug\TriMesh_io.obj
+         Debug\TriMesh_normals.obj
+         Debug\TriMesh_pointareas.obj
+         Debug\TriMesh_stats.obj
+         Debug\TriMesh_tstrips.obj
+         trimesh.vcxproj -> D:\ToBe\Framework\..\bin\Debug\trimesh32.lib
+     1>Done Building Project "D:\ToBe\OpenSource\RTSC\trimesh\trimesh.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.62

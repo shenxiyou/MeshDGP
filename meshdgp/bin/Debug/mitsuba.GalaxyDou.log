@@ -1,0 +1,55 @@
+2016-03-04 13:37:39 INFO  main [mitsuba.cpp:256] Mitsuba version 0.5.0 (Windows, 64 bit), Copyright (c) 2014 Wenzel Jakob
+2016-03-04 13:37:39 INFO  main [mitsuba.cpp:356] Parsing scene description from "G:\workspace\polycube\scene\para\view5.xml" ..
+2016-03-04 13:37:39 INFO  main [PluginManager] Loading plugin "plugins\path.dll" ..
+2016-03-04 13:37:39 INFO  main [PluginManager] Loading plugin "plugins\wireframe.dll" ..
+2016-03-04 13:37:39 WARN  main [scenehandler.cpp:795] In file "G:\workspace\polycube\scene\para\view5.xml" (near line 24): Unqueried attribute "quads" in element "texture"
+2016-03-04 13:37:39 INFO  main [PluginManager] Loading plugin "plugins\roughplastic.dll" ..
+2016-03-04 13:37:39 INFO  main [PluginManager] Loading plugin "plugins\twosided.dll" ..
+2016-03-04 13:37:39 INFO  main [PluginManager] Loading plugin "plugins\obj.dll" ..
+2016-03-04 13:37:39 INFO  main [WavefrontOBJ] Loading geometry from "2-torus2-0001.obj" ..
+2016-03-04 13:37:39 INFO  main [WavefrontOBJ] 2-torus2-0001: 1624 triangles, 810 vertices (merged 4062 vertices).
+2016-03-04 13:37:39 INFO  main [WavefrontOBJ] Done with "2-torus2-0001.obj" (took 47 ms)
+2016-03-04 13:37:39 INFO  main [PluginManager] Loading plugin "plugins\envmap.dll" ..
+2016-03-04 13:37:39 INFO  main [EnvironmentMap] Loading environment map "envmap.exr"
+2016-03-04 13:37:39 INFO  main [PluginManager] Loading plugin "plugins\lanczos.dll" ..
+2016-03-04 13:37:39 INFO  main [EnvironmentMap] Precomputing data structures for environment map sampling (515.0 KiB)
+2016-03-04 13:37:39 INFO  main [EnvironmentMap] Done (took 1 ms)
+2016-03-04 13:37:39 INFO  main [PluginManager] Loading plugin "plugins\halton.dll" ..
+2016-03-04 13:37:39 INFO  main [PluginManager] Loading plugin "plugins\mitchell.dll" ..
+2016-03-04 13:37:39 INFO  main [PluginManager] Loading plugin "plugins\ldrfilm.dll" ..
+2016-03-04 13:37:39 INFO  main [PluginManager] Loading plugin "plugins\perspective.dll" ..
+2016-03-04 13:37:39 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (1624 primitives) ..
+2016-03-04 13:37:39 INFO  ren0 [KDTreeBase] Finished -- took 15 ms.
+2016-03-04 13:37:39 INFO  ren0 [PluginManager] Loading plugin "plugins\sphere.dll" ..
+2016-03-04 13:37:39 INFO  ren0 [PluginManager] Loading plugin "plugins\diffuse.dll" ..
+2016-03-04 13:37:39 INFO  ren0 [SamplingIntegrator] Starting render job (10x20, 512 samples, 4 cores, SSE2 enabled) ..
+2016-03-04 13:37:40 INFO  ren0 [RenderJob] Render time: 0.3410s
+2016-03-04 13:37:40 INFO  ren0 [LDRFilm] Writing image to "G:\workspace\polycube\rendertest\view5\2-torus2\2-torus2-0001.png" ..
+2016-03-04 13:37:40 INFO  main [statistics.cpp:142] Statistics:
+------------------------------------------------------------
+ * Loaded plugins :
+    -  plugins\diffuse.dll [Smooth diffuse BRDF]
+    -  plugins\envmap.dll [Environment map]
+    -  plugins\halton.dll [Halton QMC sampler]
+    -  plugins\lanczos.dll [Lanczos Sinc filter]
+    -  plugins\ldrfilm.dll [Low dynamic range film]
+    -  plugins\mitchell.dll [Mitchell-Netravali filter]
+    -  plugins\obj.dll [OBJ triangle mesh loader]
+    -  plugins\path.dll [MI path tracer]
+    -  plugins\perspective.dll [Perspective camera]
+    -  plugins\roughplastic.dll [Rough plastic BRDF]
+    -  plugins\sphere.dll [Sphere intersection primitive]
+    -  plugins\twosided.dll [Two-sided BRDF adapter]
+    -  plugins\wireframe.dll [Wireframe texture]
+
+  * General :
+    -  Normal rays traced : 142.955 K
+    -  Shadow rays traced : 41.466 K
+
+  * Path tracer :
+    -  Average path length : 1.03 (105.52 K / 102.40 K)
+
+  * Texture system :
+    -  Cumulative MIP map memory allocations : 1 MiB
+    -  Filtered texture lookups : 0.00 % (0.00 of 116.33 K)
+------------------------------------------------------------

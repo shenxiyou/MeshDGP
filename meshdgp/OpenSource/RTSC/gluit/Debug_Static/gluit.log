@@ -1,0 +1,432 @@
+﻿Build started 2012/3/15 10:19:52.
+     1>Project "F:\MyProjects\trimesh\gluit\gluit.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Debug_Static\gluit.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GLUIT_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_Static\\" /Fd"Debug_Static\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt freeglut_callbacks.c freeglut_cursor.c freeglut_display.c freeglut_ext.c freeglut_font.c freeglut_font_data.c freeglut_gamemode.c freeglut_geometry.c freeglut_glutfont_definitions.c freeglut_init.c freeglut_input_devices.c freeglut_joystick.c freeglut_main.c freeglut_menu.c freeglut_misc.c freeglut_overlay.c freeglut_spaceball.c freeglut_state.c freeglut_std.c freeglut_stroke_mono_roman.c freeglut_stroke_roman.c freeglut_structure.c freeglut_teapot.c freeglut_videoresize.c freeglut_window.c freeglut_xinput.c
+         freeglut_xinput.c
+         freeglut_window.c
+         fgSetupPixelFormat(): there is still some work to do here!
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1029): warning C4133: 'function' : incompatible types - from 'WCHAR [32]' to 'const char *'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1453): warning C4133: 'function' : incompatible types - from 'const char *' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1484): warning C4133: 'function' : incompatible types - from 'char [7]' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1574): warning C4273: 'glutCreateWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(405) : see previous definition of 'glutCreateWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1591): warning C4273: '__glutCreateWindowWithExit' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(604) : see previous definition of '__glutCreateWindowWithExit'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1601): warning C4273: 'glutCreateSubWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(406) : see previous definition of 'glutCreateSubWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1645): warning C4273: 'glutDestroyWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(407) : see previous definition of 'glutDestroyWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1661): warning C4273: 'glutSetWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(408) : see previous definition of 'glutSetWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1683): warning C4273: 'glutGetWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(409) : see previous definition of 'glutGetWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1702): warning C4273: 'glutShowWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(414) : see previous definition of 'glutShowWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1724): warning C4273: 'glutHideWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(415) : see previous definition of 'glutHideWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1752): warning C4273: 'glutIconifyWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(416) : see previous definition of 'glutIconifyWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1776): warning C4273: 'glutSetWindowTitle' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(410) : see previous definition of 'glutSetWindowTitle'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1806): warning C4133: 'function' : incompatible types - from 'const char *' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1817): warning C4273: 'glutSetIconTitle' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(411) : see previous definition of 'glutSetIconTitle'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1848): warning C4133: 'function' : incompatible types - from 'const char *' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1859): warning C4273: 'glutReshapeWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(412) : see previous definition of 'glutReshapeWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1878): warning C4273: 'glutPositionWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(413) : see previous definition of 'glutPositionWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1918): warning C4273: 'glutPushWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(417) : see previous definition of 'glutPushWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1942): warning C4273: 'glutPopWindow' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(418) : see previous definition of 'glutPopWindow'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(1966): warning C4273: 'glutFullScreen' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(419) : see previous definition of 'glutFullScreen'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(2080): warning C4273: 'glutLeaveFullScreen' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(130) : see previous definition of 'glutLeaveFullScreen'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(2125): warning C4273: 'glutFullScreenToggle' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(129) : see previous definition of 'glutFullScreenToggle'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(2149): warning C4273: 'glutGetWindowData' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(147) : see previous definition of 'glutGetWindowData'
+     1>f:\myprojects\trimesh\gluit\freeglut_window.c(2156): warning C4273: 'glutSetWindowData' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(148) : see previous definition of 'glutSetWindowData'
+         freeglut_videoresize.c
+     1>f:\myprojects\trimesh\gluit\freeglut_videoresize.c(38): warning C4273: 'glutVideoResizeGet' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(551) : see previous definition of 'glutVideoResizeGet'
+     1>f:\myprojects\trimesh\gluit\freeglut_videoresize.c(39): warning C4273: 'glutSetupVideoResizing' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(552) : see previous definition of 'glutSetupVideoResizing'
+     1>f:\myprojects\trimesh\gluit\freeglut_videoresize.c(40): warning C4273: 'glutStopVideoResizing' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(553) : see previous definition of 'glutStopVideoResizing'
+     1>f:\myprojects\trimesh\gluit\freeglut_videoresize.c(41): warning C4273: 'glutVideoResize' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(554) : see previous definition of 'glutVideoResize'
+     1>f:\myprojects\trimesh\gluit\freeglut_videoresize.c(42): warning C4273: 'glutVideoPan' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(555) : see previous definition of 'glutVideoPan'
+         freeglut_teapot.c
+     1>f:\myprojects\trimesh\gluit\freeglut_teapot.c(180): warning C4273: 'glutWireTeapot' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(537) : see previous definition of 'glutWireTeapot'
+     1>f:\myprojects\trimesh\gluit\freeglut_teapot.c(190): warning C4273: 'glutSolidTeapot' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(538) : see previous definition of 'glutSolidTeapot'
+         freeglut_structure.c
+         freeglut_stroke_roman.c
+         freeglut_stroke_mono_roman.c
+         freeglut_std.c
+         freeglut_state.c
+     1>f:\myprojects\trimesh\gluit\freeglut_state.c(74): warning C4273: 'glutSetOption' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(144) : see previous definition of 'glutSetOption'
+     1>f:\myprojects\trimesh\gluit\freeglut_state.c(147): warning C4273: 'glutGet' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(498) : see previous definition of 'glutGet'
+     1>f:\myprojects\trimesh\gluit\freeglut_state.c(569): warning C4273: 'glutDeviceGet' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(499) : see previous definition of 'glutDeviceGet'
+     1>f:\myprojects\trimesh\gluit\freeglut_state.c(687): warning C4273: 'glutGetModifiers' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(500) : see previous definition of 'glutGetModifiers'
+     1>f:\myprojects\trimesh\gluit\freeglut_state.c(702): warning C4273: 'glutLayerGet' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(501) : see previous definition of 'glutLayerGet'
+     1>f:\myprojects\trimesh\gluit\freeglut_state.c(779): warning C4273: 'glutGetModeValues' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(145) : see previous definition of 'glutGetModeValues'
+         freeglut_spaceball.c
+         freeglut_overlay.c
+     1>f:\myprojects\trimesh\gluit\freeglut_overlay.c(38): warning C4273: 'glutEstablishOverlay' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(437) : see previous definition of 'glutEstablishOverlay'
+     1>f:\myprojects\trimesh\gluit\freeglut_overlay.c(39): warning C4273: 'glutRemoveOverlay' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(438) : see previous definition of 'glutRemoveOverlay'
+     1>f:\myprojects\trimesh\gluit\freeglut_overlay.c(40): warning C4273: 'glutUseLayer' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(439) : see previous definition of 'glutUseLayer'
+     1>f:\myprojects\trimesh\gluit\freeglut_overlay.c(41): warning C4273: 'glutPostOverlayRedisplay' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(440) : see previous definition of 'glutPostOverlayRedisplay'
+     1>f:\myprojects\trimesh\gluit\freeglut_overlay.c(42): warning C4273: 'glutPostWindowOverlayRedisplay' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(441) : see previous definition of 'glutPostWindowOverlayRedisplay'
+     1>f:\myprojects\trimesh\gluit\freeglut_overlay.c(43): warning C4273: 'glutShowOverlay' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(442) : see previous definition of 'glutShowOverlay'
+     1>f:\myprojects\trimesh\gluit\freeglut_overlay.c(44): warning C4273: 'glutHideOverlay' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(443) : see previous definition of 'glutHideOverlay'
+         freeglut_misc.c
+     1>f:\myprojects\trimesh\gluit\freeglut_misc.c(49): warning C4273: 'glutExtensionSupported' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(574) : see previous definition of 'glutExtensionSupported'
+     1>f:\myprojects\trimesh\gluit\freeglut_misc.c(127): warning C4273: 'glutReportErrors' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(575) : see previous definition of 'glutReportErrors'
+     1>f:\myprojects\trimesh\gluit\freeglut_misc.c(138): warning C4273: 'glutIgnoreKeyRepeat' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(567) : see previous definition of 'glutIgnoreKeyRepeat'
+     1>f:\myprojects\trimesh\gluit\freeglut_misc.c(154): warning C4273: 'glutSetKeyRepeat' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(568) : see previous definition of 'glutSetKeyRepeat'
+     1>f:\myprojects\trimesh\gluit\freeglut_misc.c(178): warning C4273: 'glutForceJoystickFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(569) : see previous definition of 'glutForceJoystickFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_misc.c(191): warning C4273: 'glutSetColor' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(560) : see previous definition of 'glutSetColor'
+     1>f:\myprojects\trimesh\gluit\freeglut_misc.c(200): warning C4273: 'glutGetColor' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(561) : see previous definition of 'glutGetColor'
+     1>f:\myprojects\trimesh\gluit\freeglut_misc.c(210): warning C4273: 'glutCopyColormap' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(562) : see previous definition of 'glutCopyColormap'
+         freeglut_menu.c
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(776): warning C4273: 'glutCreateMenu' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(448) : see previous definition of 'glutCreateMenu'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(784): warning C4273: '__glutCreateMenuWithExit' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(605) : see previous definition of '__glutCreateMenuWithExit'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(794): warning C4273: 'glutDestroyMenu' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(449) : see previous definition of 'glutDestroyMenu'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(810): warning C4273: 'glutGetMenu' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(450) : see previous definition of 'glutGetMenu'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(823): warning C4273: 'glutSetMenu' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(451) : see previous definition of 'glutSetMenu'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(838): warning C4273: 'glutAddMenuEntry' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(452) : see previous definition of 'glutAddMenuEntry'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(857): warning C4273: 'glutAddSubMenu' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(453) : see previous definition of 'glutAddSubMenu'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(880): warning C4273: 'glutChangeToMenuEntry' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(454) : see previous definition of 'glutChangeToMenuEntry'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(906): warning C4273: 'glutChangeToSubMenu' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(455) : see previous definition of 'glutChangeToSubMenu'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(936): warning C4273: 'glutRemoveMenuItem' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(456) : see previous definition of 'glutRemoveMenuItem'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(959): warning C4273: 'glutAttachMenu' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(457) : see previous definition of 'glutAttachMenu'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(975): warning C4273: 'glutDetachMenu' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(458) : see previous definition of 'glutDetachMenu'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(991): warning C4273: 'glutGetMenuData' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(149) : see previous definition of 'glutGetMenuData'
+     1>f:\myprojects\trimesh\gluit\freeglut_menu.c(997): warning C4273: 'glutSetMenuData' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(150) : see previous definition of 'glutSetMenuData'
+         freeglut_main.c
+     1>f:\myprojects\trimesh\gluit\freeglut_main.c(980): warning C4273: 'glutMainLoopEvent' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(122) : see previous definition of 'glutMainLoopEvent'
+     1>f:\myprojects\trimesh\gluit\freeglut_main.c(1496): warning C4273: 'glutMainLoop' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(400) : see previous definition of 'glutMainLoop'
+     1>f:\myprojects\trimesh\gluit\freeglut_main.c(1578): warning C4273: 'glutLeaveMainLoop' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(123) : see previous definition of 'glutLeaveMainLoop'
+     1>f:\myprojects\trimesh\gluit\freeglut_main.c(2465): warning C4133: 'function' : incompatible types - from 'char [7]' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_main.c(2466): warning C4133: 'function' : incompatible types - from 'char [7]' to 'LPCWSTR'
+         freeglut_joystick.c
+     1>f:\myprojects\trimesh\gluit\freeglut_joystick.c(1021): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>f:\myprojects\trimesh\gluit\freeglut_joystick.c(1023): warning C4133: 'function' : incompatible types - from 'char [256]' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_joystick.c(1031): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>f:\myprojects\trimesh\gluit\freeglut_joystick.c(1033): warning C4133: 'function' : incompatible types - from 'char [256]' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_joystick.c(1039): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>f:\myprojects\trimesh\gluit\freeglut_joystick.c(1041): warning C4133: 'function' : incompatible types - from 'char [256]' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_joystick.c(1273): warning C4133: 'function' : incompatible types - from 'WCHAR [32]' to 'const char *'
+     1>f:\myprojects\trimesh\gluit\freeglut_joystick.c(1273): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         freeglut_input_devices.c
+     1>f:\myprojects\trimesh\gluit\freeglut_input_devices.c(141): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+     1>f:\myprojects\trimesh\gluit\freeglut_input_devices.c(323): warning C4133: 'function' : incompatible types - from 'const char *' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_input_devices.c(336): warning C4133: 'function' : incompatible types - from 'char [9]' to 'LPCWSTR'
+         freeglut_init.c
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(372): warning C4133: 'function' : incompatible types - from 'char *' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(715): warning C4273: 'glutInit' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(391) : see previous definition of 'glutInit'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(739): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(744): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(753): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(872): warning C4273: '__glutInitWithExit' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(603) : see previous definition of '__glutInitWithExit'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(882): warning C4273: 'glutExit' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(124) : see previous definition of 'glutExit'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(890): warning C4273: 'glutInitWindowPosition' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(392) : see previous definition of 'glutInitWindowPosition'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(904): warning C4273: 'glutInitWindowSize' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(393) : see previous definition of 'glutInitWindowSize'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(918): warning C4273: 'glutInitDisplayMode' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(394) : see previous definition of 'glutInitDisplayMode'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(939): warning C4273: 'glutInitDisplayString' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(395) : see previous definition of 'glutInitDisplayString'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(951): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(1129): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(1141): warning C4273: 'glutInitContextVersion' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(213) : see previous definition of 'glutInitContextVersion'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(1149): warning C4273: 'glutInitContextFlags' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(214) : see previous definition of 'glutInitContextFlags'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(1155): warning C4273: 'glutInitContextProfile' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(215) : see previous definition of 'glutInitContextProfile'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(1166): warning C4273: 'glutInitErrorFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(220) : see previous definition of 'glutInitErrorFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_init.c(1175): warning C4273: 'glutInitWarningFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(221) : see previous definition of 'glutInitWarningFunc'
+         freeglut_glutfont_definitions.c
+         freeglut_geometry.c
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(69): warning C4273: 'glutWireCube' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(516) : see previous definition of 'glutWireCube'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(93): warning C4273: 'glutSolidCube' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(517) : see previous definition of 'glutSolidCube'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(172): warning C4273: 'glutSolidSphere' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(519) : see previous definition of 'glutSolidSphere'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(260): warning C4273: 'glutWireSphere' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(518) : see previous definition of 'glutWireSphere'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(330): warning C4273: 'glutSolidCone' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(521) : see previous definition of 'glutSolidCone'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(417): warning C4273: 'glutWireCone' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(520) : see previous definition of 'glutWireCone'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(485): warning C4273: 'glutSolidCylinder' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(168) : see previous definition of 'glutSolidCylinder'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(549): warning C4273: 'glutWireCylinder' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(167) : see previous definition of 'glutWireCylinder'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(608): warning C4273: 'glutWireTorus' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(523) : see previous definition of 'glutWireTorus'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(689): warning C4273: 'glutSolidTorus' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(524) : see previous definition of 'glutSolidTorus'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(765): warning C4273: 'glutWireDodecahedron' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(525) : see previous definition of 'glutWireDodecahedron'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(818): warning C4273: 'glutSolidDodecahedron' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(526) : see previous definition of 'glutSolidDodecahedron'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(871): warning C4273: 'glutWireOctahedron' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(527) : see previous definition of 'glutWireOctahedron'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(892): warning C4273: 'glutSolidOctahedron' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(528) : see previous definition of 'glutSolidOctahedron'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(935): warning C4273: 'glutWireTetrahedron' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(529) : see previous definition of 'glutWireTetrahedron'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(950): warning C4273: 'glutSolidTetrahedron' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(530) : see previous definition of 'glutSolidTetrahedron'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(1003): warning C4273: 'glutWireIcosahedron' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(531) : see previous definition of 'glutWireIcosahedron'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(1027): warning C4273: 'glutSolidIcosahedron' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(532) : see previous definition of 'glutSolidIcosahedron'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(1099): warning C4273: 'glutWireRhombicDodecahedron' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(163) : see previous definition of 'glutWireRhombicDodecahedron'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(1120): warning C4273: 'glutSolidRhombicDodecahedron' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(164) : see previous definition of 'glutSolidRhombicDodecahedron'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(1139): warning C4273: 'glutWireSierpinskiSponge' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(165) : see previous definition of 'glutWireSierpinskiSponge'
+     1>f:\myprojects\trimesh\gluit\freeglut_geometry.c(1178): warning C4273: 'glutSolidSierpinskiSponge' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(166) : see previous definition of 'glutSolidSierpinskiSponge'
+         freeglut_gamemode.c
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(249): warning C4133: 'function' : incompatible types - from 'char *' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(358): warning C4133: 'function' : incompatible types - from 'char *' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(524): warning C4133: 'function' : incompatible types - from 'char *' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(548): warning C4133: 'function' : incompatible types - from 'char *' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(556): warning C4133: 'function' : incompatible types - from 'char *' to 'LPCWSTR'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(589): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(604): warning C4273: 'glutGameModeString' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(543) : see previous definition of 'glutGameModeString'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(616): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(617): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(618): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(619): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(620): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(621): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(622): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(644): warning C4273: 'glutEnterGameMode' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(544) : see previous definition of 'glutEnterGameMode'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(763): warning C4273: 'glutLeaveGameMode' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(545) : see previous definition of 'glutLeaveGameMode'
+     1>f:\myprojects\trimesh\gluit\freeglut_gamemode.c(785): warning C4273: 'glutGameModeGet' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(546) : see previous definition of 'glutGameModeGet'
+         Generating Code...
+         Compiling...
+         freeglut_font_data.c
+         freeglut_font.c
+     1>f:\myprojects\trimesh\gluit\freeglut_font.c(102): warning C4273: 'glutBitmapCharacter' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(506) : see previous definition of 'glutBitmapCharacter'
+     1>f:\myprojects\trimesh\gluit\freeglut_font.c(132): warning C4273: 'glutBitmapString' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(157) : see previous definition of 'glutBitmapString'
+     1>f:\myprojects\trimesh\gluit\freeglut_font.c(182): warning C4273: 'glutBitmapWidth' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(507) : see previous definition of 'glutBitmapWidth'
+     1>f:\myprojects\trimesh\gluit\freeglut_font.c(195): warning C4273: 'glutBitmapLength' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(510) : see previous definition of 'glutBitmapLength'
+     1>f:\myprojects\trimesh\gluit\freeglut_font.c(226): warning C4273: 'glutBitmapHeight' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(155) : see previous definition of 'glutBitmapHeight'
+     1>f:\myprojects\trimesh\gluit\freeglut_font.c(238): warning C4273: 'glutStrokeCharacter' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(508) : see previous definition of 'glutStrokeCharacter'
+     1>f:\myprojects\trimesh\gluit\freeglut_font.c(268): warning C4273: 'glutStrokeString' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(158) : see previous definition of 'glutStrokeString'
+     1>f:\myprojects\trimesh\gluit\freeglut_font.c(320): warning C4273: 'glutStrokeWidth' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(509) : see previous definition of 'glutStrokeWidth'
+     1>f:\myprojects\trimesh\gluit\freeglut_font.c(340): warning C4273: 'glutStrokeLength' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(511) : see previous definition of 'glutStrokeLength'
+     1>f:\myprojects\trimesh\gluit\freeglut_font.c(376): warning C4273: 'glutStrokeHeight' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(156) : see previous definition of 'glutStrokeHeight'
+         freeglut_ext.c
+     1>f:\myprojects\trimesh\gluit\freeglut_ext.c(226): warning C4273: 'glutGetProcAddress' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(174) : see previous definition of 'glutGetProcAddress'
+         freeglut_display.c
+     1>f:\myprojects\trimesh\gluit\freeglut_display.c(37): warning C4273: 'glutPostRedisplay' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(425) : see previous definition of 'glutPostRedisplay'
+     1>f:\myprojects\trimesh\gluit\freeglut_display.c(52): warning C4273: 'glutSwapBuffers' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(426) : see previous definition of 'glutSwapBuffers'
+     1>f:\myprojects\trimesh\gluit\freeglut_display.c(94): warning C4273: 'glutPostWindowRedisplay' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(424) : see previous definition of 'glutPostWindowRedisplay'
+         freeglut_cursor.c
+     1>f:\myprojects\trimesh\gluit\freeglut_cursor.c(263): warning C4273: 'glutSetCursor' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(432) : see previous definition of 'glutSetCursor'
+     1>f:\myprojects\trimesh\gluit\freeglut_cursor.c(275): warning C4273: 'glutWarpPointer' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(431) : see previous definition of 'glutWarpPointer'
+         freeglut_callbacks.c
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(48): warning C4273: 'glutDisplayFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(473) : see previous definition of 'glutDisplayFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(60): warning C4273: 'glutReshapeFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(471) : see previous definition of 'glutReshapeFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(70): warning C4273: 'glutKeyboardFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(469) : see previous definition of 'glutKeyboardFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(79): warning C4273: 'glutSpecialFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(470) : see previous definition of 'glutSpecialFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(88): warning C4273: 'glutIdleFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(464) : see previous definition of 'glutIdleFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(98): warning C4273: 'glutTimerFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(463) : see previous definition of 'glutTimerFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(143): warning C4273: 'glutVisibilityFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(472) : see previous definition of 'glutVisibilityFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(158): warning C4273: 'glutKeyboardUpFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(479) : see previous definition of 'glutKeyboardUpFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(167): warning C4273: 'glutSpecialUpFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(480) : see previous definition of 'glutSpecialUpFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(178): warning C4273: 'glutJoystickFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(481) : see previous definition of 'glutJoystickFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(205): warning C4273: 'glutMouseFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(474) : see previous definition of 'glutMouseFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(214): warning C4273: 'glutMouseWheelFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(135) : see previous definition of 'glutMouseWheelFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(224): warning C4273: 'glutMotionFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(475) : see previous definition of 'glutMotionFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(234): warning C4273: 'glutPassiveMotionFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(476) : see previous definition of 'glutPassiveMotionFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(243): warning C4273: 'glutEntryFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(477) : see previous definition of 'glutEntryFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(252): warning C4273: 'glutCloseFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(136) : see previous definition of 'glutCloseFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(258): warning C4273: 'glutWMCloseFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(137) : see previous definition of 'glutWMCloseFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(265): warning C4273: 'glutMenuDestroyFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(139) : see previous definition of 'glutMenuDestroyFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(275): warning C4273: 'glutMenuStateFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(482) : see previous definition of 'glutMenuStateFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(284): warning C4273: 'glutMenuStatusFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(483) : see previous definition of 'glutMenuStatusFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(293): warning C4273: 'glutOverlayDisplayFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(484) : see previous definition of 'glutOverlayDisplayFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(302): warning C4273: 'glutWindowStatusFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(485) : see previous definition of 'glutWindowStatusFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(311): warning C4273: 'glutSpaceballMotionFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(487) : see previous definition of 'glutSpaceballMotionFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(322): warning C4273: 'glutSpaceballRotateFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(488) : see previous definition of 'glutSpaceballRotateFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(333): warning C4273: 'glutSpaceballButtonFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(489) : see previous definition of 'glutSpaceballButtonFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(344): warning C4273: 'glutButtonBoxFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(490) : see previous definition of 'glutButtonBoxFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(353): warning C4273: 'glutDialsFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(491) : see previous definition of 'glutDialsFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(362): warning C4273: 'glutTabletMotionFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(492) : see previous definition of 'glutTabletMotionFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(371): warning C4273: 'glutTabletButtonFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_std.h(493) : see previous definition of 'glutTabletButtonFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(380): warning C4273: 'glutMultiEntryFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(182) : see previous definition of 'glutMultiEntryFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(389): warning C4273: 'glutMultiButtonFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(183) : see previous definition of 'glutMultiButtonFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(398): warning C4273: 'glutMultiMotionFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(184) : see previous definition of 'glutMultiMotionFunc'
+     1>f:\myprojects\trimesh\gluit\freeglut_callbacks.c(407): warning C4273: 'glutMultiPassiveFunc' : inconsistent dll linkage
+                 f:\myprojects\trimesh\include\gl\freeglut_ext.h(185) : see previous definition of 'glutMultiPassiveFunc'
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"F:\MyProjects\trimesh\\lib\freeglut_static.lib" /NOLOGO Debug_Static\freeglut_callbacks.obj
+         Debug_Static\freeglut_cursor.obj
+         Debug_Static\freeglut_display.obj
+         Debug_Static\freeglut_ext.obj
+         Debug_Static\freeglut_font.obj
+         Debug_Static\freeglut_font_data.obj
+         Debug_Static\freeglut_gamemode.obj
+         Debug_Static\freeglut_geometry.obj
+         Debug_Static\freeglut_glutfont_definitions.obj
+         Debug_Static\freeglut_init.obj
+         Debug_Static\freeglut_input_devices.obj
+         Debug_Static\freeglut_joystick.obj
+         Debug_Static\freeglut_main.obj
+         Debug_Static\freeglut_menu.obj
+         Debug_Static\freeglut_misc.obj
+         Debug_Static\freeglut_overlay.obj
+         Debug_Static\freeglut_spaceball.obj
+         Debug_Static\freeglut_state.obj
+         Debug_Static\freeglut_std.obj
+         Debug_Static\freeglut_stroke_mono_roman.obj
+         Debug_Static\freeglut_stroke_roman.obj
+         Debug_Static\freeglut_structure.obj
+         Debug_Static\freeglut_teapot.obj
+         Debug_Static\freeglut_videoresize.obj
+         Debug_Static\freeglut_window.obj
+         Debug_Static\freeglut_xinput.obj
+         gluit.vcxproj -> F:\MyProjects\trimesh\\lib\freeglut_static.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug_Static\gluit.unsuccessfulbuild".
+         Touching "Debug_Static\gluit.lastbuildstate".
+     1>Done Building Project "F:\MyProjects\trimesh\gluit\gluit.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.51

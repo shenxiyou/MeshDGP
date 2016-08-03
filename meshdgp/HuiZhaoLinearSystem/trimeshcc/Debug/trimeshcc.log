@@ -1,0 +1,145 @@
+﻿生成启动时间为 5/30/2015 2:19:35 PM。
+     1>项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoLinearSystem\trimeshcc\trimeshcc.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IInclude\ /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt conn_comps.cc diffuse.cc edgeflip.cc faceflip.cc filter.cc GLCamera.cc ICP.cc KDtree.cc lmsmooth.cc overlap.cc remove.cc reorder_verts.cc shared.cc subdiv.cc TriMesh_bounding.cc TriMesh_connectivity.cc TriMesh_curvature.cc TriMesh_grid.cc TriMesh_io.cc TriMesh_normals.cc TriMesh_pointareas.cc TriMesh_stats.cc TriMesh_tstrips.cc
+         TriMesh_tstrips.cc
+         TriMesh_stats.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_stats.cc(28): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+         TriMesh_pointareas.cc
+         TriMesh_normals.cc
+         TriMesh_io.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(248): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(251): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(295): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(372): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(374): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(383): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(394): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(435): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(448): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(454): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(474): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(509): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(528): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(700): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(706): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(712): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(718): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(724): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(747): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(753): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(767): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(798): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(814): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(821): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1012): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1019): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1024): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1030): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1035): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1038): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1126): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1132): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1137): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1182): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1191): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1229): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1232): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1535): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1538): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(1853): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(2251): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(337) : 参见“vsnprintf”的声明
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshcc\trimesh_io.cc(2278): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(337) : 参见“vsnprintf”的声明
+         TriMesh_grid.cc
+         TriMesh_curvature.cc
+         TriMesh_connectivity.cc
+         TriMesh_bounding.cc
+         subdiv.cc
+         shared.cc
+         reorder_verts.cc
+         remove.cc
+         overlap.cc
+         lmsmooth.cc
+         KDtree.cc
+         ICP.cc
+         GLCamera.cc
+         filter.cc
+         faceflip.cc
+         正在生成代码...
+         正在编译...
+         edgeflip.cc
+         diffuse.cc
+         conn_comps.cc
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\bin\Debug\trimeshcc.lib" /NOLOGO Debug\conn_comps.obj
+         Debug\diffuse.obj
+         Debug\edgeflip.obj
+         Debug\faceflip.obj
+         Debug\filter.obj
+         Debug\GLCamera.obj
+         Debug\ICP.obj
+         Debug\KDtree.obj
+         Debug\lmsmooth.obj
+         Debug\overlap.obj
+         Debug\remove.obj
+         Debug\reorder_verts.obj
+         Debug\shared.obj
+         Debug\subdiv.obj
+         Debug\TriMesh_bounding.obj
+         Debug\TriMesh_connectivity.obj
+         Debug\TriMesh_curvature.obj
+         Debug\TriMesh_grid.obj
+         Debug\TriMesh_io.obj
+         Debug\TriMesh_normals.obj
+         Debug\TriMesh_pointareas.obj
+         Debug\TriMesh_stats.obj
+         Debug\TriMesh_tstrips.obj
+         trimeshcc.vcxproj -> C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoLinearSystem\trimeshcc\..\..\bin\Debug\trimeshcc.lib
+     1>已完成生成项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoLinearSystem\trimeshcc\trimeshcc.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:15.45

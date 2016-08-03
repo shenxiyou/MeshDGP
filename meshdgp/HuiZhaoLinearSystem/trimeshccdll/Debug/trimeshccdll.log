@@ -1,0 +1,17 @@
+﻿生成启动时间为 5/30/2015 2:18:28 PM。
+     1>项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoLinearSystem\trimeshccdll\trimeshccdll.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\trimeshcc\Include\ /ZI /nologo /W3 /WX- /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dll.cc
+         dll.cc
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshccdll\dll.cc(31): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\快盘\develop\vs2013\huizhaographicresearch\huizhaolinearsystem\trimeshccdll\dll.cc(47): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Debug\trimeshccdll.dll" /NOLOGO ..\..\bin\Debug\trimeshcc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Debug\trimeshccdll.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Debug\trimeshccdll.lib" /MACHINE:X86 /SAFESEH /DLL Debug\dll.obj
+     1>dll.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+            正在创建库 ..\..\bin\Debug\trimeshccdll.lib 和对象 ..\..\bin\Debug\trimeshccdll.exp
+         trimeshccdll.vcxproj -> C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoLinearSystem\trimeshccdll\..\..\bin\Debug\trimeshccdll.dll
+     1>已完成生成项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoLinearSystem\trimeshccdll\trimeshccdll.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.44

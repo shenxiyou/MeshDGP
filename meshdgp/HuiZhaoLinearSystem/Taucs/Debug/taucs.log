@@ -1,0 +1,23 @@
+﻿Build started 2015/2/16 13:56:11.
+     1>Project "C:\kuaipanzhaohui\vs2013\HuiZhaoGraphicResearch\LinearSystem\Taucs\taucs.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt taucs_cg.c taucs_cholesky.c taucs_lu.c taucs_symbolic.c test_linsolve.c
+         taucs_cg.c
+         taucs_cholesky.c
+         taucs_lu.c
+         taucs_symbolic.c
+         test_linsolve.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/Debug/Taucs.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../lib/x86 libtaucs.lib blas_win32.lib lapack_win32.lib libatlas.lib libcblas.lib libmetis.lib libf77blas.lib liblapack.lib vcf2c.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Debug\Taucs.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\bin\Debug\Taucs.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO /DLL Debug\taucs_cg.obj
+         Debug\taucs_cholesky.obj
+         Debug\taucs_lu.obj
+         Debug\taucs_symbolic.obj
+         Debug\test_linsolve.obj
+            Creating library ..\..\bin\Debug\Taucs.lib and object ..\..\bin\Debug\Taucs.exp
+         taucs.vcxproj -> C:\kuaipanzhaohui\vs2013\HuiZhaoGraphicResearch\LinearSystem\Taucs\..\..\bin\Debug\Taucs.dll
+     1>Done Building Project "C:\kuaipanzhaohui\vs2013\HuiZhaoGraphicResearch\LinearSystem\Taucs\taucs.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09

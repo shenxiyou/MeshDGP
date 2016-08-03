@@ -1,0 +1,22 @@
+﻿Build started 2015/2/16 13:55:56.
+     1>Project "C:\kuaipanzhaohui\vs2013\HuiZhaoGraphicResearch\LinearSystem\CHOLMOD\CHOLMOD.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CHOLMOD_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cholmod_solver.cpp
+         cholmod_solver.cpp
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\cholmod\cholmod_solver.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\cholmod\cholmod_solver.cpp(65): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\cholmod\cholmod_solver.cpp(120): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\cholmod\cholmod_solver.cpp(131): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\cholmod\cholmod_solver.cpp(159): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\cholmod\cholmod_solver.cpp(168): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\cholmod\cholmod_solver.cpp(195): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\kuaipanzhaohui\vs2013\huizhaographicresearch\linearsystem\cholmod\cholmod_solver.cpp(204): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Debug\CHOLMOD.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../lib/x86 libatlas.lib libf77blas.lib libg2c.lib libgcc.lib liblapack.lib libcamd.lib libccolamd.lib metis.lib libtmglib.lib libcholmod.lib libcolamd.lib libamd.lib libsuitesparseconfig.lib libgfortran.lib libmingw32.lib libmingwex.lib liblapacke.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Debug\CHOLMOD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Debug\CHOLMOD.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO /DLL Debug\cholmod_solver.obj
+            Creating library ..\..\bin\Debug\CHOLMOD.lib and object ..\..\bin\Debug\CHOLMOD.exp
+         CHOLMOD.vcxproj -> C:\kuaipanzhaohui\vs2013\HuiZhaoGraphicResearch\LinearSystem\CHOLMOD\..\..\bin\Debug\CHOLMOD.dll
+     1>Done Building Project "C:\kuaipanzhaohui\vs2013\HuiZhaoGraphicResearch\LinearSystem\CHOLMOD\CHOLMOD.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71

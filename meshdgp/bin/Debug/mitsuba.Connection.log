@@ -1,0 +1,26 @@
+2015-11-23 01:20:01 INFO  main [mitsuba.cpp:256] Mitsuba version 0.5.0 (Windows, 64 bit), Copyright (c) 2014 Wenzel Jakob
+2015-11-23 01:20:01 INFO  main [mitsuba.cpp:356] Parsing scene description from "C:\workspace\bunny\bunny.xml" ..
+2015-11-23 01:20:01 INFO  main [PluginManager] Loading plugin "plugins\path.dll" ..
+2015-11-23 01:20:01 WARN  main [properties.cpp:70] Property "faceNormals" was specified multiple times!
+2015-11-23 01:20:01 INFO  main [PluginManager] Loading plugin "plugins\wireframe.dll" ..
+2015-11-23 01:20:01 WARN  main [scenehandler.cpp:795] In file "C:\workspace\bunny\bunny.xml" (near line 21): Unqueried attribute "quads" in element "texture"
+2015-11-23 01:20:01 INFO  main [PluginManager] Loading plugin "plugins\roughplastic.dll" ..
+2015-11-23 01:20:01 INFO  main [PluginManager] Loading plugin "plugins\twosided.dll" ..
+2015-11-23 01:20:01 INFO  main [PluginManager] Loading plugin "plugins\obj.dll" ..
+2015-11-23 01:20:01 INFO  main [WavefrontOBJ] Loading geometry from "165.obj" ..
+2015-11-23 01:20:03 INFO  main [WavefrontOBJ] 165: 28576 triangles, 14931 vertices (merged 70797 vertices).
+2015-11-23 01:20:03 INFO  main [WavefrontOBJ] Done with "165.obj" (took 1815 ms)
+2015-11-23 01:20:03 INFO  main [PluginManager] Loading plugin "plugins\envmap.dll" ..
+2015-11-23 01:20:03 INFO  main [EnvironmentMap] Loading environment map "envmap.exr"
+2015-11-23 01:20:03 INFO  main [PluginManager] Loading plugin "plugins\lanczos.dll" ..
+2015-11-23 01:20:03 INFO  main [EnvironmentMap] Precomputing data structures for environment map sampling (515.0 KiB)
+2015-11-23 01:20:03 INFO  main [EnvironmentMap] Done (took 1 ms)
+2015-11-23 01:20:03 INFO  main [PluginManager] Loading plugin "plugins\halton.dll" ..
+2015-11-23 01:20:03 INFO  main [PluginManager] Loading plugin "plugins\mitchell.dll" ..
+2015-11-23 01:20:03 INFO  main [PluginManager] Loading plugin "plugins\ldrfilm.dll" ..
+2015-11-23 01:20:03 INFO  main [PluginManager] Loading plugin "plugins\perspective.dll" ..
+2015-11-23 01:20:03 INFO  ren0 [KDTreeBase] Constructing a SAH kd-tree (28576 primitives) ..
+2015-11-23 01:20:04 INFO  ren0 [KDTreeBase] Finished -- took 207 ms.
+2015-11-23 01:20:04 INFO  ren0 [PluginManager] Loading plugin "plugins\sphere.dll" ..
+2015-11-23 01:20:04 INFO  ren0 [PluginManager] Loading plugin "plugins\diffuse.dll" ..
+2015-11-23 01:20:04 INFO  ren0 [SamplingIntegrator] Starting render job (1280x873, 256 samples, 4 cores, SSE2 enabled) ..

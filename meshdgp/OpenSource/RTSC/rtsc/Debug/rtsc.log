@@ -1,0 +1,11 @@
+﻿生成启动时间为 2016/8/3 16:40:06。
+     1>项目“F:\3D modeling\MeshDGP-master\meshdgp\OpenSource\RTSC\rtsc\rtsc.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(91,5): warning : Required file "D:\TOBE\BIN\DEBUG\HUIZHAOBASICMESH.DLL" is missing.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(91,5): warning : Required file "F:\3D MODELING\新建文件夹\MESHDGP\BIN\DEBUG\HUIZHAOBASICMESH.DLL" is missing.
+     1>Link:
+         rtsc.vcxproj -> F:\3D modeling\MeshDGP-master\meshdgp\Framework\..\bin\Debug\rtsc32.dll
+     1>已完成生成项目“F:\3D modeling\MeshDGP-master\meshdgp\OpenSource\RTSC\rtsc\rtsc.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.14

@@ -1,0 +1,239 @@
+﻿生成启动时间为 6/15/2015 1:25:16 PM。
+     1>项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\OpenSource\RTSC\trimesh\trimesh.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\include /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TRIMESH_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt conn_comps.cc diffuse.cc edgeflip.cc faceflip.cc filter.cc GLCamera.cc ICP.cc KDtree.cc lmsmooth.cc overlap.cc remove.cc reorder_verts.cc subdiv.cc TriMesh_bounding.cc TriMesh_connectivity.cc TriMesh_curvature.cc TriMesh_grid.cc TriMesh_io.cc TriMesh_normals.cc TriMesh_pointareas.cc TriMesh_stats.cc TriMesh_tstrips.cc
+         TriMesh_tstrips.cc
+     1>TriMesh_tstrips.cc(34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_tstrips.cc(205): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         TriMesh_stats.cc
+     1>TriMesh_stats.cc(24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_stats.cc(26): warning C4244: “参数”: 从“unsigned __int64”转换到“float”，可能丢失数据
+     1>TriMesh_stats.cc(31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_stats.cc(38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_stats.cc(46): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_stats.cc(57): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_stats.cc(66): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_stats.cc(72): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_stats.cc(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_stats.cc(87): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_stats.cc(154): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         TriMesh_pointareas.cc
+     1>TriMesh_pointareas.cc(23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         TriMesh_normals.cc
+     1>TriMesh_normals.cc(26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_normals.cc(56): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_normals.cc(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         TriMesh_io.cc
+     1>TriMesh_io.cc(232): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>TriMesh_io.cc(235): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : 参见“strerror”的声明
+     1>TriMesh_io.cc(279): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(356): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TriMesh_io.cc(358): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TriMesh_io.cc(367): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TriMesh_io.cc(378): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TriMesh_io.cc(419): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TriMesh_io.cc(432): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TriMesh_io.cc(471): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TriMesh_io.cc(506): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(525): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(598): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(618): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(696): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(700): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(706): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(728): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TriMesh_io.cc(734): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TriMesh_io.cc(748): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TriMesh_io.cc(751): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(779): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>TriMesh_io.cc(795): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(802): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(833): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(863): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(951): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(974): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(993): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1000): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1005): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1011): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1016): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1019): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1045): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(1093): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(1107): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1113): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1118): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1143): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(1163): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1165): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(1172): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1210): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1213): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>TriMesh_io.cc(1300): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(1497): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>TriMesh_io.cc(1500): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(168) : 参见“strerror”的声明
+     1>TriMesh_io.cc(1653): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(1765): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(1772): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(1812): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>TriMesh_io.cc(1822): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_io.cc(2145): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : 参见“vsnprintf”的声明
+     1>TriMesh_io.cc(2172): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : 参见“vsnprintf”的声明
+         TriMesh_grid.cc
+     1>TriMesh_grid.cc(26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_grid.cc(63): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         TriMesh_curvature.cc
+     1>TriMesh_curvature.cc(147): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_curvature.cc(252): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         TriMesh_connectivity.cc
+     1>TriMesh_connectivity.cc(26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_connectivity.cc(66): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TriMesh_connectivity.cc(101): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         TriMesh_bounding.cc
+         subdiv.cc
+     1>subdiv.cc(72): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>subdiv.cc(122): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>subdiv.cc(286): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>subdiv.cc(288): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>subdiv.cc(313): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>subdiv.cc(343): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         reorder_verts.cc
+     1>reorder_verts.cc(25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>reorder_verts.cc(110): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>reorder_verts.cc(122): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>reorder_verts.cc(134): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>reorder_verts.cc(188): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         remove.cc
+     1>remove.cc(18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>remove.cc(49): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>remove.cc(74): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>remove.cc(117): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         overlap.cc
+     1>overlap.cc(35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>overlap.cc(47): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+         lmsmooth.cc
+     1>lmsmooth.cc(19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>lmsmooth.cc(43): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         KDtree.cc
+     1>KDtree.cc(101): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         ICP.cc
+     1>ICP.cc(67): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>ICP.cc(244): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>ICP.cc(358): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         GLCamera.cc
+         filter.cc
+     1>filter.cc(38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>filter.cc(51): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>filter.cc(115): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>filter.cc(148): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>filter.cc(170): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>filter.cc(203): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>filter.cc(266): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>filter.cc(309): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>filter.cc(436): warning C4018: “<”: 有符号/无符号不匹配
+     1>filter.cc(471): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>filter.cc(484): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         faceflip.cc
+     1>faceflip.cc(22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         edgeflip.cc
+     1>edgeflip.cc(139): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         diffuse.cc
+     1>diffuse.cc(143): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>diffuse.cc(160): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>diffuse.cc(206): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>diffuse.cc(271): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>diffuse.cc(328): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>diffuse.cc(356): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>diffuse.cc(387): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>diffuse.cc(94): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+                 diffuse.cc(154): 参见对正在编译的函数 模板 实例化“void diffuse_vert_field<AccumVec<vec>,Vec<3,float>>(TriMesh *,const ACCUM &,int,float,T &)”的引用
+                 with
+                 [
+                     ACCUM=AccumVec<vec>
+         ,            T=Vec<3,float>
+                 ]
+     1>diffuse.cc(303): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+                 diffuse.cc(405): 参见对正在编译的函数 模板 实例化“void diffuse_vector<float>(TriMesh *,std::vector<float,std::allocator<_Ty>> &,float)”的引用
+                 with
+                 [
+                     _Ty=float
+                 ]
+         conn_comps.cc
+     1>conn_comps.cc(131): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>conn_comps.cc(140): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>conn_comps.cc(155): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>conn_comps.cc(175): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>conn_comps.cc(180): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>conn_comps.cc(199): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>conn_comps.cc(204): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\Framework\..\bin\Debug\trimesh64.lib" /NOLOGO /MACHINE:X64 x64\Debug\conn_comps.obj
+         x64\Debug\diffuse.obj
+         x64\Debug\edgeflip.obj
+         x64\Debug\faceflip.obj
+         x64\Debug\filter.obj
+         x64\Debug\GLCamera.obj
+         x64\Debug\ICP.obj
+         x64\Debug\KDtree.obj
+         x64\Debug\lmsmooth.obj
+         x64\Debug\overlap.obj
+         x64\Debug\remove.obj
+         x64\Debug\reorder_verts.obj
+         x64\Debug\subdiv.obj
+         x64\Debug\TriMesh_bounding.obj
+         x64\Debug\TriMesh_connectivity.obj
+         x64\Debug\TriMesh_curvature.obj
+         x64\Debug\TriMesh_grid.obj
+         x64\Debug\TriMesh_io.obj
+         x64\Debug\TriMesh_normals.obj
+         x64\Debug\TriMesh_pointareas.obj
+         x64\Debug\TriMesh_stats.obj
+         x64\Debug\TriMesh_tstrips.obj
+         trimesh.vcxproj -> C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\Framework\..\bin\Debug\trimesh64.lib
+     1>已完成生成项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\OpenSource\RTSC\trimesh\trimesh.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:27.74

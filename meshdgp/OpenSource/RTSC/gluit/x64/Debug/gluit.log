@@ -1,0 +1,187 @@
+﻿生成启动时间为 6/15/2015 1:36:33 PM。
+     1>项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\OpenSource\RTSC\gluit\gluit.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\Framework\..\bin\Debug\freeglut.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"freeglutdll.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\Framework\..\bin\Debug\freeglut.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\Framework\..\bin\Debug\freeglut.lib" /MACHINE:X64 /DLL x64\Debug\freeglut_callbacks.obj
+         x64\Debug\freeglut_cursor.obj
+         x64\Debug\freeglut_display.obj
+         x64\Debug\freeglut_ext.obj
+         x64\Debug\freeglut_font.obj
+         x64\Debug\freeglut_font_data.obj
+         x64\Debug\freeglut_gamemode.obj
+         x64\Debug\freeglut_geometry.obj
+         x64\Debug\freeglut_glutfont_definitions.obj
+         x64\Debug\freeglut_init.obj
+         x64\Debug\freeglut_input_devices.obj
+         x64\Debug\freeglut_joystick.obj
+         x64\Debug\freeglut_main.obj
+         x64\Debug\freeglut_menu.obj
+         x64\Debug\freeglut_misc.obj
+         x64\Debug\freeglut_overlay.obj
+         x64\Debug\freeglut_spaceball.obj
+         x64\Debug\freeglut_state.obj
+         x64\Debug\freeglut_stroke_mono_roman.obj
+         x64\Debug\freeglut_stroke_roman.obj
+         x64\Debug\freeglut_structure.obj
+         x64\Debug\freeglut_teapot.obj
+         x64\Debug\freeglut_videoresize.obj
+         x64\Debug\freeglut_window.obj
+         x64\Debug\freeglut_xinput.obj
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutTimerFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutIdleFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutKeyboardFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutSpecialFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutReshapeFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutVisibilityFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutDisplayFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutMouseFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutMotionFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutPassiveMotionFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutEntryFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutKeyboardUpFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutSpecialUpFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutJoystickFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutMenuStateFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutMenuStatusFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutOverlayDisplayFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutWindowStatusFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutSpaceballMotionFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutSpaceballRotateFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutSpaceballButtonFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutButtonBoxFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutDialsFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutTabletMotionFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutTabletButtonFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutMouseWheelFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutCloseFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutWMCloseFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutMenuDestroyFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutMultiEntryFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutMultiButtonFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutMultiMotionFunc”；使用第一个规范
+     1>freeglut_callbacks.obj : warning LNK4197: 多次指定导出“glutMultiPassiveFunc”；使用第一个规范
+     1>freeglut_cursor.obj : warning LNK4197: 多次指定导出“glutWarpPointer”；使用第一个规范
+     1>freeglut_cursor.obj : warning LNK4197: 多次指定导出“glutSetCursor”；使用第一个规范
+     1>freeglut_display.obj : warning LNK4197: 多次指定导出“glutPostWindowRedisplay”；使用第一个规范
+     1>freeglut_display.obj : warning LNK4197: 多次指定导出“glutPostRedisplay”；使用第一个规范
+     1>freeglut_display.obj : warning LNK4197: 多次指定导出“glutSwapBuffers”；使用第一个规范
+     1>freeglut_ext.obj : warning LNK4197: 多次指定导出“glutGetProcAddress”；使用第一个规范
+     1>freeglut_font.obj : warning LNK4197: 多次指定导出“glutBitmapCharacter”；使用第一个规范
+     1>freeglut_font.obj : warning LNK4197: 多次指定导出“glutBitmapWidth”；使用第一个规范
+     1>freeglut_font.obj : warning LNK4197: 多次指定导出“glutStrokeCharacter”；使用第一个规范
+     1>freeglut_font.obj : warning LNK4197: 多次指定导出“glutStrokeWidth”；使用第一个规范
+     1>freeglut_font.obj : warning LNK4197: 多次指定导出“glutBitmapLength”；使用第一个规范
+     1>freeglut_font.obj : warning LNK4197: 多次指定导出“glutStrokeLength”；使用第一个规范
+     1>freeglut_font.obj : warning LNK4197: 多次指定导出“glutBitmapHeight”；使用第一个规范
+     1>freeglut_font.obj : warning LNK4197: 多次指定导出“glutStrokeHeight”；使用第一个规范
+     1>freeglut_font.obj : warning LNK4197: 多次指定导出“glutBitmapString”；使用第一个规范
+     1>freeglut_font.obj : warning LNK4197: 多次指定导出“glutStrokeString”；使用第一个规范
+     1>freeglut_gamemode.obj : warning LNK4197: 多次指定导出“glutGameModeString”；使用第一个规范
+     1>freeglut_gamemode.obj : warning LNK4197: 多次指定导出“glutEnterGameMode”；使用第一个规范
+     1>freeglut_gamemode.obj : warning LNK4197: 多次指定导出“glutLeaveGameMode”；使用第一个规范
+     1>freeglut_gamemode.obj : warning LNK4197: 多次指定导出“glutGameModeGet”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutWireCube”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutSolidCube”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutWireSphere”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutSolidSphere”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutWireCone”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutSolidCone”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutWireTorus”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutSolidTorus”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutWireDodecahedron”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutSolidDodecahedron”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutWireOctahedron”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutSolidOctahedron”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutWireTetrahedron”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutSolidTetrahedron”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutWireIcosahedron”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutSolidIcosahedron”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutWireRhombicDodecahedron”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutSolidRhombicDodecahedron”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutWireSierpinskiSponge”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutSolidSierpinskiSponge”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutWireCylinder”；使用第一个规范
+     1>freeglut_geometry.obj : warning LNK4197: 多次指定导出“glutSolidCylinder”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“glutInit”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“glutInitWindowPosition”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“glutInitWindowSize”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“glutInitDisplayMode”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“glutInitDisplayString”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“__glutInitWithExit”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“glutExit”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“glutInitContextVersion”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“glutInitContextFlags”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“glutInitContextProfile”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“glutInitErrorFunc”；使用第一个规范
+     1>freeglut_init.obj : warning LNK4197: 多次指定导出“glutInitWarningFunc”；使用第一个规范
+     1>freeglut_main.obj : warning LNK4197: 多次指定导出“glutMainLoop”；使用第一个规范
+     1>freeglut_main.obj : warning LNK4197: 多次指定导出“glutMainLoopEvent”；使用第一个规范
+     1>freeglut_main.obj : warning LNK4197: 多次指定导出“glutLeaveMainLoop”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutCreateMenu”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutDestroyMenu”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutGetMenu”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutSetMenu”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutAddMenuEntry”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutAddSubMenu”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutChangeToMenuEntry”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutChangeToSubMenu”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutRemoveMenuItem”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutAttachMenu”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutDetachMenu”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“__glutCreateMenuWithExit”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutGetMenuData”；使用第一个规范
+     1>freeglut_menu.obj : warning LNK4197: 多次指定导出“glutSetMenuData”；使用第一个规范
+     1>freeglut_misc.obj : warning LNK4197: 多次指定导出“glutSetColor”；使用第一个规范
+     1>freeglut_misc.obj : warning LNK4197: 多次指定导出“glutGetColor”；使用第一个规范
+     1>freeglut_misc.obj : warning LNK4197: 多次指定导出“glutCopyColormap”；使用第一个规范
+     1>freeglut_misc.obj : warning LNK4197: 多次指定导出“glutIgnoreKeyRepeat”；使用第一个规范
+     1>freeglut_misc.obj : warning LNK4197: 多次指定导出“glutSetKeyRepeat”；使用第一个规范
+     1>freeglut_misc.obj : warning LNK4197: 多次指定导出“glutForceJoystickFunc”；使用第一个规范
+     1>freeglut_misc.obj : warning LNK4197: 多次指定导出“glutExtensionSupported”；使用第一个规范
+     1>freeglut_misc.obj : warning LNK4197: 多次指定导出“glutReportErrors”；使用第一个规范
+     1>freeglut_overlay.obj : warning LNK4197: 多次指定导出“glutEstablishOverlay”；使用第一个规范
+     1>freeglut_overlay.obj : warning LNK4197: 多次指定导出“glutRemoveOverlay”；使用第一个规范
+     1>freeglut_overlay.obj : warning LNK4197: 多次指定导出“glutUseLayer”；使用第一个规范
+     1>freeglut_overlay.obj : warning LNK4197: 多次指定导出“glutPostOverlayRedisplay”；使用第一个规范
+     1>freeglut_overlay.obj : warning LNK4197: 多次指定导出“glutPostWindowOverlayRedisplay”；使用第一个规范
+     1>freeglut_overlay.obj : warning LNK4197: 多次指定导出“glutShowOverlay”；使用第一个规范
+     1>freeglut_overlay.obj : warning LNK4197: 多次指定导出“glutHideOverlay”；使用第一个规范
+     1>freeglut_state.obj : warning LNK4197: 多次指定导出“glutGet”；使用第一个规范
+     1>freeglut_state.obj : warning LNK4197: 多次指定导出“glutDeviceGet”；使用第一个规范
+     1>freeglut_state.obj : warning LNK4197: 多次指定导出“glutGetModifiers”；使用第一个规范
+     1>freeglut_state.obj : warning LNK4197: 多次指定导出“glutLayerGet”；使用第一个规范
+     1>freeglut_state.obj : warning LNK4197: 多次指定导出“glutSetOption”；使用第一个规范
+     1>freeglut_state.obj : warning LNK4197: 多次指定导出“glutGetModeValues”；使用第一个规范
+     1>freeglut_teapot.obj : warning LNK4197: 多次指定导出“glutWireTeapot”；使用第一个规范
+     1>freeglut_teapot.obj : warning LNK4197: 多次指定导出“glutSolidTeapot”；使用第一个规范
+     1>freeglut_videoresize.obj : warning LNK4197: 多次指定导出“glutVideoResizeGet”；使用第一个规范
+     1>freeglut_videoresize.obj : warning LNK4197: 多次指定导出“glutSetupVideoResizing”；使用第一个规范
+     1>freeglut_videoresize.obj : warning LNK4197: 多次指定导出“glutStopVideoResizing”；使用第一个规范
+     1>freeglut_videoresize.obj : warning LNK4197: 多次指定导出“glutVideoResize”；使用第一个规范
+     1>freeglut_videoresize.obj : warning LNK4197: 多次指定导出“glutVideoPan”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutCreateWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutCreateSubWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutDestroyWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutSetWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutGetWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutSetWindowTitle”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutSetIconTitle”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutReshapeWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutPositionWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutShowWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutHideWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutIconifyWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutPushWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutPopWindow”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutFullScreen”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“__glutCreateWindowWithExit”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutFullScreenToggle”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutLeaveFullScreen”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutGetWindowData”；使用第一个规范
+     1>freeglut_window.obj : warning LNK4197: 多次指定导出“glutSetWindowData”；使用第一个规范
+            正在创建库 C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\Framework\..\bin\Debug\freeglut.lib 和对象 C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\Framework\..\bin\Debug\freeglut.exp
+         gluit.vcxproj -> C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\Framework\..\bin\Debug\freeglut.dll
+     1>已完成生成项目“C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\OpenSource\RTSC\gluit\gluit.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.69
