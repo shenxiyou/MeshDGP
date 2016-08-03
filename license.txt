@@ -1,9 +1,0 @@
-MeshDGP is maintained and developed by Hui Zhao.  
-@misc{Hui:MeshDGP:2016,
-   Author = {Hui, Zhao},
-   Year = {2016},
-   Note = {http://meshdgp.github.io/},
-   Title = {MeshDGP mesh processing framework}
-} 
-
-Thank you!
