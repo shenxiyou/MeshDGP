@@ -1,0 +1,112 @@
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\bin\Debug\OpenGL.dll
+C:\Users\bell\Desktop\bin\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\MileStone 3.22\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\MileStone 3.22\OpenGL\obj\Debug\OpenGL.dll
+C:\Users\bell\Desktop\MileStone 3.22\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\bin\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\bin\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\MileStone 3.22\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\MileStone 3.22\OpenGL\obj\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\MileStone 3.22\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Perfect3.24\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.24\OpenGL\obj\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Perfect3.24\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Perfect3.27\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.27\OpenGL\obj\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Perfect3.27\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Perfect3.28\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.28\OpenGL\obj\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Perfect3.28\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\bin\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\bin\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\New Folder\bin\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\New Folder\bin\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\OpenGL\obj\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Perfect4.3\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect4.3\OpenGL\obj\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Perfect4.3\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\bin\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\bin\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\bin\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\bin\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\bin\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\bin\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Pefect4.15\bin\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Pefect4.15\bin\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Pefect4.15\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Pefect4.15\OpenGL\obj\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Pefect4.15\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Pefect4.16\bin\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Pefect4.16\bin\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Pefect4.16\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Pefect4.16\OpenGL\obj\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Pefect4.16\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Perfect4.17\bin\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Perfect4.17\bin\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Perfect4.17\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect4.17\OpenGL\obj\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Perfect4.17\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\bin\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\bin\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Perfect5.3\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect5.3\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Perfect5.3\bin\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Perfect5.3\bin\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Perfect5.3\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\bin\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\bin\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\bin\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\bin\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\bin\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\bin\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\bin\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\bin\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\OpenGL\obj\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\OpenGL\obj\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Perfect5.10\bin\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Perfect5.10\bin\Debug\OpenGL.pdb
+C:\Users\bell\Desktop\develop\Perfect5.10\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect5.10\OpenGL\obj\Debug\OpenGL.dll
+C:\Users\bell\Desktop\develop\Perfect5.10\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\OpenGL\obj\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\bin\Debug\OpenGL.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\bin\Debug\OpenGL.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\OpenGL\obj\Debug\OpenGL.dll

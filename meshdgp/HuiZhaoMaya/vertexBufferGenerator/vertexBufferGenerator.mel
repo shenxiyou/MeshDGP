@@ -1,0 +1,23 @@
+// Create a triangulated sphere in a new scene.
+file -f -new;
+polySphere;
+polyTriangulate -ch 1 pSphere1;
+
+// Switch to Viewport 2.0 and turn on Hardware Texturing.
+setRendererInModelPanel "ogsRenderer" modelPanel4;
+modelEditor -edit -displayAppearance smoothShaded -activeOnly false modelPanel4;
+modelEditor -e -displayTextures true modelPanel4;
+
+// Load plugins.
+loadPlugin -quiet cgfxShader.mll;
+loadPlugin -quiet examples.nll.dll;
+
+// Assign cgfx shader: vertexBuffergeneratorGL.cgfx.
+shadingNode -asShader cgfxShader;
+sets -renderable true -noSurfaceShader true -empty -name cgfxShader1SG;
+connectAttr -f cgfxShader1.outColor cgfxShader1SG.surfaceShader;
+source createAndAssignShader.mel;
+assignCreatedShader "cgfxShader" "" cgfxShader1 "pSphere1 pSphere1.f[0:759]";
+sets -e -forceElement cgfxShader1SG;
+$cgfxShaderPath = `workspace -q -dir` + "vertexBufferGeneratorGL.cgfx";
+cgfxShader -e -fx $cgfxShaderPath cgfxShader1;

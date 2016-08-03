@@ -1,0 +1,2187 @@
+ImageRuntimeVersion: v2.0.50727
+Assembly HuiZhaoBasicMesh, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class GraphicResearchHuiZhao.Node`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(Double, T): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double NodeValue 'get set' : 
+    T AttachItem 'get set' : 
+  Methods:
+    set_NodeValue(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_NodeValue(): PrivateScope, Public, HideBySig, SpecialName
+    set_AttachItem(T): PrivateScope, Public, HideBySig, SpecialName
+    get_AttachItem(): PrivateScope, Public, HideBySig, SpecialName
+Class GraphicResearchHuiZhao.MinHeap`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Size 'get ' : 
+  Methods:
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    Add(Double, T): PrivateScope, Public, HideBySig
+    FilterDown(Int32): PrivateScope, Public, HideBySig
+    Pull(): PrivateScope, Public, HideBySig
+Struct GraphicResearchHuiZhao.Color3: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector3D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[GraphicResearchHuiZhao.Color3]
+    System.IFormattable
+  Fields:
+    Double Red : Public
+    Double Green : Public
+    Double Blue : Public
+  Properties:
+    Double Item [Int32] 'get set' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    Negate(): PrivateScope, Public, HideBySig
+    Scale(Double): PrivateScope, Public, HideBySig
+    Invert(): PrivateScope, Public, HideBySig
+    AdjustContrast(Double): PrivateScope, Public, HideBySig
+    AdjustSaturation(Double): PrivateScope, Public, HideBySig
+    ToRgb(): PrivateScope, Public, HideBySig
+    ToVector3D(): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    Add(Color3&, Color3&, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    Add(Color3, Color3): PrivateScope, Public, Static, HideBySig
+    Subtract(Color3&, Color3&, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    Subtract(Color3, Color3): PrivateScope, Public, Static, HideBySig
+    Modulate(Color3&, Color3&, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    Modulate(Color3, Color3): PrivateScope, Public, Static, HideBySig
+    Scale(Color3&, Double, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    Scale(Color3, Double): PrivateScope, Public, Static, HideBySig
+    Negate(Color3&, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    Negate(Color3): PrivateScope, Public, Static, HideBySig
+    Invert(Color3&, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    Invert(Color3): PrivateScope, Public, Static, HideBySig
+    Clamp(Color3&, Color3&, Color3&, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    Clamp(Color3, Color3, Color3): PrivateScope, Public, Static, HideBySig
+    Lerp(Color3&, Color3&, Double, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    Lerp(Color3, Color3, Double): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Color3&, Color3&, Double, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Color3, Color3, Double): PrivateScope, Public, Static, HideBySig
+    Max(Color3&, Color3&, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    Max(Color3, Color3): PrivateScope, Public, Static, HideBySig
+    Min(Color3&, Color3&, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    Min(Color3, Color3): PrivateScope, Public, Static, HideBySig
+    AdjustContrast(Color3&, Double, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    AdjustContrast(Color3, Double): PrivateScope, Public, Static, HideBySig
+    AdjustSaturation(Color3&, Double, Color3&(Out)): PrivateScope, Public, Static, HideBySig
+    AdjustSaturation(Color3, Double): PrivateScope, Public, Static, HideBySig
+    op_OnesComplement(Color3): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(Color3, Color3): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryPlus(Color3): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Color3, Color3): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryNegation(Color3): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double, Color3): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Color3, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Color3, Color3): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(Color3, Color3): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Color3, Color3): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Color3): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Color3): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Int32): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(IFormatProvider): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Color3): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+Struct GraphicResearchHuiZhao.Color4: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector4D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector3D, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[GraphicResearchHuiZhao.Color4]
+    System.IFormattable
+  Fields:
+    Double R : Public
+    Double G : Public
+    Double B : Public
+    Double Alpha : Public
+  Properties:
+    GraphicResearchHuiZhao.Color4 Pink 'get ' : 
+    GraphicResearchHuiZhao.Color4 Purple 'get ' : 
+    GraphicResearchHuiZhao.Color4 Blue 'get ' : 
+    GraphicResearchHuiZhao.Color4 DrakBlue 'get ' : 
+    GraphicResearchHuiZhao.Color4 SkyBlue 'get ' : 
+    GraphicResearchHuiZhao.Color4 Cyan 'get ' : 
+    GraphicResearchHuiZhao.Color4 LimeGreen 'get ' : 
+    GraphicResearchHuiZhao.Color4 Green 'get ' : 
+    GraphicResearchHuiZhao.Color4 DarkGreen 'get ' : 
+    GraphicResearchHuiZhao.Color4 Gold 'get ' : 
+    GraphicResearchHuiZhao.Color4 Yellow 'get ' : 
+    GraphicResearchHuiZhao.Color4 Orange 'get ' : 
+    GraphicResearchHuiZhao.Color4 Red 'get ' : 
+    GraphicResearchHuiZhao.Color4 Brown 'get ' : 
+    GraphicResearchHuiZhao.Color4 DarkRed 'get ' : 
+    GraphicResearchHuiZhao.Color4 Black 'get ' : 
+    GraphicResearchHuiZhao.Color4 White 'get ' : 
+    Double Item [Int32] 'get set' : 
+  Methods:
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Color4): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    HSB2RGB(Single, Single, Single): PrivateScope, Public, Static, HideBySig
+    SetColorRamp(Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    SetColorRampBetweenTwoColor(Double, Double, Double, Color4, Color4): PrivateScope, Public, Static, HideBySig
+    get_Pink(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Purple(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Blue(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_DrakBlue(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SkyBlue(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Cyan(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_LimeGreen(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Green(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_DarkGreen(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Gold(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Yellow(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Orange(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Red(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Brown(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_DarkRed(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Black(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_White(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    Negate(): PrivateScope, Public, HideBySig
+    Scale(Double): PrivateScope, Public, HideBySig
+    Invert(): PrivateScope, Public, HideBySig
+    AdjustContrast(Double): PrivateScope, Public, HideBySig
+    AdjustSaturation(Double): PrivateScope, Public, HideBySig
+    ToArgb(): PrivateScope, Public, HideBySig
+    ToRgba(): PrivateScope, Public, HideBySig
+    ToVector3D(): PrivateScope, Public, HideBySig
+    ToVector4d(): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    Add(Color4&, Color4&, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    Add(Color4, Color4): PrivateScope, Public, Static, HideBySig
+    Subtract(Color4&, Color4&, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    Subtract(Color4, Color4): PrivateScope, Public, Static, HideBySig
+    Modulate(Color4&, Color4&, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    Modulate(Color4, Color4): PrivateScope, Public, Static, HideBySig
+    Scale(Color4&, Double, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    Scale(Color4, Double): PrivateScope, Public, Static, HideBySig
+    Negate(Color4&, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    Negate(Color4): PrivateScope, Public, Static, HideBySig
+    Invert(Color4&, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    Invert(Color4): PrivateScope, Public, Static, HideBySig
+    Clamp(Color4&, Color4&, Color4&, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    Clamp(Color4, Color4, Color4): PrivateScope, Public, Static, HideBySig
+    Lerp(Color4&, Color4&, Double, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    Lerp(Color4, Color4, Double): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Color4&, Color4&, Double, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Color4, Color4, Double): PrivateScope, Public, Static, HideBySig
+    Max(Color4&, Color4&, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    Max(Color4, Color4): PrivateScope, Public, Static, HideBySig
+    Min(Color4&, Color4&, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    Min(Color4, Color4): PrivateScope, Public, Static, HideBySig
+    AdjustContrast(Color4&, Double, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    AdjustContrast(Color4, Double): PrivateScope, Public, Static, HideBySig
+    AdjustSaturation(Color4&, Double, Color4&(Out)): PrivateScope, Public, Static, HideBySig
+    AdjustSaturation(Color4, Double): PrivateScope, Public, Static, HideBySig
+    op_OnesComplement(Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(Color4, Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryPlus(Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Color4, Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryNegation(Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double, Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Color4, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Color4, Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(Color4, Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Color4, Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Color4): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Int32): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(IFormatProvider): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Struct GraphicResearchHuiZhao.BindBox: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Double x : Public
+    Double xSize : Public
+    Double y : Public
+    Double ySize : Public
+    Double z : Public
+    Double zSize : Public
+Class GraphicResearchHuiZhao.Cell`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    GraphicResearchHuiZhao.Cell`1[T] Parent : Public
+    GraphicResearchHuiZhao.Cell`1[T][] Childrens : Public
+    Double[] CornerValues : Public
+    Int32 IN : Public
+    GraphicResearchHuiZhao.BindBox Box : Public
+    GraphicResearchHuiZhao.Vector2D XRange : Public
+    GraphicResearchHuiZhao.Vector2D YRange : Public
+    GraphicResearchHuiZhao.Vector2D ZRange : Public
+    T Object : Public
+    Int32 Depth : Public
+  Methods:
+    FindCornerPosition(Int32): PrivateScope, Public, HideBySig
+    AddChild(): PrivateScope, Public, HideBySig
+    FindIndex(Vector3D): PrivateScope, Public, HideBySig
+    AddChild(Vector3D, Boolean&(Out)): PrivateScope, Public, HideBySig
+    AddChild(Vector3D): PrivateScope, Public, HideBySig
+    FindCellWithPosition(Double, Double, Double): PrivateScope, Public, HideBySig
+    Contain(Double, Double, Double): PrivateScope, Public, HideBySig
+    AddItemToChild(Vector3D, T): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.OctTree`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(GraphicResearchHuiZhao.Vector3D, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    GraphicResearchHuiZhao.Cell`1[T] Root : Public
+    GraphicResearchHuiZhao.BindBox Box : Public
+  Properties:
+    Int32 TreeDepth 'get ' : 
+    Int32 CellCount 'get ' : 
+  Methods:
+    get_TreeDepth(): PrivateScope, Public, HideBySig, SpecialName
+    get_CellCount(): PrivateScope, Public, HideBySig, SpecialName
+    BuildStaticOctree(Int32, List`1): PrivateScope, Public, HideBySig
+    BuildDynamicOctree(Int32, List`1): PrivateScope, Public, HideBySig
+    BuildDynamicOctree(List`1): PrivateScope, Public, HideBySig
+    FindCell(Vector3D): PrivateScope, Public, HideBySig
+    FindNeighbors(Cell`1): PrivateScope, Public, HideBySig
+Struct GraphicResearchHuiZhao.Pair: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Key : Public
+    Int32 Value : Public
+Interface System.Collections.Generic.PriorityQueueElement: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    System.IComparable
+  Properties:
+    Int32 PQIndex 'get set' : 
+  Methods:
+    get_PQIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_PQIndex(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class System.Collections.Generic.PriorityQueue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[System.Collections.Generic.PriorityQueueElement] data : Public
+  Methods:
+    IsEmpty(): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    Insert(PriorityQueueElement): PrivateScope, Public, HideBySig
+    DeleteMin(): PrivateScope, Public, HideBySig
+    GetMin(): PrivateScope, Public, HideBySig
+    Update(PriorityQueueElement): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.DynamicTree`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    GraphicResearchHuiZhao.TreeNode`1[T] Root : Public
+Class GraphicResearchHuiZhao.TreeNode`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(T): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    T Attribute : Public
+    GraphicResearchHuiZhao.TreeNode`1[T] Parent : Public
+    GraphicResearchHuiZhao.TreeNode`1[T] LeftMostChild : Public
+    GraphicResearchHuiZhao.TreeNode`1[T] RightSibling : Public
+    Int32 ChildCount : Public
+  Methods:
+    AddChild(TreeNode`1): PrivateScope, Public, HideBySig
+    TrivalChildrenCount(): PrivateScope, Public, HideBySig
+Struct GraphicResearchHuiZhao.AxisAlignedBox: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Properties:
+    GraphicResearchHuiZhao.Vector3D Max 'get set' : 
+    GraphicResearchHuiZhao.Vector3D Min 'get set' : 
+  Methods:
+    get_Max(): PrivateScope, Public, HideBySig, SpecialName
+    set_Max(Vector3D): PrivateScope, Public, HideBySig, SpecialName
+    get_Min(): PrivateScope, Public, HideBySig, SpecialName
+    set_Min(Vector3D): PrivateScope, Public, HideBySig, SpecialName
+Struct GraphicResearchHuiZhao.BoundingBox: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(GraphicResearchHuiZhao.Vector3D, GraphicResearchHuiZhao.Vector3D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double, Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[GraphicResearchHuiZhao.BoundingBox]
+    System.IFormattable
+  Fields:
+    GraphicResearchHuiZhao.Vector3D Minimum : Public
+    GraphicResearchHuiZhao.Vector3D Maximum : Public
+  Methods:
+    GetCorners(): PrivateScope, Public, HideBySig
+    Intersects(Ray&): PrivateScope, Public, HideBySig
+    Intersects(Ray&, Double&(Out)): PrivateScope, Public, HideBySig
+    Intersects(Ray&, Vector3D&(Out)): PrivateScope, Public, HideBySig
+    Intersects(Plane&): PrivateScope, Public, HideBySig
+    Intersects(Vector3D&, Vector3D&, Vector3D&): PrivateScope, Public, HideBySig
+    Intersects(BoundingBox&): PrivateScope, Public, HideBySig
+    Intersects(BoundingSphere&): PrivateScope, Public, HideBySig
+    Contains(Vector3D&): PrivateScope, Public, HideBySig
+    Contains(Vector3D&, Vector3D&, Vector3D&): PrivateScope, Public, HideBySig
+    Contains(BoundingBox&): PrivateScope, Public, HideBySig
+    Contains(BoundingSphere&): PrivateScope, Public, HideBySig
+    SupportMapping(Vector3D&, Vector3D&(Out)): PrivateScope, Public, HideBySig
+    SupportMapping(Vector3D): PrivateScope, Public, HideBySig
+    FromPoints(Vector3D[], BoundingBox&(Out)): PrivateScope, Public, Static, HideBySig
+    FromPoints(Vector3D[]): PrivateScope, Public, Static, HideBySig
+    FromSphere(BoundingSphere&, BoundingBox&(Out)): PrivateScope, Public, Static, HideBySig
+    FromSphere(BoundingSphere): PrivateScope, Public, Static, HideBySig
+    Merge(BoundingBox&, BoundingBox&, BoundingBox&(Out)): PrivateScope, Public, Static, HideBySig
+    Merge(BoundingBox, BoundingBox): PrivateScope, Public, Static, HideBySig
+    op_Equality(BoundingBox, BoundingBox): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(BoundingBox, BoundingBox): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(IFormatProvider): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(BoundingBox): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.BoundingFrustum: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(GraphicResearchHuiZhao.Matrix4D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetMatrix(Matrix4D&): PrivateScope, Public, HideBySig
+Struct GraphicResearchHuiZhao.BoundingSphere: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(GraphicResearchHuiZhao.Vector3D, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[GraphicResearchHuiZhao.BoundingSphere]
+    System.IFormattable
+  Fields:
+    GraphicResearchHuiZhao.Vector3D Center : Public
+    Double Radius : Public
+  Methods:
+    Intersects(Ray&): PrivateScope, Public, HideBySig
+    Intersects(Ray&, Double&(Out)): PrivateScope, Public, HideBySig
+    Intersects(Ray&, Vector3D&(Out)): PrivateScope, Public, HideBySig
+    Intersects(Plane&): PrivateScope, Public, HideBySig
+    Intersects(Vector3D&, Vector3D&, Vector3D&): PrivateScope, Public, HideBySig
+    Intersects(BoundingBox&): PrivateScope, Public, HideBySig
+    Intersects(BoundingSphere&): PrivateScope, Public, HideBySig
+    Contains(Vector3D&): PrivateScope, Public, HideBySig
+    Contains(Vector3D&, Vector3D&, Vector3D&): PrivateScope, Public, HideBySig
+    Contains(BoundingBox&): PrivateScope, Public, HideBySig
+    Contains(BoundingSphere&): PrivateScope, Public, HideBySig
+    Transform(Matrix4D&, BoundingSphere&(Out)): PrivateScope, Public, HideBySig
+    Transform(Matrix4D): PrivateScope, Public, HideBySig
+    SupportMapping(Vector3D&, Vector3D&(Out)): PrivateScope, Public, HideBySig
+    SupportMapping(Vector3D): PrivateScope, Public, HideBySig
+    FromPoints(Vector3D[], BoundingSphere&(Out)): PrivateScope, Public, Static, HideBySig
+    FromPoints(Vector3D[]): PrivateScope, Public, Static, HideBySig
+    FromBox(BoundingBox&, BoundingSphere&(Out)): PrivateScope, Public, Static, HideBySig
+    FromBox(BoundingBox): PrivateScope, Public, Static, HideBySig
+    Merge(BoundingSphere&, BoundingSphere&, BoundingSphere&(Out)): PrivateScope, Public, Static, HideBySig
+    Merge(BoundingSphere, BoundingSphere): PrivateScope, Public, Static, HideBySig
+    op_Equality(BoundingSphere, BoundingSphere): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(BoundingSphere, BoundingSphere): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(IFormatProvider): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(BoundingSphere): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.CRectangle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Double, Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double Width : Public
+    Double Height : Public
+  Methods:
+    Contains(Double, Double): PrivateScope, Public, HideBySig
+Struct GraphicResearchHuiZhao.Sphere: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Properties:
+    GraphicResearchHuiZhao.Vector3D Center 'get set' : 
+    Single Radius 'get set' : 
+  Methods:
+    get_Center(): PrivateScope, Public, HideBySig, SpecialName
+    set_Center(Vector3D): PrivateScope, Public, HideBySig, SpecialName
+    get_Radius(): PrivateScope, Public, HideBySig, SpecialName
+    set_Radius(Single): PrivateScope, Public, HideBySig, SpecialName
+Class GraphicResearchHuiZhao.HuiZhaoInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Title : Public
+    System.String CopyRight : Public
+  Properties:
+    GraphicResearchHuiZhao.HuiZhaoInfo Instance 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+Class GraphicResearchHuiZhao.ASVD: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    svdcmp(Double[,], Double[]&(Out), Double[,]&(Out)): PrivateScope, Public, Static, HideBySig
+Class GraphicResearchHuiZhao.CCSMatrix: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(GraphicResearchHuiZhao.SparseMatrix): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.SparseMatrix, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 RowSize 'get ' : 
+    Int32 ColumnSize 'get ' : 
+    Int32[] RowIndex 'get ' : 
+    Int32[] ColIndex 'get ' : 
+    Double[] Values 'get ' : 
+  Methods:
+    get_RowSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_RowIndex(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColIndex(): PrivateScope, Public, HideBySig, SpecialName
+    get_Values(): PrivateScope, Public, HideBySig, SpecialName
+    Multiply(Double[], Double[]): PrivateScope, Public, HideBySig
+    PreMultiply(Double[], Double[]): PrivateScope, Public, HideBySig
+    CG(Double[], Double[], Double[], Double, Int32): PrivateScope, Public, HideBySig
+    OutputText(String): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.Collision: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ClosestPointOnSegmentToPoint(Vector3D&, Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    ClosestPointOnPlaneToPoint(Plane&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    ClosestPointOnTriangleToPoint(Vector3D&, Vector3D&, Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    ClosestPointOnBoxToPoint(BoundingBox&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    ClosestPointOnSphereToPoint(BoundingSphere&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    ClosestPointOnSphereToSphere(BoundingSphere&, BoundingSphere&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    DistancePlanePoint(Plane&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    DistanceBoxPoint(BoundingBox&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    DistanceBoxBox(BoundingBox&, BoundingBox&): PrivateScope, Public, Static, HideBySig
+    DistanceSpherePoint(BoundingSphere&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    DistanceSphereSphere(BoundingSphere&, BoundingSphere&): PrivateScope, Public, Static, HideBySig
+    RayIntersectsPoint(Ray&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    RayIntersectsRay(Ray&, Ray&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    RayIntersectsPlane(Ray&, Plane&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    RayIntersectsPlane(Ray&, Plane&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    RayIntersectsTriangle(Ray&, Vector3D&, Vector3D&, Vector3D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    RayIntersectsTriangle(Ray&, Vector3D&, Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    RayIntersectsBox(Ray&, BoundingBox&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    RayIntersectsBox(Ray&, BoundingBox&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    RayIntersectsSphere(Ray&, BoundingSphere&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    RayIntersectsSphere(Ray&, BoundingSphere&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    RayIntersectsSphere(Ray&, BoundingSphere&, Vector3D&(Out), Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    RayIntersectsSphere(Ray&, BoundingSphere&, Vector3D&(Out), Vector3D&(Out), Vector3D&(Out), Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    PlaneIntersectsPoint(Plane&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    PlaneIntersectsPlane(Plane&, Plane&): PrivateScope, Public, Static, HideBySig
+    PlaneIntersectsPlane(Plane&, Plane&, Ray&(Out)): PrivateScope, Public, Static, HideBySig
+    PlaneIntersectsTriangle(Plane&, Vector3D&, Vector3D&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    PlaneIntersectsBox(Plane&, BoundingBox&): PrivateScope, Public, Static, HideBySig
+    PlaneIntersectsSphere(Plane&, BoundingSphere&): PrivateScope, Public, Static, HideBySig
+    BoxIntersectsTriangle(BoundingBox&, Vector3D&, Vector3D&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    BoxIntersectsBox(BoundingBox&, BoundingBox&): PrivateScope, Public, Static, HideBySig
+    BoxIntersectsSphere(BoundingBox&, BoundingSphere&): PrivateScope, Public, Static, HideBySig
+    SphereIntersectsTriangle(BoundingSphere&, Vector3D&, Vector3D&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    SphereIntersectsSphere(BoundingSphere&, BoundingSphere&): PrivateScope, Public, Static, HideBySig
+    BoxContainsPoint(BoundingBox&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    BoxContainsTriangle(BoundingBox&, Vector3D&, Vector3D&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    BoxContainsBox(BoundingBox&, BoundingBox&): PrivateScope, Public, Static, HideBySig
+    BoxContainsSphere(BoundingBox&, BoundingSphere&): PrivateScope, Public, Static, HideBySig
+    SphereContainsPoint(BoundingSphere&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    SphereContainsTriangle(BoundingSphere&, Vector3D&, Vector3D&, Vector3D&): PrivateScope, Public, Static, HideBySig
+    SphereContainsBox(BoundingSphere&, BoundingBox&): PrivateScope, Public, Static, HideBySig
+    SphereContainsSphere(BoundingSphere&, BoundingSphere&): PrivateScope, Public, Static, HideBySig
+    SupportPoint(Vector3D&, Vector3D&, Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    SupportPoint(BoundingBox&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    SupportPoint(BoundingSphere&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    SupportPoint(IEnumerable`1, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+Class GraphicResearchHuiZhao.BaseConverter: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+  Methods:
+    CanConvertFrom(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    GetCreateInstanceSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetPropertiesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetProperties(ITypeDescriptorContext, Object, Attribute[]): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.MatrixConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :GraphicResearchHuiZhao.BaseConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.QuaternionConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :GraphicResearchHuiZhao.BaseConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.Vector2Converter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :GraphicResearchHuiZhao.BaseConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.Vector3Converter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :GraphicResearchHuiZhao.BaseConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.Vector4Converter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :GraphicResearchHuiZhao.BaseConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertFrom(ITypeDescriptorContext, CultureInfo, Object): PrivateScope, Public, Virtual, HideBySig
+    CreateInstance(ITypeDescriptorContext, IDictionary): PrivateScope, Public, Virtual, HideBySig
+Struct GraphicResearchHuiZhao.ContainmentType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    GraphicResearchHuiZhao.ContainmentType Disjoint = 0 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.ContainmentType Contains = 1 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.ContainmentType Intersects = 2 : Public, Static, Literal, HasDefault
+Struct GraphicResearchHuiZhao.PlaneIntersectionType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    GraphicResearchHuiZhao.PlaneIntersectionType Back = 0 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.PlaneIntersectionType Front = 1 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.PlaneIntersectionType Intersecting = 2 : Public, Static, Literal, HasDefault
+Class GraphicResearchHuiZhao.Gjk: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    GraphicResearchHuiZhao.Vector3D Direction 'get set' : 
+  Methods:
+    get_Direction(): PrivateScope, Public, HideBySig, SpecialName
+    set_Direction(Vector3D): PrivateScope, Public, HideBySig, SpecialName
+    Reset(): PrivateScope, Public, HideBySig
+    Initialize(): PrivateScope, Public, HideBySig
+    Initialize(Vector3D): PrivateScope, Public, HideBySig
+    Initialize(Vector3D, Vector3D): PrivateScope, Public, HideBySig
+    Initialize(Vector3D, Vector3D, Vector3D): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.BasicMathHelper: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Single Pi = 3.141593 : Public, Static, Literal, HasDefault
+    Single TwoPi = 6.283185 : Public, Static, Literal, HasDefault
+    Single PiOverTwo = 1.570796 : Public, Static, Literal, HasDefault
+    Single PiOverFour = 0.7853982 : Public, Static, Literal, HasDefault
+  Methods:
+    DegreesToRadians(Single): PrivateScope, Public, Static, HideBySig
+    RadiansToDegrees(Single): PrivateScope, Public, Static, HideBySig
+Struct GraphicResearchHuiZhao.Complex: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double RealPart : Public
+    Double ImagePart : Public
+  Properties:
+    GraphicResearchHuiZhao.Complex Zero 'get ' : 
+    GraphicResearchHuiZhao.Complex Identity 'get ' : 
+  Methods:
+    get_Zero(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Identity(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    op_Addition(Complex, Complex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Complex, Complex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Complex, Complex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double, Complex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Complex, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(Complex, Complex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(Complex, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    Norm(): PrivateScope, Public, HideBySig
+    Norm2(): PrivateScope, Public, HideBySig
+    Inv(): PrivateScope, Public, HideBySig
+    Conj(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.DenseMatrixComplex: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 RowCount 'get ' : 
+    Int32 ColumnCount 'get ' : 
+    GraphicResearchHuiZhao.Complex Item [Int32, Int32] 'get set' : 
+  Methods:
+    get_RowCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnCount(): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Int32, Complex): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    Transpose(): PrivateScope, Public, HideBySig
+    Identity(Int32): PrivateScope, Public, Static, HideBySig
+    op_Multiply(Complex, DenseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(DenseMatrixComplex, Complex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(DenseMatrixComplex, DenseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Complex[], DenseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixComplex, DenseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(DenseMatrixComplex, Complex[]): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(DenseMatrixComplex, SparseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(DenseMatrixComplex, DenseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(DenseMatrixComplex, Complex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(DenseMatrixComplex, DenseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    AppendRow(): PrivateScope, Public, HideBySig
+    AppendRows(Int32): PrivateScope, Public, HideBySig
+    AppendColumn(): PrivateScope, Public, HideBySig
+    AppendColumns(Int32): PrivateScope, Public, HideBySig
+    Normalize(): PrivateScope, Public, HideBySig
+    Copy(DenseMatrixComplex&): PrivateScope, Public, Static, HideBySig
+    Fill(Complex): PrivateScope, Public, HideBySig
+    Dot(DenseMatrixComplex): PrivateScope, Public, HideBySig
+    Randomize(): PrivateScope, Public, HideBySig
+    IsSymmetric(): PrivateScope, Public, HideBySig
+    F_Norm(): PrivateScope, Public, HideBySig
+    L2Norm(): PrivateScope, Public, HideBySig
+    InifnityNorm(): PrivateScope, Public, HideBySig
+    ToArray(Int32&(Out), Int32&(Out), Double[]&(Out), Double[]&(Out)): PrivateScope, Public, HideBySig
+    ToArray(Int32&(Out), Int32&(Out), Double[]&(Out)): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.DenseMatrixDouble: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[,]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 RowCount 'get ' : 
+    Int32 ColumnCount 'get ' : 
+    Double Item [Int32, Int32] 'get set' : 
+  Methods:
+    get_RowCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnCount(): PrivateScope, Public, HideBySig, SpecialName
+    F_Norm(): PrivateScope, Public, HideBySig
+    set_Item(Int32, Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    IsSymmetric(): PrivateScope, Public, HideBySig
+    Transpose(): PrivateScope, Public, HideBySig
+    Identity(Int32): PrivateScope, Public, Static, HideBySig
+    op_Multiply(DenseMatrixDouble, SparseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixDouble, DenseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double, DenseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(DenseMatrixDouble, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(DenseMatrixDouble, DenseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double[], DenseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(DenseMatrixDouble, Double[]): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(DenseMatrixDouble, DenseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(DenseMatrixDouble, DenseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    AppendRow(): PrivateScope, Public, HideBySig
+    AppendRows(Int32): PrivateScope, Public, HideBySig
+    AppendColumn(): PrivateScope, Public, HideBySig
+    AppendColumns(Int32): PrivateScope, Public, HideBySig
+    Copy(DenseMatrixDouble&): PrivateScope, Public, Static, HideBySig
+    ToArray(Int32&(Out), Int32&(Out), Double[]&(Out)): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.DenseMatrixQuaternion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 RowCount 'get ' : 
+    Int32 ColumnCount 'get ' : 
+    GraphicResearchHuiZhao.Quaternion Item [Int32, Int32] 'get set' : 
+  Methods:
+    get_RowCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnCount(): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Int32, Quaternion): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    Transpose(): PrivateScope, Public, HideBySig
+    Identity(Int32): PrivateScope, Public, Static, HideBySig
+    op_Multiply(Quaternion, DenseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(DenseMatrixQuaternion, Quaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(DenseMatrixQuaternion, DenseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Quaternion[], DenseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixQuaternion, DenseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(DenseMatrixQuaternion, Quaternion[]): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(DenseMatrixQuaternion, SparseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(DenseMatrixQuaternion, DenseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(DenseMatrixQuaternion, Quaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(DenseMatrixQuaternion, DenseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    AppendRow(): PrivateScope, Public, HideBySig
+    AppendRows(Int32): PrivateScope, Public, HideBySig
+    AppendColumn(): PrivateScope, Public, HideBySig
+    AppendColumns(Int32): PrivateScope, Public, HideBySig
+    Normalize(): PrivateScope, Public, HideBySig
+    Copy(DenseMatrixQuaternion&): PrivateScope, Public, Static, HideBySig
+    Fill(Quaternion): PrivateScope, Public, HideBySig
+    Dot(DenseMatrixQuaternion): PrivateScope, Public, HideBySig
+    Randomize(): PrivateScope, Public, HideBySig
+    IsSymmetric(): PrivateScope, Public, HideBySig
+    F_Norm(): PrivateScope, Public, HideBySig
+    L2Norm(): PrivateScope, Public, HideBySig
+    InifnityNorm(): PrivateScope, Public, HideBySig
+    ToArray(Int32&(Out), Int32&(Out), Double[]&(Out)): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.Eigen: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    GraphicResearchHuiZhao.EigenPair[] SortedEigens : Public
+  Properties:
+    Int32 Count 'get ' : 
+    Int32 EigenVectorSize 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Public, HideBySig, SpecialName
+    GetEigenVector(Int32): PrivateScope, Public, HideBySig
+    GetEigenValue(Int32): PrivateScope, Public, HideBySig
+    get_EigenVectorSize(): PrivateScope, Public, HideBySig, SpecialName
+Class GraphicResearchHuiZhao.EigenPair: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Double, System.Collections.Generic.List`1[System.Double]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IComparable`1[GraphicResearchHuiZhao.EigenPair]
+  Fields:
+    System.Collections.Generic.List`1[System.Double] EigenVector : Public
+    Double EigenValue : Public
+  Methods:
+    CompareTo(EigenPair): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class GraphicResearchHuiZhao.MathUtil: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ClampWithRange(Double, Double, Double): PrivateScope, Public, Static, HideBySig
+Struct GraphicResearchHuiZhao.Matrix2D: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[,]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector2D, GraphicResearchHuiZhao.Vector2D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double Item [Int32, Int32] 'get set' : 
+    Double A   'get set' : 
+    Double B   'get set' : 
+    Double C   'get set' : 
+    Double D   'get set' : 
+  Methods:
+    Det(): PrivateScope, Public, HideBySig
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    op_Multiply(Matrix2D, Matrix2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Matrix2D, Vector2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    Inverse(): PrivateScope, Public, HideBySig
+    Transpose(): PrivateScope, Public, HideBySig
+    Trace(): PrivateScope, Public, HideBySig
+    get_A(): PrivateScope, Public, HideBySig, SpecialName
+    set_A(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_B(): PrivateScope, Public, HideBySig, SpecialName
+    set_B(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_C(): PrivateScope, Public, HideBySig, SpecialName
+    set_C(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_D(): PrivateScope, Public, HideBySig, SpecialName
+    set_D(Double): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.Matrix3D: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[,]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Matrix3D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector3D, GraphicResearchHuiZhao.Vector3D, GraphicResearchHuiZhao.Vector3D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean lastSVDIsFullRank : Public, Static
+  Properties:
+    Double Item [Int32] 'get set' : 
+    Double Item [Int32, Int32] 'get set' : 
+  Methods:
+    Clear(): PrivateScope, Public, HideBySig
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    ToArray(): PrivateScope, Public, HideBySig
+    Trace(): PrivateScope, Public, HideBySig
+    SqNorm(): PrivateScope, Public, HideBySig
+    Transpose(): PrivateScope, Public, HideBySig
+    Inverse(): PrivateScope, Public, HideBySig
+    InverseSVD(): PrivateScope, Public, HideBySig
+    Det(): PrivateScope, Public, HideBySig
+    SVDRotation(): PrivateScope, Public, HideBySig
+    SVDRotationMinus(): PrivateScope, Public, HideBySig
+    InverseTranspose(): PrivateScope, Public, HideBySig
+    OrthogonalFactor(Double): PrivateScope, Public, HideBySig
+    OrthogonalFactorIter(): PrivateScope, Public, HideBySig
+    IdentityMatrix(): PrivateScope, Public, Static, HideBySig
+    op_Multiply(Matrix3D, Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Matrix3D, Matrix3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(Matrix3D, Matrix3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Matrix3D, Matrix3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Matrix3D, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(Matrix3D, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    Rotate(Double): PrivateScope, Public, Static, HideBySig
+Struct GraphicResearchHuiZhao.Matrix4D: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[GraphicResearchHuiZhao.Matrix4D]
+    System.IFormattable
+  Fields:
+    Double M11 : Public
+    Double M12 : Public
+    Double M13 : Public
+    Double M14 : Public
+    Double M21 : Public
+    Double M22 : Public
+    Double M23 : Public
+    Double M24 : Public
+    Double M31 : Public
+    Double M32 : Public
+    Double M33 : Public
+    Double M34 : Public
+    Double M41 : Public
+    Double M42 : Public
+    Double M43 : Public
+    Double M44 : Public
+    Int32 SizeInBytes : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Matrix4D ZeroMatrix : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Matrix4D IdentityMatrix : Public, Static, InitOnly
+  Properties:
+    GraphicResearchHuiZhao.Vector4D Row1 'get set' : 
+    GraphicResearchHuiZhao.Vector4D Row2 'get set' : 
+    GraphicResearchHuiZhao.Vector4D Row3 'get set' : 
+    GraphicResearchHuiZhao.Vector4D Row4 'get set' : 
+    GraphicResearchHuiZhao.Vector4D Column1 'get set' : 
+    GraphicResearchHuiZhao.Vector4D Column2 'get set' : 
+    GraphicResearchHuiZhao.Vector4D Column3 'get set' : 
+    GraphicResearchHuiZhao.Vector4D Column4 'get set' : 
+    GraphicResearchHuiZhao.Vector3D TranslationVector 'get set' : 
+    GraphicResearchHuiZhao.Vector3D ScaleVector 'get set' : 
+    Boolean IsIdentity 'get ' : 
+    Double Determinant 'get ' : 
+    Double Item [Int32] 'get set' : 
+    Double Item [Int32, Int32] 'get set' : 
+  Methods:
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    SetFrustum(Double, Double, Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    SetFrustum(Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    SetOrthoFrustum(Double, Double, Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    SetCamera(Single, Single, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig
+    OrthoLH(Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    OrthoRH(Double, Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    OrthoRH(Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    OrthoOffCenterLH(Double, Double, Double, Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    OrthoOffCenterLH(Double, Double, Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    OrthoOffCenterRH(Double, Double, Double, Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    OrthoOffCenterRH(Double, Double, Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    PerspectiveLH(Double, Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    PerspectiveLH(Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    PerspectiveRH(Double, Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    PerspectiveRH(Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    PerspectiveFovLH(Double, Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    PerspectiveFovLH(Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    PerspectiveFovRH(Double, Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    PerspectiveFovRH(Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    PerspectiveOffCenterLH(Double, Double, Double, Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    PerspectiveOffCenterLH(Double, Double, Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    PerspectiveOffCenterRH(Double, Double, Double, Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    PerspectiveOffCenterRH(Double, Double, Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    Reflection(Plane&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Reflection(Plane): PrivateScope, Public, Static, HideBySig
+    Shadow(Vector4D&, Plane&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Shadow(Vector4D, Plane): PrivateScope, Public, Static, HideBySig
+    Scaling(Vector3D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Scaling(Vector3D): PrivateScope, Public, Static, HideBySig
+    Scaling(Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Scaling(Double): PrivateScope, Public, Static, HideBySig
+    Scaling(Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Scaling(Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    Shearing(Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    Shearing(Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Mirror(Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    Mirror(Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    RotationX(Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    RotationX(Double): PrivateScope, Public, Static, HideBySig
+    RotationY(Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    RotationY(Double): PrivateScope, Public, Static, HideBySig
+    RotationZ(Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    RotationZ(Double): PrivateScope, Public, Static, HideBySig
+    Rotation(Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    RotationAxis(Vector3D&, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    RotationAxis(Vector3D, Double): PrivateScope, Public, Static, HideBySig
+    RotationQuaternion(Quaternion&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    RotationQuaternion(Quaternion): PrivateScope, Public, Static, HideBySig
+    RotationYawPitchRoll(Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    RotationYawPitchRoll(Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    Translation(Vector3D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Translation(Vector3D): PrivateScope, Public, Static, HideBySig
+    Translation(Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Translation(Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    AffineTransformation(Double, Quaternion&, Vector3D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    AffineTransformation(Double, Quaternion, Vector3D): PrivateScope, Public, Static, HideBySig
+    AffineTransformation(Double, Vector3D&, Quaternion&, Vector3D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    AffineTransformation(Double, Vector3D, Quaternion, Vector3D): PrivateScope, Public, Static, HideBySig
+    AffineTransformation2D(Double, Double, Vector2D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    AffineTransformation2D(Double, Double, Vector2D): PrivateScope, Public, Static, HideBySig
+    AffineTransformation2D(Double, Vector2D&, Double, Vector2D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    AffineTransformation2D(Double, Vector2D, Double, Vector2D): PrivateScope, Public, Static, HideBySig
+    Transformation(Vector3D&, Quaternion&, Vector3D&, Vector3D&, Quaternion&, Vector3D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Transformation(Vector3D, Quaternion, Vector3D, Vector3D, Quaternion, Vector3D): PrivateScope, Public, Static, HideBySig
+    Transformation2D(Vector2D&, Double, Vector2D&, Vector2D&, Double, Vector2D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Transformation2D(Vector2D, Double, Vector2D, Vector2D, Double, Vector2D): PrivateScope, Public, Static, HideBySig
+    op_Addition(Matrix4D, Matrix4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryPlus(Matrix4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Matrix4D, Matrix4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryNegation(Matrix4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double, Matrix4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Matrix4D, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Matrix4D, Matrix4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Matrix4D, Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(Matrix4D, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    Trace(): PrivateScope, Public, HideBySig
+    op_Division(Matrix4D, Matrix4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(Matrix4D, Matrix4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Matrix4D, Matrix4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(IFormatProvider): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Matrix4D): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Matrix4D, Double): PrivateScope, Public, HideBySig
+    Identity(): PrivateScope, Public, Static, HideBySig
+    get_Row1(): PrivateScope, Public, HideBySig, SpecialName
+    set_Row1(Vector4D): PrivateScope, Public, HideBySig, SpecialName
+    get_Row2(): PrivateScope, Public, HideBySig, SpecialName
+    set_Row2(Vector4D): PrivateScope, Public, HideBySig, SpecialName
+    get_Row3(): PrivateScope, Public, HideBySig, SpecialName
+    set_Row3(Vector4D): PrivateScope, Public, HideBySig, SpecialName
+    get_Row4(): PrivateScope, Public, HideBySig, SpecialName
+    set_Row4(Vector4D): PrivateScope, Public, HideBySig, SpecialName
+    get_Column1(): PrivateScope, Public, HideBySig, SpecialName
+    set_Column1(Vector4D): PrivateScope, Public, HideBySig, SpecialName
+    get_Column2(): PrivateScope, Public, HideBySig, SpecialName
+    set_Column2(Vector4D): PrivateScope, Public, HideBySig, SpecialName
+    get_Column3(): PrivateScope, Public, HideBySig, SpecialName
+    set_Column3(Vector4D): PrivateScope, Public, HideBySig, SpecialName
+    get_Column4(): PrivateScope, Public, HideBySig, SpecialName
+    set_Column4(Vector4D): PrivateScope, Public, HideBySig, SpecialName
+    get_TranslationVector(): PrivateScope, Public, HideBySig, SpecialName
+    set_TranslationVector(Vector3D): PrivateScope, Public, HideBySig, SpecialName
+    get_ScaleVector(): PrivateScope, Public, HideBySig, SpecialName
+    set_ScaleVector(Vector3D): PrivateScope, Public, HideBySig, SpecialName
+    get_IsIdentity(): PrivateScope, Public, HideBySig, SpecialName
+    get_Determinant(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    Negate(): PrivateScope, Public, HideBySig
+    Inverse(): PrivateScope, Public, HideBySig
+    Transpose(): PrivateScope, Public, HideBySig
+    Exponent(Int32): PrivateScope, Public, HideBySig
+    Orthogonalize(): PrivateScope, Public, HideBySig
+    Orthonormalize(): PrivateScope, Public, HideBySig
+    DecomposeQR(Matrix4D&(Out), Matrix4D&(Out)): PrivateScope, Public, HideBySig
+    DecomposeLQ(Matrix4D&(Out), Matrix4D&(Out)): PrivateScope, Public, HideBySig
+    Decompose(Vector3D&(Out), Quaternion&(Out), Vector3D&(Out)): PrivateScope, Public, HideBySig
+    ExchangeRows(Int32, Int32): PrivateScope, Public, HideBySig
+    ExchangeColumns(Int32, Int32): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    Add(Matrix4D&, Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Add(Matrix4D, Matrix4D): PrivateScope, Public, Static, HideBySig
+    Subtract(Matrix4D&, Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Subtract(Matrix4D, Matrix4D): PrivateScope, Public, Static, HideBySig
+    Multiply(Matrix4D&, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Multiply(Matrix4D, Double): PrivateScope, Public, Static, HideBySig
+    Multiply(Matrix4D&, Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Multiply(Matrix4D, Matrix4D): PrivateScope, Public, Static, HideBySig
+    Divide(Matrix4D&, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Divide(Matrix4D, Double): PrivateScope, Public, Static, HideBySig
+    Divide(Matrix4D&, Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Divide(Matrix4D, Matrix4D): PrivateScope, Public, Static, HideBySig
+    Exponent(Matrix4D&, Int32, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Exponent(Matrix4D, Int32): PrivateScope, Public, Static, HideBySig
+    Negate(Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    SubDeterminate(Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    Negate(Matrix4D): PrivateScope, Public, Static, HideBySig
+    Lerp(Matrix4D&, Matrix4D&, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Lerp(Matrix4D, Matrix4D, Double): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Matrix4D&, Matrix4D&, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Matrix4D, Matrix4D, Double): PrivateScope, Public, Static, HideBySig
+    Transpose(Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Transpose(Matrix4D): PrivateScope, Public, Static, HideBySig
+    Inverse(Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Inverse(Matrix4D): PrivateScope, Public, Static, HideBySig
+    Orthogonalize(Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Orthogonalize(Matrix4D): PrivateScope, Public, Static, HideBySig
+    Orthonormalize(Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Orthonormalize(Matrix4D): PrivateScope, Public, Static, HideBySig
+    UpperTriangularForm(Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    UpperTriangularForm(Matrix4D): PrivateScope, Public, Static, HideBySig
+    LowerTriangularForm(Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    LowerTriangularForm(Matrix4D): PrivateScope, Public, Static, HideBySig
+    RowEchelonForm(Matrix4D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    RowEchelonForm(Matrix4D): PrivateScope, Public, Static, HideBySig
+    ReducedRowEchelonForm(Matrix4D&, Vector4D&, Matrix4D&(Out), Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Billboard(Vector3D&, Vector3D&, Vector3D&, Vector3D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Billboard(Vector3D, Vector3D, Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    LookAtLH(Vector3D&, Vector3D&, Vector3D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    LookAtLH(Vector3D, Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    LookAtRH(Vector3D&, Vector3D&, Vector3D&, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+    LookAtRH(Vector3D, Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    OrthoLH(Double, Double, Double, Double, Matrix4D&(Out)): PrivateScope, Public, Static, HideBySig
+Struct GraphicResearchHuiZhao.Plane: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector3D, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector3D, GraphicResearchHuiZhao.Vector3D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector3D, GraphicResearchHuiZhao.Vector3D, GraphicResearchHuiZhao.Vector3D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[GraphicResearchHuiZhao.Plane]
+    System.IFormattable
+  Fields:
+    GraphicResearchHuiZhao.Vector3D Normal : Public
+    Double D : Public
+  Properties:
+    Double Item [Int32] 'get set' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    Normalize(): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    Intersects(Vector3D&): PrivateScope, Public, HideBySig
+    Intersects(Ray&): PrivateScope, Public, HideBySig
+    Intersects(Ray&, Double&(Out)): PrivateScope, Public, HideBySig
+    Intersects(Ray&, Vector3D&(Out)): PrivateScope, Public, HideBySig
+    Intersects(Plane&): PrivateScope, Public, HideBySig
+    Intersects(Plane&, Ray&(Out)): PrivateScope, Public, HideBySig
+    Intersects(Vector3D&, Vector3D&, Vector3D&): PrivateScope, Public, HideBySig
+    Intersects(BoundingBox&): PrivateScope, Public, HideBySig
+    Intersects(BoundingSphere&): PrivateScope, Public, HideBySig
+    Multiply(Plane&, Double, Plane&(Out)): PrivateScope, Public, Static, HideBySig
+    Multiply(Plane, Double): PrivateScope, Public, Static, HideBySig
+    Scale(Plane&, Double, Plane&(Out)): PrivateScope, Public, Static, HideBySig
+    Scale(Plane, Double): PrivateScope, Public, Static, HideBySig
+    Dot(Plane&, Vector4D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    Dot(Plane, Vector4D): PrivateScope, Public, Static, HideBySig
+    DotCoordinate(Plane&, Vector3D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    DotCoordinate(Plane, Vector3D): PrivateScope, Public, Static, HideBySig
+    DotNormal(Plane&, Vector3D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    DotNormal(Plane, Vector3D): PrivateScope, Public, Static, HideBySig
+    Normalize(Plane&, Plane&(Out)): PrivateScope, Public, Static, HideBySig
+    Normalize(Plane): PrivateScope, Public, Static, HideBySig
+    Transform(Plane&, Quaternion&, Plane&(Out)): PrivateScope, Public, Static, HideBySig
+    Transform(Plane, Quaternion): PrivateScope, Public, Static, HideBySig
+    Transform(Plane[], Quaternion&): PrivateScope, Public, Static, HideBySig
+    Transform(Plane&, Matrix4D&, Plane&(Out)): PrivateScope, Public, Static, HideBySig
+    Transform(Plane, Matrix4D): PrivateScope, Public, Static, HideBySig
+    Transform(Plane[], Matrix4D&): PrivateScope, Public, Static, HideBySig
+    op_Multiply(Double, Plane): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Plane, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(Plane, Plane): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Plane, Plane): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(IFormatProvider): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Plane): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+Struct GraphicResearchHuiZhao.Quaternion: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector4D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector3D, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector2D, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[GraphicResearchHuiZhao.Quaternion]
+    System.IFormattable
+  Fields:
+    Double x : Public
+    Double y : Public
+    Double z : Public
+    Double w : Public
+    Int32 SizeInBytes : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Quaternion Zero : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Quaternion One : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Quaternion Identity : Public, Static, InitOnly
+  Properties:
+    Boolean IsIdentity 'get ' : 
+    Boolean IsNormalized 'get ' : 
+    Double Angle 'get ' : 
+    GraphicResearchHuiZhao.Vector3D Axis 'get ' : 
+    Double Length 'get ' : 
+    Double LengthSquared 'get ' : 
+    Double Item [Int32] 'get set' : 
+    GraphicResearchHuiZhao.Vector3D ImagePart 'get ' : 
+  Methods:
+    Equals(Quaternion, Double): PrivateScope, Public, HideBySig
+    ToMatrix(): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    get_IsIdentity(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsNormalized(): PrivateScope, Public, HideBySig, SpecialName
+    get_Angle(): PrivateScope, Public, HideBySig, SpecialName
+    get_Axis(): PrivateScope, Public, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    get_LengthSquared(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    Conjugate(): PrivateScope, Public, HideBySig
+    get_ImagePart(): PrivateScope, Public, HideBySig, SpecialName
+    Negate(): PrivateScope, Public, HideBySig
+    Invert(): PrivateScope, Public, HideBySig
+    Normalize(): PrivateScope, Public, HideBySig
+    Exponential(): PrivateScope, Public, HideBySig
+    Logarithm(): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    Add(Quaternion&, Quaternion&, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Add(Quaternion, Quaternion): PrivateScope, Public, Static, HideBySig
+    Subtract(Quaternion&, Quaternion&, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Subtract(Quaternion, Quaternion): PrivateScope, Public, Static, HideBySig
+    Multiply(Quaternion&, Double, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Multiply(Quaternion, Double): PrivateScope, Public, Static, HideBySig
+    Multiply(Quaternion&, Quaternion&, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Multiply(Quaternion, Quaternion): PrivateScope, Public, Static, HideBySig
+    Divide(Quaternion&, Double, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Divide(Quaternion, Double): PrivateScope, Public, Static, HideBySig
+    Negate(Quaternion&, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Negate(Quaternion): PrivateScope, Public, Static, HideBySig
+    Barycentric(Quaternion&, Quaternion&, Quaternion&, Double, Double, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Barycentric(Quaternion, Quaternion, Quaternion, Double, Double): PrivateScope, Public, Static, HideBySig
+    Conjugate(Quaternion&, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Conjugate(Quaternion): PrivateScope, Public, Static, HideBySig
+    Dot(Quaternion&, Quaternion&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    Dot(Quaternion, Quaternion): PrivateScope, Public, Static, HideBySig
+    Exponential(Quaternion&, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Exponential(Quaternion): PrivateScope, Public, Static, HideBySig
+    Invert(Quaternion&, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Invert(Quaternion): PrivateScope, Public, Static, HideBySig
+    Lerp(Quaternion&, Quaternion&, Double, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Lerp(Quaternion, Quaternion, Double): PrivateScope, Public, Static, HideBySig
+    Logarithm(Quaternion&, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Logarithm(Quaternion): PrivateScope, Public, Static, HideBySig
+    Normalize(Quaternion&, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Normalize(Quaternion): PrivateScope, Public, Static, HideBySig
+    RotationAxis(Vector3D&, Double, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    RotationAxis(Vector3D, Double): PrivateScope, Public, Static, HideBySig
+    RotationMatrix(Matrix4D&, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    RotationMatrix(Matrix4D): PrivateScope, Public, Static, HideBySig
+    RotationYawPitchRoll(Double, Double, Double, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    RotationYawPitchRollRight(Vector3D): PrivateScope, Public, Static, HideBySig
+    RotationYawPitchRoll(Vector3D): PrivateScope, Public, Static, HideBySig
+    RotationYawPitchRollRight(Double, Double, Double, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    RotationYawPitchRoll(Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    Slerp(Quaternion&, Quaternion&, Double, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Slerp(Quaternion, Quaternion, Double): PrivateScope, Public, Static, HideBySig
+    Squad(Quaternion&, Quaternion&, Quaternion&, Quaternion&, Double, Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    Squad(Quaternion, Quaternion, Quaternion, Quaternion, Double): PrivateScope, Public, Static, HideBySig
+    SquadSetup(Quaternion&, Quaternion&, Quaternion&, Quaternion&, Quaternion&(Out), Quaternion&(Out), Quaternion&(Out)): PrivateScope, Public, Static, HideBySig
+    SquadSetup(Quaternion, Quaternion, Quaternion, Quaternion): PrivateScope, Public, Static, HideBySig
+    op_Addition(Quaternion, Quaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Quaternion, Quaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Quaternion, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(Quaternion, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryNegation(Quaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double, Quaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Quaternion, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Quaternion, Quaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(Quaternion, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(Quaternion, Quaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Quaternion, Quaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(IFormatProvider): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Quaternion): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Struct GraphicResearchHuiZhao.Ray: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(GraphicResearchHuiZhao.Vector3D, GraphicResearchHuiZhao.Vector3D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[GraphicResearchHuiZhao.Ray]
+    System.IFormattable
+  Fields:
+    GraphicResearchHuiZhao.Vector3D Position : Public
+    GraphicResearchHuiZhao.Vector3D Direction : Public
+  Methods:
+    Intersects(Vector3D&): PrivateScope, Public, HideBySig
+    Intersects(Ray&): PrivateScope, Public, HideBySig
+    Intersects(Ray&, Vector3D&(Out)): PrivateScope, Public, HideBySig
+    Intersects(Plane&): PrivateScope, Public, HideBySig
+    Intersects(Plane&, Double&(Out)): PrivateScope, Public, HideBySig
+    Intersects(Plane&, Vector3D&(Out)): PrivateScope, Public, HideBySig
+    Intersects(Vector3D&, Vector3D&, Vector3D&): PrivateScope, Public, HideBySig
+    Intersects(Vector3D&, Vector3D&, Vector3D&, Double&(Out)): PrivateScope, Public, HideBySig
+    Intersects(Vector3D&, Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, HideBySig
+    Intersects(BoundingBox&): PrivateScope, Public, HideBySig
+    Intersects(BoundingBox&, Double&(Out)): PrivateScope, Public, HideBySig
+    Intersects(BoundingBox&, Vector3D&(Out)): PrivateScope, Public, HideBySig
+    Intersects(BoundingSphere&): PrivateScope, Public, HideBySig
+    Intersects(BoundingSphere&, Double&(Out)): PrivateScope, Public, HideBySig
+    Intersects(BoundingSphere&, Vector3D&(Out)): PrivateScope, Public, HideBySig
+    op_Equality(Ray, Ray): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Ray, Ray): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(IFormatProvider): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Ray): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.RowBasedMatrix: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.SparseMatrix): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.List`1[GraphicResearchHuiZhao.RowBasedMatrix+Element][] Rows 'get ' : 
+    Int32 RowSize 'get ' : 
+  Methods:
+    get_Rows(): PrivateScope, Public, HideBySig, SpecialName
+    get_RowSize(): PrivateScope, Public, HideBySig, SpecialName
+    AddElement(Int32, Int32, Double): PrivateScope, Public, HideBySig
+    FindElement(Int32, Int32): PrivateScope, Public, HideBySig
+    BinarySearchElement(Int32, Int32): PrivateScope, Public, HideBySig
+    Sort(): PrivateScope, Public, HideBySig
+    Multiply(Double[], Double[]): PrivateScope, Public, HideBySig
+    PreMultiply(Double[], Double[]): PrivateScope, Public, HideBySig
+    IncompleteCholesky(): PrivateScope, Public, HideBySig
+    IncompleteCholesky(Double): PrivateScope, Public, HideBySig
+    Cholesky_Solve(Double[], Double[]): PrivateScope, Public, HideBySig
+    CG_Solve(Double[], Double[], Int32, Double, Int32): PrivateScope, Public, HideBySig
+    CG_Solve(Double[], Double[], Int32, Double, Int32, Double[]): PrivateScope, Public, HideBySig
+    CG_SolveATA(Double[], Double[], Int32, Double, Int32, Double[]): PrivateScope, Public, HideBySig
+    CG_SolveATA(Double[], Double[], Int32, Double, Int32, RowBasedMatrix): PrivateScope, Public, HideBySig
+    OutputText(String): PrivateScope, Public, HideBySig
+Struct GraphicResearchHuiZhao.RowBasedMatrix+Element: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IComparable`1[GraphicResearchHuiZhao.RowBasedMatrix+Element]
+  Fields:
+    Int32 colIndex : Public
+    Double value : Public
+  Methods:
+    CompareTo(Element): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class GraphicResearchHuiZhao.SparseMatrix: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.SparseMatrix): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 RowSize 'get ' : 
+    Int32 WholeSize 'get ' : 
+    Int32 ZeroSize 'get ' : 
+    Int32 ColumnSize 'get ' : 
+    System.Collections.Generic.List`1[System.Collections.Generic.List`1[GraphicResearchHuiZhao.SparseMatrix+Element]] Rows 'get ' : 
+    System.Collections.Generic.List`1[System.Collections.Generic.List`1[GraphicResearchHuiZhao.SparseMatrix+Element]] Columns 'get ' : 
+    Double Item [Int32, Int32] 'get set' : 
+  Methods:
+    get_RowSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_WholeSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_ZeroSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnSize(): PrivateScope, Public, HideBySig, SpecialName
+    NumOfElements(): PrivateScope, Public, HideBySig
+    get_Rows(): PrivateScope, Public, HideBySig, SpecialName
+    get_Columns(): PrivateScope, Public, HideBySig, SpecialName
+    GetRow(Int32): PrivateScope, Public, HideBySig
+    GetColumn(Int32): PrivateScope, Public, HideBySig
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    Identity(Int32): PrivateScope, Public, Static, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    CheckElements(): PrivateScope, Public, HideBySig
+    IsSymmetric(): PrivateScope, Public, HideBySig
+    AddElement(Int32, Int32, Double): PrivateScope, Public, HideBySig
+    AddElement(Element): PrivateScope, Public, HideBySig
+    FindElement(Int32, Int32): PrivateScope, Public, HideBySig
+    AddElementIfNotExist(Int32, Int32, Double): PrivateScope, Public, HideBySig
+    AddValueTo(Int32, Int32, Double): PrivateScope, Public, HideBySig
+    SortElement(): PrivateScope, Public, HideBySig
+    AddRow(): PrivateScope, Public, HideBySig
+    AddColumn(): PrivateScope, Public, HideBySig
+    Multiply(Double[]): PrivateScope, Public, HideBySig
+    Multiply(Double[], Double[]): PrivateScope, Public, HideBySig
+    Multiply(Double[], Int32, Double[], Int32): PrivateScope, Public, HideBySig
+    PreMultiply(Double[], Double[]): PrivateScope, Public, HideBySig
+    Scale(Double): PrivateScope, Public, HideBySig
+    Multiply(SparseMatrix): PrivateScope, Public, HideBySig
+    Add(SparseMatrix): PrivateScope, Public, HideBySig
+    Transpose(): PrivateScope, Public, HideBySig
+    GetDiagonalPreconditionor(): PrivateScope, Public, HideBySig
+    ConcatRows(SparseMatrix): PrivateScope, Public, HideBySig
+    GetRowIndex(): PrivateScope, Public, HideBySig
+    GetColumnIndex(): PrivateScope, Public, HideBySig
+    ConjugateGradientsMethod(SparseMatrix, Double[], Double[], Int32, Double): PrivateScope, Public, Static, HideBySig
+    ConjugateGradientsMethod2(SparseMatrix, Double[], Double[], Int32, Double): PrivateScope, Public, Static, HideBySig
+    ConjugateGradientsMethod3(SparseMatrix, Double[], Double[], Boolean[], Int32, Double): PrivateScope, Public, Static, HideBySig
+    JacobiMethod(SparseMatrix, Double[], Double[], Int32, Double): PrivateScope, Public, Static, HideBySig
+    Minus(SparseMatrix): PrivateScope, Public, HideBySig
+    AddT(SparseMatrix): PrivateScope, Public, HideBySig
+    Multiply(Double): PrivateScope, Public, HideBySig
+    ClearRow(Int32): PrivateScope, Public, HideBySig
+    Mult(SparseMatrix, SparseMatrix): PrivateScope, Public, Static, HideBySig
+Class GraphicResearchHuiZhao.SparseMatrix+Element: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(Int32, Int32, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 i : Public
+    Int32 j : Public
+    Double value : Public
+Class GraphicResearchHuiZhao.SparseMatrixComplex: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.SparseMatrixComplex): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.Dictionary`2[GraphicResearchHuiZhao.Pair,GraphicResearchHuiZhao.Complex] Datas 'get ' : 
+    Int32 RowCount 'get ' : 
+    Int32 ColumnCount 'get ' : 
+    Int32 NNZ  'get ' : 
+    GraphicResearchHuiZhao.Complex Item [Int32, Int32] 'get set' : 
+  Methods:
+    get_Datas(): PrivateScope, Public, HideBySig, SpecialName
+    get_RowCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_NNZ(): PrivateScope, Public, HideBySig, SpecialName
+    op_Multiply(Double, SparseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Complex, SparseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixComplex, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixComplex, Complex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixComplex, SparseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double[], SparseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixComplex, Complex[]): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(SparseMatrixComplex, SparseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(SparseMatrixComplex, SparseMatrixComplex): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Item(Int32, Int32, Complex): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    Length(): PrivateScope, Public, HideBySig
+    IsSymmetric(): PrivateScope, Public, HideBySig
+    Transpose(): PrivateScope, Public, HideBySig
+    AppendRow(): PrivateScope, Public, HideBySig
+    AppendRows(Int32): PrivateScope, Public, HideBySig
+    AppendColumn(): PrivateScope, Public, HideBySig
+    AppendColumns(Int32): PrivateScope, Public, HideBySig
+    SubMatrix(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    ExchangeRow(Int32, Int32): PrivateScope, Public, HideBySig
+    Inverse(): PrivateScope, Public, HideBySig
+    Identity(Int32): PrivateScope, Public, Static, HideBySig
+    Copy(SparseMatrixDouble&): PrivateScope, Public, Static, HideBySig
+    Copy(SparseMatrixComplex&): PrivateScope, Public, Static, HideBySig
+    PrintMatrix(): PrivateScope, Public, HideBySig
+    CompareKey(KeyValuePair`2, KeyValuePair`2): PrivateScope, Public, Static, HideBySig
+    WriteToFile(String): PrivateScope, Public, HideBySig
+    ToCRS(Int32[]&(Out), Int32[]&(Out), Double[]&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
+    ToCCS(Int32[]&(Out), Int32[]&(Out), Double[]&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
+    ToTriplet(Int32[]&(Out), Int32[]&(Out), Double[]&(Out), Double[]&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.SparseMatrixDouble: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[,]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.SparseMatrixDouble): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.SparseMatrix): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.Dictionary`2[GraphicResearchHuiZhao.Pair,System.Double] Datas 'get ' : 
+    Int32 RowCount 'get ' : 
+    Int32 ColumnCount 'get ' : 
+    Int32 NNZ  'get ' : 
+    Double Item [Int32, Int32] 'get set' : 
+  Methods:
+    get_Datas(): PrivateScope, Public, HideBySig, SpecialName
+    get_RowCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_NNZ(): PrivateScope, Public, HideBySig, SpecialName
+    Convert(): PrivateScope, Public, HideBySig
+    op_Multiply(Double, SparseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixDouble, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixDouble, SparseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double[], SparseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixDouble, Double[]): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(SparseMatrixDouble, SparseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(SparseMatrixDouble, SparseMatrixDouble): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Item(Int32, Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    Length(): PrivateScope, Public, HideBySig
+    IsSymmetric(): PrivateScope, Public, HideBySig
+    Transpose(): PrivateScope, Public, HideBySig
+    AppendRow(): PrivateScope, Public, HideBySig
+    AppendRows(Int32): PrivateScope, Public, HideBySig
+    AppendColumn(): PrivateScope, Public, HideBySig
+    AppendColumns(Int32): PrivateScope, Public, HideBySig
+    SubMatrix(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    ExchangeRow(Int32, Int32): PrivateScope, Public, HideBySig
+    Inverse(): PrivateScope, Public, HideBySig
+    Identity(Int32): PrivateScope, Public, Static, HideBySig
+    Copy(SparseMatrixDouble&): PrivateScope, Public, Static, HideBySig
+    PrintMatrix(): PrivateScope, Public, HideBySig
+    CompareKey(KeyValuePair`2, KeyValuePair`2): PrivateScope, Public, Static, HideBySig
+    WriteToFile(String): PrivateScope, Public, HideBySig
+    ReadFromFile(String): PrivateScope, Public, Static, HideBySig
+    ToCRS(Int32[]&(Out), Int32[]&(Out), Double[]&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
+    ToCCS(Int32[]&(Out), Int32[]&(Out), Double[]&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
+    ToTriplet(Int32[]&(Out), Int32[]&(Out), Double[]&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.SparseMatrixQuaternion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.SparseMatrixQuaternion): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.Dictionary`2[GraphicResearchHuiZhao.Pair,GraphicResearchHuiZhao.Quaternion] Datas 'get ' : 
+    Int32 RowCount 'get ' : 
+    Int32 ColumnCount 'get ' : 
+    Int32 NNZ  'get ' : 
+    GraphicResearchHuiZhao.Quaternion Item [Int32, Int32] 'get set' : 
+  Methods:
+    get_Datas(): PrivateScope, Public, HideBySig, SpecialName
+    get_RowCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_NNZ(): PrivateScope, Public, HideBySig, SpecialName
+    op_Multiply(Double, SparseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixQuaternion, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixQuaternion, SparseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double[], SparseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(SparseMatrixQuaternion, Quaternion[]): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(SparseMatrixQuaternion, SparseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(SparseMatrixQuaternion, SparseMatrixQuaternion): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Item(Int32, Int32, Quaternion): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    Length(): PrivateScope, Public, HideBySig
+    IsSymmetric(): PrivateScope, Public, HideBySig
+    Transpose(): PrivateScope, Public, HideBySig
+    AppendRow(): PrivateScope, Public, HideBySig
+    AppendRows(Int32): PrivateScope, Public, HideBySig
+    AppendColumn(): PrivateScope, Public, HideBySig
+    AppendColumns(Int32): PrivateScope, Public, HideBySig
+    SubMatrix(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    ExchangeRow(Int32, Int32): PrivateScope, Public, HideBySig
+    Inverse(): PrivateScope, Public, HideBySig
+    Identity(Int32): PrivateScope, Public, Static, HideBySig
+    Copy(SparseMatrixQuaternion&): PrivateScope, Public, Static, HideBySig
+    PrintMatrix(): PrivateScope, Public, HideBySig
+    CompareKey(KeyValuePair`2, KeyValuePair`2): PrivateScope, Public, Static, HideBySig
+    WriteToFile(String): PrivateScope, Public, HideBySig
+    ToCRS(Int32[]&(Out), Int32[]&(Out), Double[]&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
+    ToCCS(Int32[]&(Out), Int32[]&(Out), Double[]&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
+    ToTriplet(Int32[]&(Out), Int32[]&(Out), Double[]&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.SVD2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(GraphicResearchHuiZhao.Matrix3D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    GraphicResearchHuiZhao.Matrix3D U : Public
+    GraphicResearchHuiZhao.Matrix3D V : Public
+    GraphicResearchHuiZhao.Vector3D E : Public
+Class GraphicResearchHuiZhao.SVDInfoCPlus: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    GraphicResearchHuiZhao.Matrix3D A : Public
+    GraphicResearchHuiZhao.Matrix3D U : Public
+    GraphicResearchHuiZhao.Vector3D S : Public
+    GraphicResearchHuiZhao.Matrix3D V : Public
+    GraphicResearchHuiZhao.Matrix3D R : Public
+    GraphicResearchHuiZhao.Matrix3D T : Public
+    Double DetA : Public
+    Double DetU : Public
+    Double DetV : Public
+    Double DetR : Public
+    Double DetT : Public
+Struct GraphicResearchHuiZhao.Vector2D: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[GraphicResearchHuiZhao.Vector2D]
+    System.IFormattable
+  Fields:
+    Double x : Public
+    Double y : Public
+    Int32 SizeInBytes : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector2D Zero : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector2D UnitX : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector2D UnitY : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector2D One : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector2D MinValue : Public, Static
+    GraphicResearchHuiZhao.Vector2D MaxValue : Public, Static
+  Properties:
+    Boolean IsNormalized 'get ' : 
+    Double LengthSquared 'get ' : 
+    Double Item [Int32] 'get set' : 
+  Methods:
+    TransformCoordinate(Vector2D[], Matrix4D&, Vector2D[]): PrivateScope, Public, Static, HideBySig
+    TransformNormal(Vector2D&, Matrix4D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    TransformNormal(Vector2D, Matrix4D): PrivateScope, Public, Static, HideBySig
+    TransformNormal(Vector2D[], Matrix4D&, Vector2D[]): PrivateScope, Public, Static, HideBySig
+    op_Addition(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryPlus(Vector2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryNegation(Vector2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double, Vector2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Vector2D, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(Vector2D, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector2D): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(IFormatProvider): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Vector2D): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Vector2D, Double): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    get_IsNormalized(): PrivateScope, Public, HideBySig, SpecialName
+    Length(): PrivateScope, Public, HideBySig
+    get_LengthSquared(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    Normalize(): PrivateScope, Public, HideBySig
+    Negate(): PrivateScope, Public, HideBySig
+    Abs(): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    Sqrt(Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Sqrt(Vector2D): PrivateScope, Public, Static, HideBySig
+    Reciprocal(Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Reciprocal(Vector2D): PrivateScope, Public, Static, HideBySig
+    ReciprocalSqrt(Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    ReciprocalSqrt(Vector2D): PrivateScope, Public, Static, HideBySig
+    Exp(Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Exp(Vector2D): PrivateScope, Public, Static, HideBySig
+    SinCos(Vector2D&, Vector2D&(Out), Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Sin(Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Sin(Vector2D): PrivateScope, Public, Static, HideBySig
+    Cos(Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Cos(Vector2D): PrivateScope, Public, Static, HideBySig
+    Tan(Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Tan(Vector2D): PrivateScope, Public, Static, HideBySig
+    Add(Vector2D&, Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Add(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig
+    Subtract(Vector2D&, Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Subtract(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig
+    Multiply(Vector2D&, Double, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Multiply(Vector2D, Double): PrivateScope, Public, Static, HideBySig
+    Modulate(Vector2D&, Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Modulate(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig
+    Divide(Vector2D&, Double, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Divide(Vector2D, Double): PrivateScope, Public, Static, HideBySig
+    Negate(Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Negate(Vector2D): PrivateScope, Public, Static, HideBySig
+    Abs(Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Abs(Vector2D): PrivateScope, Public, Static, HideBySig
+    Barycentric(Vector2D&, Vector2D&, Vector2D&, Double, Double, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Barycentric(Vector2D, Vector2D, Vector2D, Double, Double): PrivateScope, Public, Static, HideBySig
+    Clamp(Vector2D&, Vector2D&, Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Clamp(Vector2D, Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig
+    Distance(Vector2D&, Vector2D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    Distance(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig
+    DistanceSquared(Vector2D&, Vector2D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    DistanceSquared(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig
+    Dot(Vector2D&, Vector2D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    Dot(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig
+    Dot(Vector2D): PrivateScope, Public, HideBySig
+    Perp(Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Perp(Vector2D): PrivateScope, Public, Static, HideBySig
+    PerpDot(Vector2D&, Vector2D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    PerpDot(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig
+    Normalize(Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Normalize(Vector2D): PrivateScope, Public, Static, HideBySig
+    Lerp(Vector2D&, Vector2D&, Double, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Lerp(Vector2D, Vector2D, Double): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Vector2D&, Vector2D&, Double, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Vector2D, Vector2D, Double): PrivateScope, Public, Static, HideBySig
+    Hermite(Vector2D&, Vector2D&, Vector2D&, Vector2D&, Double, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Hermite(Vector2D, Vector2D, Vector2D, Vector2D, Double): PrivateScope, Public, Static, HideBySig
+    CatmullRom(Vector2D&, Vector2D&, Vector2D&, Vector2D&, Double, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    CatmullRom(Vector2D, Vector2D, Vector2D, Vector2D, Double): PrivateScope, Public, Static, HideBySig
+    Max(Vector2D&, Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Max(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig
+    Min(Vector2D&, Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Min(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig
+    Reflect(Vector2D&, Vector2D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Reflect(Vector2D, Vector2D): PrivateScope, Public, Static, HideBySig
+    Refract(Vector2D&, Vector2D&, Double, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Refract(Vector2D, Vector2D, Double): PrivateScope, Public, Static, HideBySig
+    Orthogonalize(Vector2D[], Vector2D[]): PrivateScope, Public, Static, HideBySig
+    Orthonormalize(Vector2D[], Vector2D[]): PrivateScope, Public, Static, HideBySig
+    Transform(Vector2D&, Quaternion&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    Transform(Vector2D, Quaternion): PrivateScope, Public, Static, HideBySig
+    Transform(Vector2D[], Quaternion&, Vector2D[]): PrivateScope, Public, Static, HideBySig
+    Transform(Vector2D&, Matrix4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Transform(Vector2D, Matrix4D): PrivateScope, Public, Static, HideBySig
+    Transform(Vector2D[], Matrix4D&, Vector4D[]): PrivateScope, Public, Static, HideBySig
+    TransformCoordinate(Vector2D&, Matrix4D&, Vector2D&(Out)): PrivateScope, Public, Static, HideBySig
+    TransformCoordinate(Vector2D, Matrix4D): PrivateScope, Public, Static, HideBySig
+Struct GraphicResearchHuiZhao.Vector3D: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector2D, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[GraphicResearchHuiZhao.Vector3D]
+    System.IFormattable
+  Fields:
+    Double x : Public
+    Double y : Public
+    Double z : Public
+    Int32 SizeInBytes : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector3D Zero : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector3D UnitX : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector3D UnitY : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector3D UnitZ : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector3D One : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector3D MinValue : Public, Static
+    GraphicResearchHuiZhao.Vector3D MaxValue : Public, Static
+  Properties:
+    Boolean IsNormalized 'get ' : 
+    Double LengthSquared 'get ' : 
+    Double Item [Int32] 'get set' : 
+  Methods:
+    Transform(Vector3D&, Quaternion&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Transform(Vector3D, Quaternion): PrivateScope, Public, Static, HideBySig
+    Transform(Vector3D[], Quaternion&, Vector3D[]): PrivateScope, Public, Static, HideBySig
+    Transform(Vector3D&, Matrix4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Transform(Vector3D, Matrix4D): PrivateScope, Public, Static, HideBySig
+    Transform(Vector3D[], Matrix4D&, Vector4D[]): PrivateScope, Public, Static, HideBySig
+    TransformCoordinate(Vector3D&, Matrix4D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    TransformCoordinate(Vector3D, Matrix4D): PrivateScope, Public, Static, HideBySig
+    TransformCoordinate(Vector3D[], Matrix4D&, Vector3D[]): PrivateScope, Public, Static, HideBySig
+    TransformNormal(Vector3D&, Matrix4D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    TransformNormal(Vector3D, Matrix4D): PrivateScope, Public, Static, HideBySig
+    TransformNormal(Vector3D[], Matrix4D&, Vector3D[]): PrivateScope, Public, Static, HideBySig
+    op_Addition(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryPlus(Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryNegation(Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double, Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Vector3D, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(Vector3D, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector3D): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(IFormatProvider): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Vector3D): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Vector3D, Double): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    get_IsNormalized(): PrivateScope, Public, HideBySig, SpecialName
+    Length(): PrivateScope, Public, HideBySig
+    OuterCross(Vector3D): PrivateScope, Public, HideBySig
+    get_LengthSquared(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    Normalize(): PrivateScope, Public, HideBySig
+    Cotangent(Vector3D, Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Negate(): PrivateScope, Public, HideBySig
+    Abs(): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    Sqrt(Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Sqrt(Vector3D): PrivateScope, Public, Static, HideBySig
+    Reciprocal(Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Reciprocal(Vector3D): PrivateScope, Public, Static, HideBySig
+    ReciprocalSqrt(Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    ReciprocalSqrt(Vector3D): PrivateScope, Public, Static, HideBySig
+    Exp(Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Exp(Vector3D): PrivateScope, Public, Static, HideBySig
+    SinCos(Vector3D&, Vector3D&(Out), Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Sin(Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Sin(Vector3D): PrivateScope, Public, Static, HideBySig
+    Cos(Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Cos(Vector3D): PrivateScope, Public, Static, HideBySig
+    Tan(Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Tan(Vector3D): PrivateScope, Public, Static, HideBySig
+    Add(Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Add(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Subtract(Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Subtract(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Multiply(Vector3D&, Double, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Multiply(Vector3D, Double): PrivateScope, Public, Static, HideBySig
+    Modulate(Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Modulate(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Divide(Vector3D&, Double, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Divide(Vector3D, Double): PrivateScope, Public, Static, HideBySig
+    Negate(Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Negate(Vector3D): PrivateScope, Public, Static, HideBySig
+    Abs(Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Abs(Vector3D): PrivateScope, Public, Static, HideBySig
+    Barycentric(Vector3D&, Vector3D&, Vector3D&, Double, Double, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Barycentric(Vector3D, Vector3D, Vector3D, Double, Double): PrivateScope, Public, Static, HideBySig
+    Clamp(Vector3D&, Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Clamp(Vector3D, Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Cross(Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Cross(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Cross(Vector3D): PrivateScope, Public, HideBySig
+    TripleProduct(Vector3D&, Vector3D&, Vector3D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    TripleProduct(Vector3D, Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Distance(Vector3D&, Vector3D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    Distance(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    DistanceSquared(Vector3D&, Vector3D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    DistanceSquared(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Dot(Vector3D&, Vector3D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    Dot(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Dot(Vector3D): PrivateScope, Public, HideBySig
+    Normalize(Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Normalize(Vector3D): PrivateScope, Public, Static, HideBySig
+    Lerp(Vector3D&, Vector3D&, Double, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Lerp(Vector3D, Vector3D, Double): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Vector3D&, Vector3D&, Double, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Vector3D, Vector3D, Double): PrivateScope, Public, Static, HideBySig
+    Hermite(Vector3D&, Vector3D&, Vector3D&, Vector3D&, Double, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Hermite(Vector3D, Vector3D, Vector3D, Vector3D, Double): PrivateScope, Public, Static, HideBySig
+    CatmullRom(Vector3D&, Vector3D&, Vector3D&, Vector3D&, Double, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    CatmullRom(Vector3D, Vector3D, Vector3D, Vector3D, Double): PrivateScope, Public, Static, HideBySig
+    Max(Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Max(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Min(Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Min(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Project(Vector3D&, Double, Double, Double, Double, Double, Double, Matrix4D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Project(Vector3D, Double, Double, Double, Double, Double, Double, Matrix4D): PrivateScope, Public, Static, HideBySig
+    Unproject(Vector3D&, Double, Double, Double, Double, Double, Double, Matrix4D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Unproject(Vector3D, Double, Double, Double, Double, Double, Double, Matrix4D): PrivateScope, Public, Static, HideBySig
+    Reflect(Vector3D&, Vector3D&, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Reflect(Vector3D, Vector3D): PrivateScope, Public, Static, HideBySig
+    Refract(Vector3D&, Vector3D&, Double, Vector3D&(Out)): PrivateScope, Public, Static, HideBySig
+    Refract(Vector3D, Vector3D, Double): PrivateScope, Public, Static, HideBySig
+    Orthogonalize(Vector3D[], Vector3D[]): PrivateScope, Public, Static, HideBySig
+    Orthonormalize(Vector3D[], Vector3D[]): PrivateScope, Public, Static, HideBySig
+Struct GraphicResearchHuiZhao.Vector4D: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector3D): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector3D, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.Vector2D, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[GraphicResearchHuiZhao.Vector4D]
+    System.IFormattable
+  Fields:
+    Double x : Public
+    Double y : Public
+    Double z : Public
+    Double w : Public
+    Int32 SizeInBytes : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector4D Zero : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector4D UnitX : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector4D UnitY : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector4D UnitZ : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector4D UnitW : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector4D One : Public, Static, InitOnly
+    GraphicResearchHuiZhao.Vector3D MinValue : Public, Static
+    GraphicResearchHuiZhao.Vector3D MaxValue : Public, Static
+  Properties:
+    Boolean IsNormalized 'get ' : 
+    Double LengthSquared 'get ' : 
+    Double Item [Int32] 'get set' : 
+  Methods:
+    op_Multiply(Vector4D, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Division(Vector4D, Double): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, HideBySig
+    ToString(IFormatProvider): PrivateScope, Public, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Vector4D): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Vector4D, Double): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    get_IsNormalized(): PrivateScope, Public, HideBySig, SpecialName
+    Length(): PrivateScope, Public, HideBySig
+    get_LengthSquared(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Double): PrivateScope, Public, HideBySig, SpecialName
+    Normalize(): PrivateScope, Public, HideBySig
+    Negate(): PrivateScope, Public, HideBySig
+    Abs(): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    Sqrt(Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Sqrt(Vector4D): PrivateScope, Public, Static, HideBySig
+    Reciprocal(Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Reciprocal(Vector4D): PrivateScope, Public, Static, HideBySig
+    ReciprocalSqrt(Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    ReciprocalSqrt(Vector4D): PrivateScope, Public, Static, HideBySig
+    Exp(Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Exp(Vector4D): PrivateScope, Public, Static, HideBySig
+    SinCos(Vector4D&, Vector4D&(Out), Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Sin(Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Sin(Vector4D): PrivateScope, Public, Static, HideBySig
+    Cos(Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Cos(Vector4D): PrivateScope, Public, Static, HideBySig
+    Tan(Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Tan(Vector4D): PrivateScope, Public, Static, HideBySig
+    Add(Vector4D&, Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Add(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig
+    Subtract(Vector4D&, Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Subtract(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig
+    Multiply(Vector4D&, Double, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Multiply(Vector4D, Double): PrivateScope, Public, Static, HideBySig
+    Modulate(Vector4D&, Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Modulate(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig
+    Divide(Vector4D&, Double, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Divide(Vector4D, Double): PrivateScope, Public, Static, HideBySig
+    Negate(Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Negate(Vector4D): PrivateScope, Public, Static, HideBySig
+    Abs(Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Abs(Vector4D): PrivateScope, Public, Static, HideBySig
+    Barycentric(Vector4D&, Vector4D&, Vector4D&, Double, Double, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Barycentric(Vector4D, Vector4D, Vector4D, Double, Double): PrivateScope, Public, Static, HideBySig
+    Clamp(Vector4D&, Vector4D&, Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Clamp(Vector4D, Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig
+    Distance(Vector4D&, Vector4D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    Distance(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig
+    DistanceSquared(Vector4D&, Vector4D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    DistanceSquared(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig
+    Dot(Vector4D&, Vector4D&, Double&(Out)): PrivateScope, Public, Static, HideBySig
+    Dot(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig
+    Dot(Vector4D): PrivateScope, Public, HideBySig
+    Normalize(Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Normalize(Vector4D): PrivateScope, Public, Static, HideBySig
+    Lerp(Vector4D&, Vector4D&, Double, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Lerp(Vector4D, Vector4D, Double): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Vector4D&, Vector4D&, Double, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    SmoothStep(Vector4D, Vector4D, Double): PrivateScope, Public, Static, HideBySig
+    Hermite(Vector4D&, Vector4D&, Vector4D&, Vector4D&, Double, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Hermite(Vector4D, Vector4D, Vector4D, Vector4D, Double): PrivateScope, Public, Static, HideBySig
+    CatmullRom(Vector4D&, Vector4D&, Vector4D&, Vector4D&, Double, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    CatmullRom(Vector4D, Vector4D, Vector4D, Vector4D, Double): PrivateScope, Public, Static, HideBySig
+    Max(Vector4D&, Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Max(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig
+    Min(Vector4D&, Vector4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Min(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig
+    Orthogonalize(Vector4D[], Vector4D[]): PrivateScope, Public, Static, HideBySig
+    Orthonormalize(Vector4D[], Vector4D[]): PrivateScope, Public, Static, HideBySig
+    Transform(Vector4D&, Quaternion&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Transform(Vector4D, Quaternion): PrivateScope, Public, Static, HideBySig
+    Transform(Vector4D[], Quaternion&, Vector4D[]): PrivateScope, Public, Static, HideBySig
+    Transform(Vector4D&, Matrix4D&, Vector4D&(Out)): PrivateScope, Public, Static, HideBySig
+    Transform(Vector4D, Matrix4D): PrivateScope, Public, Static, HideBySig
+    Transform(Vector4D[], Matrix4D&, Vector4D[]): PrivateScope, Public, Static, HideBySig
+    op_Addition(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryPlus(Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_UnaryNegation(Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Double, Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Vector4D, Matrix4D): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Multiply(Vector4D, Vector4D): PrivateScope, Public, Static, HideBySig, SpecialName
+Class GraphicResearchHuiZhao.EventArgsDisplay: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 TypeDisplayMode : Public
+Class GraphicResearchHuiZhao.MeshChangedDelegate: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, EventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, EventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class GraphicResearchHuiZhao.NonManifoldMesh: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    GraphicResearchHuiZhao.NonManifoldMesh DualMesh 'get set' : 
+    Boolean TextureExist 'get ' : 
+    System.String TextureFile 'get set' : 
+    Int32 VertexCount 'get set' : 
+    Int32 FaceCount 'get set' : 
+    Double[] VertexPos 'get set' : 
+    Double[] VertexNormal 'get set' : 
+    Double[] TextextCoordinate 'get set' : 
+    Int32[] FaceIndex 'get set' : 
+    Int32[] FaceTexIndex 'get ' : 
+    Double[] FaceNormal 'get set' : 
+    Double[] DualVertexPos 'get ' : 
+    Byte[] VertexFlag 'get ' : 
+    Byte[] FaceFlag 'get ' : 
+    Boolean[] IsBoundary 'get ' : 
+    Double[] Color 'get ' : 
+    Int32[][] AdjVV 'get ' : 
+    Int32[][] AdjVF 'get ' : 
+    Int32[][] AdjFF 'get ' : 
+  Methods:
+    get_DualMesh(): PrivateScope, Public, HideBySig, SpecialName
+    set_DualMesh(NonManifoldMesh): PrivateScope, Public, HideBySig, SpecialName
+    get_TextureExist(): PrivateScope, Public, HideBySig, SpecialName
+    get_TextureFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextureFile(String): PrivateScope, Public, HideBySig, SpecialName
+    get_VertexCount(): PrivateScope, Public, HideBySig, SpecialName
+    set_VertexCount(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_FaceCount(): PrivateScope, Public, HideBySig, SpecialName
+    set_FaceCount(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_VertexPos(): PrivateScope, Public, HideBySig, SpecialName
+    set_VertexPos(Double[]): PrivateScope, Public, HideBySig, SpecialName
+    get_VertexNormal(): PrivateScope, Public, HideBySig, SpecialName
+    set_VertexNormal(Double[]): PrivateScope, Public, HideBySig, SpecialName
+    get_TextextCoordinate(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextextCoordinate(Double[]): PrivateScope, Public, HideBySig, SpecialName
+    get_FaceIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_FaceIndex(Int32[]): PrivateScope, Public, HideBySig, SpecialName
+    get_FaceTexIndex(): PrivateScope, Public, HideBySig, SpecialName
+    get_FaceNormal(): PrivateScope, Public, HideBySig, SpecialName
+    set_FaceNormal(Double[]): PrivateScope, Public, HideBySig, SpecialName
+    get_DualVertexPos(): PrivateScope, Public, HideBySig, SpecialName
+    get_VertexFlag(): PrivateScope, Public, HideBySig, SpecialName
+    get_FaceFlag(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsBoundary(): PrivateScope, Public, HideBySig, SpecialName
+    get_Color(): PrivateScope, Public, HideBySig, SpecialName
+    get_AdjVV(): PrivateScope, Public, HideBySig, SpecialName
+    get_AdjVF(): PrivateScope, Public, HideBySig, SpecialName
+    get_AdjFF(): PrivateScope, Public, HideBySig, SpecialName
+    PostInit(): PrivateScope, Public, HideBySig
+    ReadObj(String): PrivateScope, Public, HideBySig
+    Writeobj(String): PrivateScope, Public, HideBySig
+    MaxCoord(): PrivateScope, Public, HideBySig
+    MinCoord(): PrivateScope, Public, HideBySig
+    MoveToCenter(): PrivateScope, Public, HideBySig
+    ScaleToUnitBox(): PrivateScope, Public, HideBySig
+    ComputeFaceNormal(): PrivateScope, Public, HideBySig
+    ComputeVertexNormal(): PrivateScope, Public, HideBySig
+    ComputeWeightVertexNormal(): PrivateScope, Public, HideBySig
+    BuildAdjacentMatrix(): PrivateScope, Public, HideBySig
+    BuildAdjacentMatrixFV(): PrivateScope, Public, HideBySig
+    BuildAdjacentMatrixFF(): PrivateScope, Public, HideBySig
+    FindBoundaryVertex(): PrivateScope, Public, HideBySig
+    GroupingFlags(): PrivateScope, Public, HideBySig
+    RemoveVertex(Int32): PrivateScope, Public, HideBySig
+    RemoveVertex(ArrayList): PrivateScope, Public, HideBySig
+    IsContainVertex(Int32, Int32): PrivateScope, Public, HideBySig
+    ComputeDualPosition(): PrivateScope, Public, HideBySig
+    GetDualPosition(Int32): PrivateScope, Public, HideBySig
+    ComputeFaceArea(Int32): PrivateScope, Public, HideBySig
+    CreateDualPosition(): PrivateScope, Public, HideBySig
+    CreateDualFaceIndex(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class GraphicResearchHuiZhao.FaceMesh: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :GraphicResearchHuiZhao.NonManifoldMesh
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ReadHoe(String): PrivateScope, Public, HideBySig
+    WriteHoe(String): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.MeshOperators: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    CreateMatrixATA(SparseMatrix&, NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    ResetVertexPosition(Double[]&, NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    ComputeUniformLap(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    ComputeCotLap(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    ComputeCurvatureLap(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    ComputeNormalizeCotLap(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    BuildUniformMatrixL(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    BuildCommonCotMatrixL(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    BuildCotMatrixL(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    BuildNormalizeCotMatrixL(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    ComputeVoronoiArea(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    BuildCurvatureMatrixL(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    ComputeGaussianCurvature(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    ComputePricipalCurvature(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    ComputeMeanCurvature(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    BuildTwoRingVV(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    BuildMatrixAAdjInfo(SparseMatrix): PrivateScope, Public, Static, HideBySig
+    BuildMatrixDualL(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    CreateDualMesh(NonManifoldMesh): PrivateScope, Public, Static, HideBySig
+    ComputeDualLap(NonManifoldMesh&): PrivateScope, Public, Static, HideBySig
+    SetMeshColorToMeanCurvature(NonManifoldMesh): PrivateScope, Public, Static, HideBySig
+    SetMeshColorToPricipal1(NonManifoldMesh): PrivateScope, Public, Static, HideBySig
+    SetMeshColorToPricipal2(NonManifoldMesh): PrivateScope, Public, Static, HideBySig
+    GaussianCurvatureArray(NonManifoldMesh): PrivateScope, Public, Static, HideBySig
+    SetMeshColorToGaussianCurvature(NonManifoldMesh): PrivateScope, Public, Static, HideBySig
+    UpdateColor(NonManifoldMesh&, Double[]&): PrivateScope, Public, Static, HideBySig
+    SetMeshColor(NonManifoldMesh&, Double[]&): PrivateScope, Public, Static, HideBySig
+    ComputeAverageArea(NonManifoldMesh): PrivateScope, Public, Static, HideBySig
+    ComputeOneRingArea(NonManifoldMesh, Int32): PrivateScope, Public, Static, HideBySig
+    ComputeVolume(NonManifoldMesh): PrivateScope, Public, Static, HideBySig
+    TaubinSmooth(NonManifoldMesh): PrivateScope, Public, Static, HideBySig
+Interface GraphicResearchHuiZhao.BaseRecord: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class GraphicResearchHuiZhao.MeshRecord: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, GraphicResearchHuiZhao.NonManifoldMesh): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    GraphicResearchHuiZhao.BaseRecord
+  Properties:
+    System.String Filename 'get ' : 
+    Int32 VertexCount 'get ' : 
+    Int32 FaceCount 'get ' : 
+    Int32 VertexCoordinateCount 'get ' : 
+    System.String TextureFile 'get ' : 
+    GraphicResearchHuiZhao.NonManifoldMesh Mesh 'get set' : 
+    GraphicResearchHuiZhao.Matrix4D ModelViewMatrix 'get set' : 
+  Methods:
+    get_Filename(): PrivateScope, Public, HideBySig, SpecialName
+    get_VertexCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_FaceCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_VertexCoordinateCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_TextureFile(): PrivateScope, Public, HideBySig, SpecialName
+    get_Mesh(): PrivateScope, Public, HideBySig, SpecialName
+    set_Mesh(NonManifoldMesh): PrivateScope, Public, HideBySig, SpecialName
+    get_ModelViewMatrix(): PrivateScope, Public, HideBySig, SpecialName
+    set_ModelViewMatrix(Matrix4D): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.MeshSelection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(GraphicResearchHuiZhao.NonManifoldMesh): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.StreamReader): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Size 'get ' : 
+    Byte[] Data 'get ' : 
+  Methods:
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    get_Data(): PrivateScope, Public, HideBySig, SpecialName
+    Write(StreamWriter): PrivateScope, Public, HideBySig
+    Apply(NonManifoldMesh): PrivateScope, Public, HideBySig
+Class GraphicResearchHuiZhao.MeshSelectionRecord: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, GraphicResearchHuiZhao.MeshSelection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    GraphicResearchHuiZhao.BaseRecord
+  Properties:
+    System.String Filename 'get ' : 
+    GraphicResearchHuiZhao.MeshSelection Selection 'get ' : 
+  Methods:
+    get_Filename(): PrivateScope, Public, HideBySig, SpecialName
+    get_Selection(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class GraphicResearchHuiZhao.SVD: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Double[,]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double[], Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 RowSize 'get ' : 
+    Int32 ColumnSize 'get ' : 
+    Boolean State 'get ' : 
+    Boolean FullRank 'get ' : 
+    Double[,] Inverse 'get ' : 
+    Double[,] RotationMinus 'get ' : 
+    Double[,] Rotation 'get ' : 
+    GraphicResearchHuiZhao.Matrix2D S 'get ' : 
+    GraphicResearchHuiZhao.Matrix2D D 'get ' : 
+    GraphicResearchHuiZhao.Matrix2D V 'get ' : 
+  Methods:
+    get_RowSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_State(): PrivateScope, Public, HideBySig, SpecialName
+    get_FullRank(): PrivateScope, Public, HideBySig, SpecialName
+    get_Inverse(): PrivateScope, Public, HideBySig, SpecialName
+    get_RotationMinus(): PrivateScope, Public, HideBySig, SpecialName
+    get_Rotation(): PrivateScope, Public, HideBySig, SpecialName
+    SolveX(Double[], Double[]): PrivateScope, Public, HideBySig
+    get_S(): PrivateScope, Public, HideBySig, SpecialName
+    get_D(): PrivateScope, Public, HideBySig, SpecialName
+    get_V(): PrivateScope, Public, HideBySig, SpecialName
+    Solve(Double[,], Double[], Double[]): PrivateScope, Public, Static, HideBySig
+Struct GraphicResearchHuiZhao.MVPActionType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    GraphicResearchHuiZhao.MVPActionType None = 0 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType RollClockWise = 1 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType RollCounterClockWise = 2 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType PitchUp = 3 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType PitchDown = 4 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType YawLeft = 5 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType YawRight = 6 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType ZoomIn = 7 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType ZoomOut = 8 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType UP = 9 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType Down = 10 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType ClockWise = 11 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType CounterClockWise = 12 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType Left = 13 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType Right = 14 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType Near = 15 : Public, Static, Literal, HasDefault
+    GraphicResearchHuiZhao.MVPActionType Far = 16 : Public, Static, Literal, HasDefault
+Class GraphicResearchHuiZhao.TransformController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Fields:
+    Boolean Ortho : Public
+    GraphicResearchHuiZhao.Matrix4D ModelMatrix : Public
+    GraphicResearchHuiZhao.Matrix4D ViewMatrix : Public
+    GraphicResearchHuiZhao.Matrix4D ProjectionMatrix : Public
+    GraphicResearchHuiZhao.Vector3D eyePosition : Public
+    GraphicResearchHuiZhao.Vector3D orientation : Public
+    GraphicResearchHuiZhao.Vector3D target : Public
+    GraphicResearchHuiZhao.MVPActionType CurrentActionType : Public
+    Double Angle : Public
+    Double TransValue : Public
+    Double ScaleRatio : Public
+  Properties:
+    GraphicResearchHuiZhao.TransformController Instance 'get ' : 
+    GraphicResearchHuiZhao.Vector3D EyePosition 'get set' : 
+    GraphicResearchHuiZhao.Vector3D Orientation 'get set' : 
+    GraphicResearchHuiZhao.Vector3D Target 'get set' : 
+    GraphicResearchHuiZhao.Matrix4D TransformInverse 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EyePosition(): PrivateScope, Public, HideBySig, SpecialName
+    set_EyePosition(Vector3D): PrivateScope, Public, HideBySig, SpecialName
+    get_Orientation(): PrivateScope, Public, HideBySig, SpecialName
+    set_Orientation(Vector3D): PrivateScope, Public, HideBySig, SpecialName
+    get_Target(): PrivateScope, Public, HideBySig, SpecialName
+    set_Target(Vector3D): PrivateScope, Public, HideBySig, SpecialName
+    get_TransformInverse(): PrivateScope, Public, HideBySig, SpecialName
+    MoveToCenter(): PrivateScope, Public, HideBySig
+    Roll(Double): PrivateScope, Public, HideBySig
+    Yaw(Double): PrivateScope, Public, HideBySig
+    Pitch(Double): PrivateScope, Public, HideBySig
+    Transform(): PrivateScope, Public, HideBySig
+    ModelRotate(Double, Double, Double): PrivateScope, Public, HideBySig
+    ModelRotate(Vector3D): PrivateScope, Public, HideBySig
+    ModelRotate(Vector3D, Double): PrivateScope, Public, HideBySig
+    ModelQuaternion(Vector3D, Double): PrivateScope, Public, HideBySig
+    ModelTranslate(Double, Double, Double): PrivateScope, Public, HideBySig
+    ModelTranslate(Vector3D): PrivateScope, Public, HideBySig
+    ModelScale(Double, Double, Double): PrivateScope, Public, HideBySig
+    ModelScale(Vector3D): PrivateScope, Public, HideBySig
+    ModelMirror(Double, Double, Double): PrivateScope, Public, HideBySig
+    ModelMirror(Vector3D): PrivateScope, Public, HideBySig
+    ModelShear(Double, Double, Double): PrivateScope, Public, HideBySig
+    ModelShear(Vector3D): PrivateScope, Public, HideBySig
+    Scale(Double): PrivateScope, Public, HideBySig
+    LookFromX(): PrivateScope, Public, HideBySig
+    LookFromY(): PrivateScope, Public, HideBySig
+    LookFromZ(): PrivateScope, Public, HideBySig
+    LookFromXMinus(): PrivateScope, Public, HideBySig
+    LookFromYMinus(): PrivateScope, Public, HideBySig
+    LookFromZMinus(): PrivateScope, Public, HideBySig
+    LookAtFrom(Vector3D, Vector3D, Vector3D): PrivateScope, Public, HideBySig
+    TranslateCamera(Double, Double, Double): PrivateScope, Public, HideBySig
+    TranslateCamera(Vector3D): PrivateScope, Public, HideBySig
+    RotateCamera(Double, Double, Double): PrivateScope, Public, HideBySig
+    RotateCamera(Vector3D): PrivateScope, Public, HideBySig
+    SetCamearPosition(Double, Double, Double): PrivateScope, Public, HideBySig
+    SetProjection(Int32, Int32): PrivateScope, Public, HideBySig
+    SetFrustumPespective(Double, Double, Double, Double, Double, Double): PrivateScope, Public, HideBySig
+    SetFrustumOrtho(Double, Double, Double, Double, Double, Double): PrivateScope, Public, HideBySig
+    SetFrustum(Double, Double, Double, Double): PrivateScope, Public, HideBySig
+    SetProjection(Double, Double, Double, Double, Double, Double, Int32, Int32, Boolean, Boolean): PrivateScope, Public, HideBySig
+    ComputeFrustumVertices(Double, Double, Double, Double, Double, Double): PrivateScope, Public, HideBySig
+Class System.Collections.Generic.Set`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.IEnumerable`1[T]
+    System.Collections.IEnumerable
+  Methods:
+    Add(T): PrivateScope, Public, HideBySig
+    Remove(T): PrivateScope, Public, HideBySig
+    Contains(T): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class GraphicResearchHuiZhao.ThreadOperator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsAlive 'get ' : 
+  Events:
+    System.EventHandler Finished: 
+  Methods:
+    add_Finished(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Finished(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_IsAlive(): PrivateScope, Public, HideBySig, SpecialName
+    Abort(): PrivateScope, Public, HideBySig
+    Run(ThreadStart): PrivateScope, Public, HideBySig

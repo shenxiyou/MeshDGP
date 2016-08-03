@@ -1,0 +1,36 @@
+// Load the MEL script to create apiMeshShape. Viewport 2.0 is not supported.
+
+//
+// Create a mesh shape
+//
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+createNode apiMeshCSharp;
+createNode apiMeshCreatorCSharp;
+connectAttr apiMeshCreatorCSharp1.outputSurface apiMeshCSharp1.inputSurface;
+
+// Change shape type and size.
+setAttr apiMeshCreatorCSharp1.shapeType 1;
+setAttr apiMeshCreatorCSharp1.size 2.0;
+
+// Revert.
+setAttr apiMeshCreatorCSharp1.shapeType 0;
+setAttr apiMeshCreatorCSharp1.size 1.0;
+
+//
+// Marking menu handler that will be invoked from
+// dagMenuProc.mel
+//
+global proc apiMeshCSharpDagMenuProc( string $parent, string $child )
+{
+	setParent -m $parent;
+
+	string $cmd = "hide " + $child;
+	menuItem -l "Hide" -rp "N" -c $cmd;
+
+	$cmd = "boundingBoxDisplayCtrl(1,\"\");";
+	menuItem -l "Show bounding box" -rp "W" -c $cmd;
+
+	$cmd = "boundingBoxDisplayCtrl(0,\"\");";
+	menuItem -l "Hide bounding box" -rp "E" -c $cmd;
+}

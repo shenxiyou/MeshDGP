@@ -1,0 +1,33 @@
+The following node IDs are allocated for C# example plug-ins:
+0x00081059-0x00081100
+
+
+affects						- 0x00081059
+animCube					- 0x0008105a
+apiMeshCreator				- 0x0008105b
+exCameraSet					- 0x0008105c
+customImagePlane			- 0x0008105d
+dynExprField				- 0x0008105e
+footPrint					- 0x0008105f
+genericAttributeNode		- 0x00081060
+geometrySurfaceConstraint	- 0x00081061
+hwManagedTextureShader		- 0x00081062
+ik2Bsolver					- 0x00081063
+simpleLineManip				- 0x00081064
+containerLineManip			- 0x00081065
+polyTrgNode					- 0x00081066
+simpleSolverNode			- 0x00081067
+simpleSpringCSharp			- 0x00081068
+sine						- 0x00081069
+slopeShaderNode				- 0x0008106a
+testHLSLShaderCSharp		- 0x0008106b
+testMPxObjectSetNode		- 0x0008106c
+yTwist						- 0x0008106d
+lineManipContainerCSharp	- 0x0008106e
+apiMesh						- 0x0008106f
+apiMeshData					- 0x00081070
+rockingTransformCheckNode	- 0x00081071
+rockingTransformCheckMatrix	- 0x00081072
+rotateManip                 - 0x00081073
+
+AVAILABLE MAXIMUM			- 0x00081100

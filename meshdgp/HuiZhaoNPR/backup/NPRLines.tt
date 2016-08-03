@@ -1,0 +1,55 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+
+<#
+string[] names = new string[]{
+	"ApparentRidges",
+	"BoundaryLine",
+	"Contours",
+	"DwKrLine",
+	"H0Line",
+	"HighlightLine",
+	"Isophotes",
+	"K0Line",
+	"PrincipalHighlightRidges",
+	"PrincipalHighlightValleys",
+	"RidgesLine",
+	"Silluhoute",
+	"SuggestCountour",
+	"TopoLines",
+	"ValleysLine"
+};
+#>
+
+using System.Drawing;
+
+namespace GraphicResearchHuiZhao
+{
+	public static class NPRLines
+	{
+		public static LineBase[] All;
+
+		static NPRLines()
+		{
+			All = new LineBase[<#= names.Length #>];
+<# for (int i = 0; i < names.Length; i++) { #>
+			All[<#= i #>] = new <#= names[i] #>();
+<# } #>
+		}
+	}
+
+	public class ConfigColor
+	{
+<# for (int i = 0; i < names.Length; i++) { #>
+        public Color <#= names[i] #>
+		{
+			get { return NPRLines.All[<#= i #>].Color; }
+			set { NPRLines.All[<#= i #>].Color = value; }
+		}
+<# } #>
+	}
+}

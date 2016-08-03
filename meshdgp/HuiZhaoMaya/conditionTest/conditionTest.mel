@@ -1,0 +1,13 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc testConditionTest()
+{
+	// Input the following MEL command to add condition callback:
+	netConditionTestCSharp -m 1;
+	// MEL history will show state transition of all conditions.
+	// Input the following MEL command to remove condition callback:
+	netConditionTestCSharp -m 0;
+}
+
+testConditionTest();

@@ -1,0 +1,8 @@
+I:\快盘\HuiZhaoGraphicResearch\bin\Debug\MeshDB.dll
+I:\快盘\HuiZhaoGraphicResearch\bin\Debug\MeshDB.pdb
+I:\快盘\HuiZhaoGraphicResearch\MeshDB\obj\Debug\ResolveAssemblyReference.cache
+I:\快盘\HuiZhaoGraphicResearch\MeshDB\obj\Debug\GraphicResearchHuiZhao.MenuDB.resources
+I:\快盘\HuiZhaoGraphicResearch\MeshDB\obj\Debug\MeshDB.csproj.GenerateResource.Cache
+I:\快盘\HuiZhaoGraphicResearch\MeshDB\obj\Debug\MeshDB.dll
+I:\快盘\HuiZhaoGraphicResearch\MeshDB\obj\Debug\MeshDB.pdb
+I:\快盘\HuiZhaoGraphicResearch\MeshDB\obj\Debug\GraphicResearchHuiZhao.FormDatabase.resources

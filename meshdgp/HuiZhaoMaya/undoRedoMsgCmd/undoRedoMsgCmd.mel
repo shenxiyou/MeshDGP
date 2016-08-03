@@ -1,0 +1,23 @@
+global proc testundoRedoMsgCmd()
+{
+	loadPlugin -qt examples.nll.dll;
+	
+	file -f -new;
+	undoRedoMsgCSharp add;
+	
+	// cmd for undo/redo
+	select;
+
+	undo;
+	// undoCallback
+
+	redo;
+	// redoCallback
+
+	undoRedoMsgCSharp remove;
+
+	undo;
+	redo;
+}
+
+testundoRedoMsgCmd();

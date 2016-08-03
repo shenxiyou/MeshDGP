@@ -1,0 +1,15 @@
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\TriMesh2PInvoke.dll
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\TriMesh2PInvoke.pdb
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\BasicMesh.dll
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\DifferentialGeometry.dll
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\HalfEdgeMesh.dll
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\Util.dll
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\MeshOptimization.dll
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\BasicMesh.pdb
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\DifferentialGeometry.pdb
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\HalfEdgeMesh.pdb
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\Util.pdb
+D:\360\赵辉\11.30\TriMesh2PInvoke\bin\Release\MeshOptimization.pdb
+D:\360\赵辉\11.30\TriMesh2PInvoke\obj\Release\TriMesh2PInvoke.csprojResolveAssemblyReference.cache
+D:\360\赵辉\11.30\TriMesh2PInvoke\obj\Release\TriMesh2PInvoke.dll
+D:\360\赵辉\11.30\TriMesh2PInvoke\obj\Release\TriMesh2PInvoke.pdb

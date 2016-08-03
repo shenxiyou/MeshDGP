@@ -1,0 +1,17 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+testExCameraSetCSharp -c;
+testExCameraSetCSharp -ac persp exCameraSetCSharp1;
+testExCameraSetCSharp -ac top exCameraSetCSharp1;
+testExCameraSetCSharp -d 0 exCameraSetCSharp1;
+testExCameraSetCSharp -q -camera -layer 0 exCameraSetCSharp1;
+testExCameraSetCSharp -e -camera side -layer 0 exCameraSetCSharp1;
+testExCameraSetCSharp -e -set "" -layer 0 exCameraSetCSharp1;
+testExCameraSetCSharp -q -set -layer 0 exCameraSetCSharp1;
+testExCameraSetCSharp -e -set "" -layer 0 exCameraSetCSharp1;
+testExCameraSetCSharp -e -layerType Left -layer 0 exCameraSetCSharp1;
+testExCameraSetCSharp -q -layerType -layer 0 exCameraSetCSharp1;
+testExCameraSetCSharp -e -active true -layer 0 exCameraSetCSharp1;
+testExCameraSetCSharp -q -active -layer 0 exCameraSetCSharp1;
+testExCameraSetCSharp -q -numLayers exCameraSetCSharp1;
+

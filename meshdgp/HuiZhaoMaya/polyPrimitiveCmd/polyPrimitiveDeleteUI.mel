@@ -1,0 +1,18 @@
+//-
+// ==========================================================================
+//
+// ==========================================================================
+//+
+
+global proc polyPrimitiveDeleteUI()
+{
+	global string $gMainPrimitivesMenu;
+
+	if (`menu -exists $gMainPrimitivesMenu`)
+	{
+		if (`menuItem -exists polyPrimitivesItem`)
+		{
+			deleteUI -menuItem polyPrimitiveWindowItem;
+		}
+	}
+}

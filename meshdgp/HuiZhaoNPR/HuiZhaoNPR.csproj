@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7A0CB1E-4D0B-42F7-901D-A1B2103FF142}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GraphicResearchHuiZhao</RootNamespace>
+    <AssemblyName>HuiZhaoNPR</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK">
+      <HintPath>..\bin\Debug\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="backup\ApparentLine.cs" />
+    <Compile Include="backup\Contours.cs" />
+    <Compile Include="backup\Crest.cs" />
+    <Compile Include="backup\DemarcatingCurve.cs" />
+    <Compile Include="LineExtractor\EnumLine.cs" />
+    <Compile Include="backup\HighlightLine.cs" />
+    <Compile Include="backup\LineBase.cs" />
+    <Compile Include="backup\LineCurvature.cs" />
+    <Compile Include="backup\NPRLine.cs" />
+    <Compile Include="backup\RidgeAndValley.cs" />
+    <Compile Include="backup\Silluhoute.cs" />
+    <Compile Include="backup\SuggestCountour.cs" />
+    <Compile Include="Util\ConfigColorLine.cs" />
+    <Compile Include="Util\LineGLInfo.cs" />
+    <Compile Include="Util\NPRLineAll.cs" />
+    <Compile Include="backup\NPRLines.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NPRLines.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Util\NPRDraw.cs" />
+    <Compile Include="UI\FormConfigNPR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormConfigNPR.Designer.cs">
+      <DependentUpon>FormConfigNPR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LineExtractor\ApparentRidges.cs" />
+    <Compile Include="LineExtractor\BoundaryLine.cs" />
+    <Compile Include="LineExtractor\Contours.cs" />
+    <Compile Include="LineExtractor\DwKrLine.cs" />
+    <Compile Include="LineExtractor\H0Line.cs" />
+    <Compile Include="LineExtractor\HighlightLine.cs" />
+    <Compile Include="LineExtractor\Isophotes.cs" />
+    <Compile Include="LineExtractor\K0Line.cs" />
+    <Compile Include="LineExtractor\LineBase.cs" />
+    <Compile Include="LineExtractor\PrincipalHighlightRidges.cs" />
+    <Compile Include="LineExtractor\PrincipalHighlightValleys.cs" />
+    <Compile Include="LineExtractor\Silluhoute.cs" />
+    <Compile Include="LineExtractor\TopoLines.cs" />
+    <Compile Include="UI\MenuNPR.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\MenuNPR.Designer.cs">
+      <DependentUpon>MenuNPR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\ConfigNPR.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LineExtractor\SuggestCountour.cs" />
+    <Compile Include="LineExtractor\RidgesLine.cs" />
+    <Compile Include="LineExtractor\ValleysLine.cs" />
+    <Compile Include="RTSC.cs" />
+    <Compile Include="Util\UnitTestLine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\FormConfigNPR.resx">
+      <DependentUpon>FormConfigNPR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MenuNPR.resx">
+      <DependentUpon>MenuNPR.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="backup\NPRLines.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>NPRLines.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HuiZhaoBasicMesh\HuiZhaoBasicMesh.csproj">
+      <Project>{a989d08b-f70a-4af7-90af-4650157f22d9}</Project>
+      <Name>HuiZhaoBasicMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoGlobalData\HuiZhaoGlobalData.csproj">
+      <Project>{d4ee05fc-3a59-4979-a1cd-8b4ef2da6bec}</Project>
+      <Name>HuiZhaoGlobalData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoHalfEdge\HuiZhaoHalfEdgeMesh.csproj">
+      <Project>{1ad84890-edb1-4665-835b-defe285c995f}</Project>
+      <Name>HuiZhaoHalfEdgeMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoMeshInfo\HuiZhaoMeshInfo.csproj">
+      <Project>{6c29b97d-7cc5-4625-9233-8cc4ad2cb0a9}</Project>
+      <Name>HuiZhaoMeshInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoOpenGL\HuiZhaoOpenGL.csproj">
+      <Project>{ae3731aa-8971-423c-b398-5f3d32526efe}</Project>
+      <Name>HuiZhaoOpenGL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoSystemSolver\HuiZhaoMathModule.csproj">
+      <Project>{5da95cc0-8f9a-4e8c-ae29-594fc4d1cfcc}</Project>
+      <Name>HuiZhaoMathModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoToolLibrary\HuiZhaoToolLibrary.csproj">
+      <Project>{d389869d-4de3-4c74-aa87-d8a51cb1dc7b}</Project>
+      <Name>HuiZhaoToolLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenSource\ExtensionControl\ExtensionControl.csproj">
+      <Project>{f90b87ef-8e91-401f-a795-28ad08990a3f}</Project>
+      <Name>ExtensionControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenSource\RTSC\rtsc\rtsc.vcxproj">
+      <Project>{d43a7223-8fce-4c2b-a8f1-14de3fb1e189}</Project>
+      <Name>rtsc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

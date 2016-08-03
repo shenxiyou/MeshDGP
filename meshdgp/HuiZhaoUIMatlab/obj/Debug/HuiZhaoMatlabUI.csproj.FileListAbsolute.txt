@@ -1,0 +1,8 @@
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoMatlabUI\obj\Debug\HuiZhaoMatlabUI.csprojResolveAssemblyReference.cache
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoMatlabUI\obj\Debug\GraphicResearchHuiZhao.FormMatlab.resources
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoMatlabUI\obj\Debug\GraphicResearchHuiZhao.MenuMatlab.resources
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoMatlabUI\obj\Debug\HuiZhaoMatlabUI.csproj.GenerateResource.Cache
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\bin\Debug\HuiZhaoMatlabUI.dll
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\bin\Debug\HuiZhaoMatlabUI.pdb
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoMatlabUI\obj\Debug\HuiZhaoMatlabUI.dll
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoMatlabUI\obj\Debug\HuiZhaoMatlabUI.pdb

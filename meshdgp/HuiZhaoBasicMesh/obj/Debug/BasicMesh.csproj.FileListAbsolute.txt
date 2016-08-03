@@ -1,0 +1,194 @@
+I:\develop\10.31\bin\Debug\BasicMesh.dll
+I:\develop\10.31\bin\Debug\BasicMesh.pdb
+I:\develop\10.31\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\10.31\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\10.31\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\11.9\bin\Debug\BasicMesh.dll
+I:\develop\11.9\bin\Debug\BasicMesh.pdb
+I:\develop\11.9\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\11.9\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\11.9\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\11.9\bin\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\11.9\bin\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\11.9\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\11.9\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\11.9\BasicMesh\obj\Debug\BasicMesh.csprojResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\LinearSystem\11.9\bin\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\LinearSystem\11.9\bin\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\LinearSystem\11.9\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\LinearSystem\11.9\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MineStone 2.22\bin\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MineStone 2.22\bin\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MineStone 2.22\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MineStone 2.22\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MileStone 2.26\bin\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MileStone 2.26\bin\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MileStone 2.26\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MileStone 2.26\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MileStone 2.26\BasicMesh\obj\Debug\BasicMesh.csprojResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 2.27\bin\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MileStone 2.27\bin\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MileStone 2.27\BasicMesh\obj\Debug\GraphicsResearch.HistogramViewer.resources
+C:\Users\Corsy\Desktop\MileStone 2.27\BasicMesh\obj\Debug\BasicMesh.csproj.GenerateResource.Cache
+C:\Users\Corsy\Desktop\MileStone 2.27\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MileStone 2.27\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MileStone 3.3\bin\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MileStone 3.3\bin\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MileStone 3.3\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 3.3\BasicMesh\obj\Debug\GraphicsResearch.HistogramViewer.resources
+C:\Users\Corsy\Desktop\MileStone 3.3\BasicMesh\obj\Debug\BasicMesh.csproj.GenerateResource.Cache
+C:\Users\Corsy\Desktop\MileStone 3.3\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MileStone 3.3\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MileStone 3.6\bin\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MileStone 3.6\bin\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MileStone 3.6\BasicMesh\obj\Debug\GraphicsResearch.HistogramViewer.resources
+C:\Users\Corsy\Desktop\MileStone 3.6\BasicMesh\obj\Debug\BasicMesh.csproj.GenerateResource.Cache
+C:\Users\Corsy\Desktop\MileStone 3.6\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MileStone 3.6\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MileStone 3.6\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 3.7\bin\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MileStone 3.7\bin\Debug\BasicMesh.pdb
+C:\Users\Corsy\Desktop\MileStone 3.7\BasicMesh\obj\Debug\GraphicsResearch.HistogramViewer.resources
+C:\Users\Corsy\Desktop\MileStone 3.7\BasicMesh\obj\Debug\BasicMesh.csproj.GenerateResource.Cache
+C:\Users\Corsy\Desktop\MileStone 3.7\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\Corsy\Desktop\MileStone 3.7\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\MileStone 3.22\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\MileStone 3.22\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\MileStone 3.22\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\MileStone 3.22\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\MileStone 3.22\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\MileStone 3.22\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\MileStone 3.22\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\MileStone 3.22\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\MileStone 3.22\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\MileStone 3.22\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect3.24\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect3.24\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect3.24\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.24\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect3.24\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect3.27\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect3.27\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect3.27\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.27\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect3.27\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect3.28\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect3.28\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect3.28\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.28\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect3.28\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect4.3\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect4.3\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect4.3\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect4.3\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect4.3\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Pefect4.15\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Pefect4.15\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Pefect4.15\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Pefect4.15\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Pefect4.15\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Pefect4.16\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Pefect4.16\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Pefect4.16\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Pefect4.16\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Pefect4.16\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect4.17\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect4.17\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect4.17\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect4.17\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect4.17\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect5.3\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect5.3\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect5.3\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect5.3\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect5.3\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\BasicMesh\obj\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect5.10\bin\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect5.10\bin\Debug\BasicMesh.pdb
+C:\Users\bell\Desktop\develop\Perfect5.10\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect5.10\BasicMesh\obj\Debug\BasicMesh.dll
+C:\Users\bell\Desktop\develop\Perfect5.10\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\BasicMesh\obj\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\BasicMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\BasicMesh\obj\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\BasicMesh\obj\Debug\BasicMesh.pdb

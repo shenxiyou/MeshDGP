@@ -1,0 +1,4 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+instCallbackCSharpCmd;
+instance;

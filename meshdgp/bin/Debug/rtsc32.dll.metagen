@@ -1,0 +1,91 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly rtsc32, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly HuiZhaoBasicMesh, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class RtscSettings: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 draw_extsil : Public
+    Int32 draw_c : Public
+    Int32 draw_sc : Public
+    Int32 draw_sh : Public
+    Int32 draw_phridges : Public
+    Int32 draw_phvalleys : Public
+    Int32 draw_ridges : Public
+    Int32 draw_valleys : Public
+    Int32 draw_apparent : Public
+    Int32 draw_K : Public
+    Int32 draw_H : Public
+    Int32 draw_DwKr : Public
+    Int32 draw_bdy : Public
+    Int32 draw_isoph : Public
+    Int32 draw_topo : Public
+    Int32 test_c : Public
+    Int32 test_sc : Public
+    Int32 test_sh : Public
+    Int32 test_ph : Public
+    Int32 test_rv : Public
+    Int32 test_ar : Public
+    Single sug_thresh : Public
+    Single sh_thresh : Public
+    Single ph_thresh : Public
+    Single rv_thresh : Public
+    Single ar_thresh : Public
+    Int32 use_texture : Public
+    Int32 draw_faded : Public
+    Int32 draw_colors : Public
+    Int32 use_hermite : Public
+    Int32 draw_hidden : Public
+  Methods:
+    DrawAll(): PrivateScope, Public, HideBySig
+    SetUp(): PrivateScope, Public, HideBySig
+Class Rtsc: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 nv : Public
+    GraphicResearchHuiZhao.BoundingSphere bsphere : Public
+    GraphicResearchHuiZhao.BoundingBox bbox : Public
+    GraphicResearchHuiZhao.Vector3D[] normals : Public
+    Double[] curv1 : Public
+    Double[] curv2 : Public
+    GraphicResearchHuiZhao.Vector3D[] pdir1 : Public
+    GraphicResearchHuiZhao.Vector3D[] pdir2 : Public
+    GraphicResearchHuiZhao.Vector4D[] dcurv : Public
+    Double feature_size : Public
+    GraphicResearchHuiZhao.Vector3D[] curv_colors : Public
+    GraphicResearchHuiZhao.Vector3D[] gcurv_colors : Public
+    Double[] ndotv : Public
+    Double[] kr : Public
+    Double[] sctest_num : Public
+    Double[] sctest_den : Public
+    Double[] shtest_num : Public
+    Double[] q1 : Public
+    Double[] Dt1q1 : Public
+    GraphicResearchHuiZhao.Vector2D[] t1 : Public
+    Single[] gl_alpha : Public
+    GraphicResearchHuiZhao.Vector3D[] gl_vertex : Public
+    Int32 front_index : Public
+  Methods:
+    InitTriMesh(): PrivateScope, Public, HideBySig
+    InitRtsc(Vector3D): PrivateScope, Public, HideBySig
+    Gradkr(Int32): PrivateScope, Public, HideBySig
+    DrawExteriorSilhouette(): PrivateScope, Public, HideBySig
+    DrawOccludingContours(): PrivateScope, Public, HideBySig
+    DrawSuggestiveContours(): PrivateScope, Public, HideBySig
+    DrawSuggestiveHighlights(): PrivateScope, Public, HideBySig
+    DrawIsophotes(Vector3D, Int32): PrivateScope, Public, HideBySig
+    DrawTopolines(Int32, Double): PrivateScope, Public, HideBySig
+    DrawRidges(): PrivateScope, Public, HideBySig
+    DrawValleys(): PrivateScope, Public, HideBySig
+    DrawPrincipalHighlightRidges(): PrivateScope, Public, HideBySig
+    DrawPrincipalHighlightValleys(): PrivateScope, Public, HideBySig
+    DrawApparentRidges(): PrivateScope, Public, HideBySig
+    DrawK(): PrivateScope, Public, HideBySig
+    DrawH(): PrivateScope, Public, HideBySig
+    DrawDwKr(): PrivateScope, Public, HideBySig
+    DrawBoundaries(): PrivateScope, Public, HideBySig

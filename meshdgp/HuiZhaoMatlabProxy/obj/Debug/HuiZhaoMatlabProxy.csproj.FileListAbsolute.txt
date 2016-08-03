@@ -1,0 +1,34 @@
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\bin\Debug\HuiZhaoMatlabProxy.dll
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\bin\Debug\HuiZhaoMatlabProxy.pdb
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.csprojResolveAssemblyReference.cache
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoMatlabProxy\obj\Debug\Interop.MLApp.dll
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.csproj.ResolveComReference.cache
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.dll
+C:\快盘\Develop\vs2013\HuiZhaoGraphicResearch\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.pdb
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\bin\Debug\HuiZhaoMatlabProxy.dll
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\bin\Debug\HuiZhaoMatlabProxy.pdb
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.csprojResolveAssemblyReference.cache
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\HuiZhaoMatlabProxy\obj\Debug\Interop.MLApp.dll
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.csproj.ResolveComReference.cache
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.dll
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.pdb
+D:\test\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.csprojResolveAssemblyReference.cache
+D:\test\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.dll
+D:\test\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.pdb
+D:\test\bin\Debug\HuiZhaoMatlabProxy.dll
+D:\test\bin\Debug\HuiZhaoMatlabProxy.pdb
+D:\Publish\bin\Debug\HuiZhaoMatlabProxy.dll
+D:\Publish\bin\Debug\HuiZhaoMatlabProxy.pdb
+D:\Publish\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.csprojResolveAssemblyReference.cache
+D:\Publish\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.dll
+D:\Publish\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.pdb
+D:\ToBe\bin\Debug\HuiZhaoMatlabProxy.dll
+D:\ToBe\bin\Debug\HuiZhaoMatlabProxy.pdb
+D:\ToBe\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.csprojResolveAssemblyReference.cache
+D:\ToBe\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.dll
+D:\ToBe\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.pdb
+F:\3D modeling\MeshDGP-master\meshdgp\bin\Debug\HuiZhaoMatlabProxy.dll
+F:\3D modeling\MeshDGP-master\meshdgp\bin\Debug\HuiZhaoMatlabProxy.pdb
+F:\3D modeling\MeshDGP-master\meshdgp\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.csprojResolveAssemblyReference.cache
+F:\3D modeling\MeshDGP-master\meshdgp\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.dll
+F:\3D modeling\MeshDGP-master\meshdgp\HuiZhaoMatlabProxy\obj\Debug\HuiZhaoMatlabProxy.pdb

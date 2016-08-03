@@ -1,0 +1,3 @@
+file -force -new;
+loadPlugin -qt examples.nll.dll;
+testObjectSetCSharp;

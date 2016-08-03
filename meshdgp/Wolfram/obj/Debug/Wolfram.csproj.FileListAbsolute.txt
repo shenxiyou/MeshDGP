@@ -1,0 +1,9 @@
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\bin\Debug\Wolfram.dll
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\bin\Debug\Wolfram.pdb
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\Wolfram\obj\Debug\Wolfram.dll
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\Wolfram\obj\Debug\Wolfram.pdb
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\Wolfram\obj\Debug\GraphicResearchHuiZhao.FormWolfram.resources
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\Wolfram\obj\Debug\Wolfram.csproj.GenerateResource.Cache
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\Wolfram\obj\Debug\GraphicResearchHuiZhao.MenuWolfram.resources
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\Wolfram\obj\Debug\Wolfram.csprojResolveAssemblyReference.cache
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\Wolfram\obj\Debug\GraphicResearchHuiZhao.Form1.resources

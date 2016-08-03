@@ -1,0 +1,16 @@
+//////////////////////////////////////////////////////////////////
+//
+// Creates a handle that can be dragged around in the x-y plane.
+//
+//////////////////////////////////////////////////////////////////
+
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+joint -p 0 0 0;
+joint -p 5 0 0;
+joint -e -zso -oj xyz -sao yup joint1;
+joint -p 5 5 0;
+joint -e -zso -oj xyz -sao yup joint2;
+
+createNode simpleSolverNodeCSharp;
+ikHandle -sol simpleSolverNodeCSharp1 -sj joint1 -ee joint2;

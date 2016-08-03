@@ -1,0 +1,7 @@
+loadPlugin -qt examples.nll.dll;
+source importImagePlane.mel;
+
+// Load the MEL script directly to create an imported image plane.
+file -f -new;
+string $imagePath = `workspace -q -dir` + "simpleImageFile.moo";
+createImportedImagePlane { "perspShape" } $imagePath "moo";

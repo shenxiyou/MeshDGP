@@ -1,0 +1,8 @@
+loadPlugin -qt examples.nll.dll;
+
+// Create a new scene with polyShere.
+file -f -new;
+polySphere;
+
+// Demo/Test for the command.
+multiPlugInfoCSharp -i pSphere1.uvSet;

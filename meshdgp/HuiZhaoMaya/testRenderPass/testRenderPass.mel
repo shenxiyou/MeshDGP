@@ -1,0 +1,30 @@
+file -force -new;
+loadPlugin -qt examples.nll.dll;
+
+//
+// Execute the query commands one by one to see the results of them interactively.
+//
+
+RenderPassTestCSharp -p testPassOne;
+
+RenderPassTestCSharp -p testPassOne -r mySoftwareRenderer;
+
+RenderPassTestCSharp -p testPassOne -r mySoftwareRenderer -t;
+
+RenderPassTestCSharp -p testPassOne -r mySoftwareRenderer -dt;
+
+RenderPassTestCSharp -p testPassOne -r mySoftwareRenderer -nc;
+
+RenderPassTestCSharp -p testPassOne -r mySoftwareRenderer -s;
+
+RenderPassTestCSharp -p testPassOne -r mySoftwareRenderer -pl;
+
+RenderPassTestCSharp -p testPassOne -r mySoftwareRenderer -c myHardwareRenderer;
+
+RenderPassTestCSharp -p testPassOne -r mySoftwareRenderer -c mySoftwareRenderer;
+
+RenderPassTestCSharp -p testPassOne -n;
+
+RenderPassTestCSharp -p testPassOne -g;
+
+RenderPassTestCSharp -p testPassOne -d;

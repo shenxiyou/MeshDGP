@@ -1,0 +1,24 @@
+// Description:
+//    Registers a new type of shape with maya called "quadricShapeCSharp".
+//    This shape will display spheres, cylinders, disks, and partial disks
+//    using the OpenGL gluQuadric functions.
+//
+//    There are no output attributes for this shape.
+//    The following input attributes define the type of shape to draw.
+//
+//       shapeType  : 0=cylinder, 1=disk, 2=partialDisk, 3=sphere
+//       radius1	: cylinder base radius, disk inner radius, sphere radius
+//       radius2	: cylinder top radius, disk outer radius
+//       height		: cylinder height
+//       startAngle	: partial disk start angle
+//       sweepAngle	: partial disk sweep angle
+//       slices		: cylinder, disk, sphere slices
+//       loops		: disk loops
+//       stacks		: cylinder, sphere stacks
+//
+////////////////////////////////////////////////////////////////////////////////
+
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+string $node = `createNode quadricShapeCSharp`;

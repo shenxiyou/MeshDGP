@@ -1,0 +1,26 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly CLRField64, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly HuiZhaoBasicMesh, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly HuiZhaoHalfEdgeMesh, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class NRosyFieldWrap: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(GraphicResearchHuiZhao.TriMesh): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    solve(Int32): PrivateScope, Public, HideBySig
+    setConstraintHard(Int32, Vector3D): PrivateScope, Public, HideBySig
+    setConstraintSoft(Int32, Double, Vector3D): PrivateScope, Public, HideBySig
+    setSoftAlpha(Double): PrivateScope, Public, HideBySig
+    resetConstraints(): PrivateScope, Public, HideBySig
+    getFieldPerFace(): PrivateScope, Public, HideBySig
+    getSingularityIndexPerVertex(): PrivateScope, Public, HideBySig
+    getJumps(): PrivateScope, Public, HideBySig
+    getK(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig

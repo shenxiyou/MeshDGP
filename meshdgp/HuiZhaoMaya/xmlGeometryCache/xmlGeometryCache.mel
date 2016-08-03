@@ -1,0 +1,29 @@
+loadPlugin -qt examples.nll.dll;
+
+// Create a new scene with a NURBS plane.
+file -f -new;
+nurbsPlane;
+
+// Create a keyframe animation on the control points.
+currentTime 1;
+setKeyframe -breakdown 0 -hierarchy none -controlPoints 0 -shape 0 {"nurbsPlane1.cv[0:3][0:3]"};
+currentTime 2;
+setKeyframe -breakdown 0 -hierarchy none -controlPoints 0 -shape 0 {"nurbsPlane1.cv[0:3][0:3]"};
+
+// Get the paths. The workspace command can work only when the script is directly
+// executed as "Source Script".
+string $cacheFolderPath = `workspace -q -dir` + "GeometryCache/";
+string $cacheFilePath = $cacheFolderPath + "nurbsPlaneShape1.xml";
+
+// Create new cache to test cache write.
+doCreateGeometryCache 6 { "2", "1", "10", "OneFilePerFrame", "1", $cacheFolderPath, "0", "","0", "add", "0", "1", "1","0","1","xml_csharp","0" };
+
+// Delete cache but keep files
+deleteCacheFile 3 { "keep", "", "geometry" };
+
+// Import cache to test cache read.
+source doImportCacheArgList.mel;
+importCacheFile $cacheFilePath "xml_csharp";
+
+// Delete cache and files.
+deleteCacheFile 3 { "delete", "", "geometry" };

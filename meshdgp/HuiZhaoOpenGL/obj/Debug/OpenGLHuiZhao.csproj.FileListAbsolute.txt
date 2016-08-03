@@ -1,0 +1,10 @@
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\bin\Debug\OpenGLHuiZhao.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\bin\Debug\OpenGLHuiZhao.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\OpenGL\obj\Debug\OpenGLHuiZhao.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\OpenGL\obj\Debug\OpenGLHuiZhao.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\bin\Debug\OpenGLHuiZhao.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\bin\Debug\OpenGLHuiZhao.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\OpenGL\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\OpenGL\obj\Debug\OpenGLHuiZhao.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\OpenGL\obj\Debug\OpenGLHuiZhao.pdb

@@ -1,0 +1,12 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+addMyIK2BsolverCallbacksCSharp;
+file -new -force;
+polySphere;
+JointTool;
+joint -p -8.315365 0 4.590192 ;
+joint -p -3.033399 0 1.970452 ;
+joint -e -zso -oj xyz -sao yup joint1;
+joint -p -7.260479 0 -1.030007 ;
+joint -e -zso -oj xyz -sao yup joint2;
+ikHandle -sol ik2BsolverCSharp -sj joint1 -ee joint2;

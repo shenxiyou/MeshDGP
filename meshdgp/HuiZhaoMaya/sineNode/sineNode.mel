@@ -1,0 +1,14 @@
+global proc testSineNodeCSharp()
+{ 
+	loadPlugin -qt examples.nll.dll;
+
+	file -f -new;
+
+	$node = `createNode sineCSharp`;
+	$nodein = $node + ".input";
+	$nodeout = $node + ".output";
+	setAttr $nodein 0.3;
+	getAttr $nodeout;
+}
+
+testSineNodeCSharp();

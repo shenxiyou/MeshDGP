@@ -1,0 +1,9 @@
+I:\快盘\HuiZhaoGraphicResearch\HuiZhaoTetMeshUI\obj\Debug\ResolveAssemblyReference.cache
+I:\快盘\HuiZhaoGraphicResearch\HuiZhaoTetMeshUI\obj\Debug\GraphicResearchHuiZhao.MenuTet.resources
+I:\快盘\HuiZhaoGraphicResearch\HuiZhaoTetMeshUI\obj\Debug\GraphicResearchHuiZhao.TetGenForm.resources
+I:\快盘\HuiZhaoGraphicResearch\HuiZhaoTetMeshUI\obj\Debug\GraphicResearchHuiZhao.TetMeshInfo.resources
+I:\快盘\HuiZhaoGraphicResearch\HuiZhaoTetMeshUI\obj\Debug\HuiZhaoTetMeshUI.csproj.GenerateResource.Cache
+I:\快盘\HuiZhaoGraphicResearch\bin\Debug\HuiZhaoTetMeshUI.dll
+I:\快盘\HuiZhaoGraphicResearch\bin\Debug\HuiZhaoTetMeshUI.pdb
+I:\快盘\HuiZhaoGraphicResearch\HuiZhaoTetMeshUI\obj\Debug\HuiZhaoTetMeshUI.dll
+I:\快盘\HuiZhaoGraphicResearch\HuiZhaoTetMeshUI\obj\Debug\HuiZhaoTetMeshUI.pdb

@@ -1,0 +1,41 @@
+//	Description:
+//	This is an example of a command that exports smooth skin data from
+//	maya to an alternate format.
+//	The output format used is:
+// 
+//	skin_path_name	vertex_count	influence_count
+//	influence_1		influence_2		influence_3			.... influence_n
+//	vertex_index		weight_1		weight_2			... weight_n
+
+
+//	In this example the output in "skinData" is:
+//	pSphereShape1 382 2
+//	joint1 joint2 
+//	0 0.76996952366091 0.230030476339091 
+//	1 0.781615580588011 0.218384419411989 
+//	2 0.795762938953094 0.204237061046906 
+//	3 0.810954388945148 0.189045611054852 
+//	4 0.825643903535792 0.174356096464208 
+//	5 0.838389358180161 0.161610641819839 
+//	6 0.848012983054782 0.151987016945218 
+//	7 0.853690729021339 0.146309270978661 
+//	8 0.854970107803684 0.145029892196316 //	. ...... ......
+
+global proc testExportSkinClusterDataCmd()
+{
+	loadPlugin -qt examples.nll.dll;
+	file -f -new;
+
+	polySphere -ch on -o on ;
+	select -d pSphere1 ;
+	select -d;
+	joint -p -1.383698 0 -0.583355 ;
+	joint -p 0.911694 0 0.471835 ;
+	joint -e -zso -oj xyz -sao yup joint1;
+	select -tgl pSphere1 ;
+	SmoothBindSkin;
+
+	exportSkinClusterDataCSharp -f "skinData";
+}
+
+testExportSkinClusterDataCmd();

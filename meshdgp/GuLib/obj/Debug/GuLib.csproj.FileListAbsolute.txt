@@ -1,0 +1,8 @@
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\bin\Debug\GuLib.dll
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\bin\Debug\GuLib.pdb
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\GuLib\obj\Debug\GuLib.dll
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\GuLib\obj\Debug\GuLib.pdb
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\GuLib\obj\Debug\GuLib.csprojResolveAssemblyReference.cache
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\GuLib\obj\Debug\GuLib.csproj.GenerateResource.Cache
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\GuLib\obj\Debug\GraphicResearchHuiZhao.MenuGu.resources
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\GuLib\obj\Debug\GraphicResearchHuiZhao.FormConfigGu.resources

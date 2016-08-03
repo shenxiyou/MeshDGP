@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{00C6C845-67B8-46CF-8AF3-0D2EC14D0B3B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GraphicResearchHuiZhao</RootNamespace>
+    <AssemblyName>HuiZhaoUIMenu</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HuiZhaoGPURender, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\HuiZhaoGPURender.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form\FormSegementation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormSegementation.designer.cs">
+      <DependentUpon>FormSegementation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\BarStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\BarStatus.Designer.cs">
+      <DependentUpon>BarStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormConfigOP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormConfigOP.Designer.cs">
+      <DependentUpon>FormConfigOP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormCurve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormCurve.Designer.cs">
+      <DependentUpon>FormCurve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormEigenMatrix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormEigenMatrix.Designer.cs">
+      <DependentUpon>FormEigenMatrix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormConfigFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormConfigFunc.Designer.cs">
+      <DependentUpon>FormConfigFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormMeshInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormMeshInfo.Designer.cs">
+      <DependentUpon>FormMeshInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormSimplify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormSimplify.designer.cs">
+      <DependentUpon>FormSimplify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\HistogramControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form\HistogramControl.designer.cs">
+      <DependentUpon>HistogramControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\HistogramData.cs" />
+    <Compile Include="Menu\MenuFunction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuFunction.Designer.cs">
+      <DependentUpon>MenuFunction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuMeshInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuMeshInfo.Designer.cs">
+      <DependentUpon>MenuMeshInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuOperation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuOperation.Designer.cs">
+      <DependentUpon>MenuOperation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuRetrieve.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuRetrieve.Designer.cs">
+      <DependentUpon>MenuRetrieve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuTool.Designer.cs">
+      <DependentUpon>MenuTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuUIIO.cs" />
+    <Compile Include="Menu\MenuFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuFile.Designer.cs">
+      <DependentUpon>MenuFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuHelp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuHelp.Designer.cs">
+      <DependentUpon>MenuHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\UserControlMesh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\UserControlMesh.Designer.cs">
+      <DependentUpon>UserControlMesh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Menu\ToolBarUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\ToolBarUI.Designer.cs">
+      <DependentUpon>ToolBarUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tool\Curve\ToolCurveComplex.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form\FormSegementation.resx">
+      <DependentUpon>FormSegementation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\BarStatus.resx">
+      <DependentUpon>BarStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormConfigOP.resx">
+      <DependentUpon>FormConfigOP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormCurve.resx">
+      <DependentUpon>FormCurve.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormEigenMatrix.resx">
+      <DependentUpon>FormEigenMatrix.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormConfigFunc.resx">
+      <DependentUpon>FormConfigFunc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormMeshInfo.resx">
+      <DependentUpon>FormMeshInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormSimplify.resx">
+      <DependentUpon>FormSimplify.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\HistogramControl.resx">
+      <DependentUpon>HistogramControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuFile.resx">
+      <DependentUpon>MenuFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuFunction.resx">
+      <DependentUpon>MenuFunction.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuHelp.resx">
+      <DependentUpon>MenuHelp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuMeshInfo.resx">
+      <DependentUpon>MenuMeshInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuOperation.resx">
+      <DependentUpon>MenuOperation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuRetrieve.resx">
+      <DependentUpon>MenuRetrieve.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuTool.resx">
+      <DependentUpon>MenuTool.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\ToolBarUI.resx">
+      <DependentUpon>ToolBarUI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\UserControlMesh.resx">
+      <DependentUpon>UserControlMesh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HuiZhaoBasicMesh\HuiZhaoBasicMesh.csproj">
+      <Project>{a989d08b-f70a-4af7-90af-4650157f22d9}</Project>
+      <Name>HuiZhaoBasicMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoGlobalData\HuiZhaoGlobalData.csproj">
+      <Project>{d4ee05fc-3a59-4979-a1cd-8b4ef2da6bec}</Project>
+      <Name>HuiZhaoGlobalData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoHalfEdge\HuiZhaoHalfEdgeMesh.csproj">
+      <Project>{1ad84890-edb1-4665-835b-defe285c995f}</Project>
+      <Name>HuiZhaoHalfEdgeMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoIO\HuiZhaoIO.csproj">
+      <Project>{1d38ba5a-89f8-4461-95a8-b05b7420a7d3}</Project>
+      <Name>HuiZhaoIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoLinearSystem\TriMesh2PInvoke\TriMesh2PInvoke.csproj">
+      <Project>{e29112de-8a5b-4902-beb6-ca69fae360e8}</Project>
+      <Name>TriMesh2PInvoke</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoMeshInfo\HuiZhaoMeshInfo.csproj">
+      <Project>{6C29B97D-7CC5-4625-9233-8CC4AD2CB0A9}</Project>
+      <Name>HuiZhaoMeshInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoMeshOp\HuiZhaoMeshOperation.csproj">
+      <Project>{8dbf5036-9ad4-4c22-bb58-819cb55bafab}</Project>
+      <Name>HuiZhaoMeshOperation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoOpenGL\HuiZhaoOpenGL.csproj">
+      <Project>{ae3731aa-8971-423c-b398-5f3d32526efe}</Project>
+      <Name>HuiZhaoOpenGL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuiZhaoToolLibrary\HuiZhaoToolLibrary.csproj">
+      <Project>{d389869d-4de3-4c74-aa87-d8a51cb1dc7b}</Project>
+      <Name>HuiZhaoToolLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

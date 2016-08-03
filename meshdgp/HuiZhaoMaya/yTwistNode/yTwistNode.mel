@@ -1,0 +1,23 @@
+file -force -new;
+loadPlugin -qt examples.nll.dll;
+
+global proc testyTwistNode()
+{
+	polyCylinder -ch on -o on -r 4.395966 -h 10.584908 -sc 1 -cuv 3 ;
+	setAttr "polyCylinder1.subdivisionsHeight" 25;
+	setAttr "polyCylinder1.subdivisionsAxis" 25;
+	deformer -type "yTwistCSharp";
+	setAttr "yTwistCSharp1.envelope" 0.01;
+	setAttr "yTwistCSharp1.angle" 0;
+	setKeyframe "yTwistCSharp1.en";
+	setKeyframe "yTwistCSharp1.fa";
+	currentTime 24;
+	setAttr "yTwistCSharp1.envelope" 0.009999;
+	setAttr "yTwistCSharp1.angle" 45;
+	setKeyframe "yTwistCSharp1.en";
+	setKeyframe "yTwistCSharp1.fa";
+	currentTime 1;
+	play -forward true -state true -wait;
+}
+
+testyTwistNode();

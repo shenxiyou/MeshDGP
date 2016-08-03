@@ -1,0 +1,162 @@
+C:\Users\Corsy\Desktop\MileStone 2.27\LinearSystem\bin\Debug\LinearSystem.dll
+C:\Users\Corsy\Desktop\MileStone 2.27\LinearSystem\bin\Debug\LinearSystem.pdb
+C:\Users\Corsy\Desktop\MileStone 2.27\bin\Debug\LinearSystem.dll
+C:\Users\Corsy\Desktop\MileStone 2.27\bin\Debug\LinearSystem.pdb
+C:\Users\Corsy\Desktop\MileStone 2.27\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.csprojResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 2.27\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\Corsy\Desktop\MileStone 2.27\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\Corsy\Desktop\MileStone 3.3\bin\Debug\LinearSystem.dll
+C:\Users\Corsy\Desktop\MileStone 3.3\bin\Debug\LinearSystem.pdb
+C:\Users\Corsy\Desktop\MileStone 3.3\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 3.3\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\Corsy\Desktop\MileStone 3.3\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\Corsy\Desktop\MileStone 3.6\bin\Debug\LinearSystem.dll
+C:\Users\Corsy\Desktop\MileStone 3.6\bin\Debug\LinearSystem.pdb
+C:\Users\Corsy\Desktop\MileStone 3.6\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\Corsy\Desktop\MileStone 3.6\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\Corsy\Desktop\MileStone 3.6\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 3.7\bin\Debug\LinearSystem.dll
+C:\Users\Corsy\Desktop\MileStone 3.7\bin\Debug\LinearSystem.pdb
+C:\Users\Corsy\Desktop\MileStone 3.7\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.csprojResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 3.7\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\Corsy\Desktop\MileStone 3.7\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\MileStone 3.22\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\MileStone 3.22\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\MileStone 3.22\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\MileStone 3.22\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\MileStone 3.22\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\MileStone 3.22\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\MileStone 3.22\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\MileStone 3.22\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\MileStone 3.22\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\MileStone 3.22\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect3.24\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect3.24\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect3.24\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.24\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect3.24\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect3.27\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect3.27\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect3.27\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.27\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect3.27\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect3.28\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect3.28\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect3.28\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.28\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect3.28\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect4.3\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect4.3\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect4.3\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect4.3\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect4.3\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Pefect4.15\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Pefect4.15\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Pefect4.15\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Pefect4.15\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Pefect4.15\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Pefect4.16\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Pefect4.16\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Pefect4.16\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Pefect4.16\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Pefect4.16\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect4.17\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect4.17\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect4.17\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect4.17\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect4.17\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect5.3\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect5.3\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect5.3\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect5.3\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect5.3\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect5.10\bin\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect5.10\bin\Debug\LinearSystem.pdb
+C:\Users\bell\Desktop\develop\Perfect5.10\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect5.10\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+C:\Users\bell\Desktop\develop\Perfect5.10\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\bin\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\bin\Debug\LinearSystem.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\LinearSystem\LinearSystemCore\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\LinearSystem\LinearSystemCore\obj\Debug\LinearSystem.pdb

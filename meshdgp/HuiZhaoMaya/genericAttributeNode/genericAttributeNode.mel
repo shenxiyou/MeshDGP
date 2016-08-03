@@ -1,0 +1,55 @@
+//	genericAttributeNode.mel
+//		Simple test script that demonstrates how to invoke
+//		the genericAttributeNode plug-in and have it update
+//		for different situations
+//
+
+// If plug-in has not been loaded
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc testgenericAttributeNode()
+{
+	// Make the node
+	string $g = `createNode genericAttributeNodeCSharp`;
+
+	// Execute some setAttr and getAttr commands
+	// to modify the generic attribute
+
+	// Boolean false case
+	setAttr ($g + ".gInputInt") 1;
+	getAttr ($g + ".gOutputFloat_2Float_3Float");
+
+	// Boolean true case
+	setAttr ($g + ".gInputInt") 2;
+	getAttr ($g + ".gOutputFloat_2Float_3Float");
+
+	// Float case
+	setAttr ($g + ".gInputInt") 5;
+	getAttr ($g + ".gOutputFloat_2Float_3Float");
+
+	// 3 Float case
+	setAttr ($g + ".gInputInt") 9;
+	getAttr ($g + ".gOutputFloat_2Float_3Float");
+
+	// What happens when you have mutiple nodes and the
+	// attribute type is changed.
+	// 1. Create 2 nodes
+	string $ga = `createNode genericAttributeNodeCSharp`;
+	string $gb = `createNode genericAttributeNodeCSharp`;
+	// 2. Put both nodes into the same state
+	setAttr ($ga + ".gInputInt") 9;
+	setAttr ($gb + ".gInputInt") 9;
+	// 3. Get the output attribute and their type
+	getAttr ($ga + ".gOutputFloat_2Float_3Float");
+	getAttr ($gb + ".gOutputFloat_2Float_3Float");
+	getAttr -type ($ga + ".gOutputFloat_2Float_3Float");
+	getAttr -type ($gb + ".gOutputFloat_2Float_3Float");
+	// 4. Modify the generic attribute of 1 one the nodes
+	setAttr ($ga + ".gInputInt") 1;
+	// 5. Show the types
+	getAttr -type ($ga + ".gOutputFloat_2Float_3Float");
+	getAttr -type ($gb + ".gOutputFloat_2Float_3Float");
+}
+
+testgenericAttributeNode();

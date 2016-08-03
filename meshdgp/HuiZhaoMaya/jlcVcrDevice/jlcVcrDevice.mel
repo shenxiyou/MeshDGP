@@ -1,0 +1,72 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc midiRecord()
+{
+	assignInputDevice -d "jlcVcr" -c "rewind" "currentTime -e `playbackOptions -q -min`";
+	assignInputDevice -d "jlcVcr" -c "forward" -m "currentTime -e `playbackOptions -q -max`";
+	assignInputDevice -d "jlcVcr" -c "stop" -m "stp";
+	assignInputDevice -d "jlcVcr" -c "play" -m "ply";
+	assignInputDevice -d "jlcVcr" -c "record" -m "rec";
+	assignInputDevice -d "jlcVcr" -m "timeOffset($scrub)";
+}
+
+//
+// You have to call these functions instead of the commands since
+// the device command dispatcher replaces the text names of the buttons
+// (play, stop, record) with their boolean values so "play" becomes "1"
+// which is not a valid command.
+
+global proc ply()
+{
+	play;
+}
+
+global proc stp()
+{
+	play -state off;
+}
+
+global proc rec()
+{
+	setKeyframe;
+}
+
+global proc timeOffset(int $deltaTime)
+{
+	int $currentFrameLocal;
+	int $newFrameLocal;
+	int $minFrameValue;
+	int $maxFrameValue;
+	$minFrameValue = `playbackOptions -q -min`;
+    $maxFrameValue = `playbackOptions -q -max`;
+
+	$currentFrameLocal = `currentTime -q`;
+	$newFrameLocal = $currentFrameLocal + $deltaTime * (($maxFrameValue - $minFrameValue) / 200.0);
+
+	if ($newFrameLocal < $minFrameValue) {
+		$newFrameLocal = $minFrameValue;
+	} else if ($newFrameLocal > $maxFrameValue) {
+		$newFrameLocal = $maxFrameValue;
+	}
+
+	currentTime -e $newFrameLocal;
+}
+
+//midiRecord;
+
+// Registers new midi input device jlcVcrDevice 
+// 
+// This plug-in is only available on Linux. 
+// 
+// Loading this plug-in will register the JL-Cooper midi VCR input device with Maya as type jlcVcrDevice. 
+// 
+// To use the device, execute the MEL script "jlcVcrDevice.mel". This will attach the buttons on the midi device to the animation playback commands in Maya as follows: 
+// 
+// The play button will start animation playback. 
+// The stop button will stop animation playback. 
+// The rewind button sets the current time to the start time in the range control. 
+// The forward button sets the current time to the end time in the range control. 
+// The rec button executes the setKeyframe command. 
+// The scrub wheel moves the time forward and back. 
+// To get a list of all input devices currently registered in Maya, use the command listInputDevices. 

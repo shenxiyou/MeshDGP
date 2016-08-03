@@ -1,0 +1,10 @@
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\bin\Debug\UITemplate.exe.config
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\bin\Debug\UITemplate.exe
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\bin\Debug\UITemplate.pdb
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\UITemplate\obj\Debug\UITemplate.csprojResolveAssemblyReference.cache
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\UITemplate\obj\Debug\GraphicResearchHuiZhao.MenuTemplate.resources
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\UITemplate\obj\Debug\GraphicResearchHuiZhao.Properties.Resources.resources
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\UITemplate\obj\Debug\UITemplate.csproj.GenerateResource.Cache
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\UITemplate\obj\Debug\UITemplate.exe
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\UITemplate\obj\Debug\UITemplate.pdb
+C:\快盘\Develop\vs2015\HuiZhaoGraphicResearch\UITemplate\obj\Debug\GraphicResearchHuiZhao.FormMain.resources

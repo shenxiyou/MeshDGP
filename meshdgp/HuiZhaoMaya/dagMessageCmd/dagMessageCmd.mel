@@ -1,0 +1,39 @@
+global proc dagMessageCmdCSharpTest()
+{
+	file -force -new;
+	loadPlugin -qt examples.nll.dll;
+
+	// create dag node
+	circle -name circle1; move 5 0 0;
+	group -n group1; move -5 0 0;
+	group -em -n group2;
+
+	// add dagMessage
+	dagMessageCmdCSharp -ca group2;
+	// output:
+	// Adding a callback listening msg ChildAdded for  child added  on |group2 // 
+
+	// move circle under group2
+	parent circle1 group2;
+	// output: 
+	// DAG Changed - Child Added:  child = |grouop2|circle1, parent = |group2 // 
+
+	dagMessageCmdCSharp -cr group2;
+	// output:
+	// Adding a callback listening msg ChildRemoved for  child removed  on |group2 // 
+
+	delete circle1;
+	// output: 
+	// DAG Changed - Child Removed:  child = |group2|circle1, parent = |group2 // 
+
+	dagMessageCmdCSharp -pa;
+	// output: 
+	// Adding a callback for  parent added  on all nodes // 
+
+	group -em -n group3;
+	// output:
+	// DAG Changed - Parent Added:  child = |, parent = 	// May be incomplete! // 
+	// DAG Model -  Node added: |transform1 // 
+} 
+
+dagMessageCmdCSharpTest();

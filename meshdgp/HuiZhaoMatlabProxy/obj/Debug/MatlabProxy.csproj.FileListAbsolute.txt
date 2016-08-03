@@ -1,0 +1,9 @@
+C:\快盘\Develop\vs2013\Deform0.5\bin\Debug\MatlabProxy.dll
+C:\快盘\Develop\vs2013\Deform0.5\bin\Debug\MatlabProxy.pdb
+C:\快盘\Develop\vs2013\Deform0.5\MatlabProxy\obj\Debug\Interop.MLApp.dll
+C:\快盘\Develop\vs2013\Deform0.5\MatlabProxy\obj\Debug\MatlabProxy.csproj.ResolveComReference.cache
+C:\快盘\Develop\vs2013\Deform0.5\MatlabProxy\obj\Debug\MatlabProxy.dll
+C:\快盘\Develop\vs2013\Deform0.5\MatlabProxy\obj\Debug\MatlabProxy.pdb
+C:\快盘\Develop\vs2013\Deform0.5\MatlabProxy\obj\Debug\GraphicResearchHuiZhao.MenuMatlab.resources
+C:\快盘\Develop\vs2013\Deform0.5\MatlabProxy\obj\Debug\MatlabProxy.csproj.GenerateResource.Cache
+C:\快盘\Develop\vs2013\Deform0.5\MatlabProxy\obj\Debug\MatlabProxy.csprojResolveAssemblyReference.cache

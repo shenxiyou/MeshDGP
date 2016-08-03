@@ -1,0 +1,7 @@
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\IOHuiZhao\bin\Debug\IOHuiZhao.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\IOHuiZhao\bin\Debug\IOHuiZhao.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\IOHuiZhao\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\IOHuiZhao\obj\Debug\IOHuiZhao.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\IOHuiZhao\obj\Debug\IOHuiZhao.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\bin\Debug\IOHuiZhao.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\bin\Debug\IOHuiZhao.pdb

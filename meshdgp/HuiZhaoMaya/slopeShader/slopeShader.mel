@@ -1,0 +1,16 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+
+global proc testSlopeShader()
+{
+	//create a polygon sphere
+	polySphere -ch on -o on -r 0.968017 ;
+
+	//open node editor and create a slopeShaderNodeCSharp
+	createNode slopeShaderNodeCSharp;
+
+	//drag slopeShader to the sphere created using middle button of mouse.
+	defaultNavigation -source slopeShaderNodeCSharp1 -destination |pSphere1|pSphereShape1.instObjGroups[0] -connectToExisting;
+}
+
+testSlopeShader();

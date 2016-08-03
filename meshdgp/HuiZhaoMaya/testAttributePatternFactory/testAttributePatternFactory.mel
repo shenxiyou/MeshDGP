@@ -1,0 +1,9 @@
+file -force -new;
+loadPlugin -qt examples.nll.dll;
+
+createAttrPatterns -pt "attributePatternCSharp" -pd "myAttributeName";
+createAttrPatterns -pt "attributePatternCSharp" -pf "myFileName";
+
+// Hope result: testAttrPatternString testAttrPatternFile 
+// 
+listAttrPatterns;

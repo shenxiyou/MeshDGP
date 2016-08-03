@@ -1,0 +1,8 @@
+// If plug-in has not been loaded
+loadPlugin -qt examples.nll.dll;
+
+// Create the line manipulator node
+lineManipCmdCSharp -create;
+
+// You can delete the line manipulator node with following command
+// lineManipCmdCSharp -delete;

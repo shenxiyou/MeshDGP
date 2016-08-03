@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A989D08B-F70A-4AF7-90AF-4650157F22D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GraphicResearchHuiZhao</RootNamespace>
+    <AssemblyName>HuiZhaoBasicMesh</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Color\RandomColor.cs" />
+    <Compile Include="DataStructure\Heap.cs" />
+    <Compile Include="DataStructure\MinHeap.cs" />
+    <Compile Include="Color\Color3.cs" />
+    <Compile Include="Color\Color4.cs" />
+    <Compile Include="DataStructure\Octree\BindBox.cs" />
+    <Compile Include="DataStructure\Octree\OctreeCell.cs" />
+    <Compile Include="DataStructure\Octree\OctTree.cs" />
+    <Compile Include="DataStructure\Pair.cs" />
+    <Compile Include="DataStructure\PriorityQueue.cs" />
+    <Compile Include="DataStructure\Tree.cs" />
+    <Compile Include="Geometry\AxisAlignedBox.cs" />
+    <Compile Include="Geometry\BoundingBox.cs" />
+    <Compile Include="Geometry\BoundingFrustum.cs" />
+    <Compile Include="Geometry\BoundingSphere.cs" />
+    <Compile Include="Geometry\Rectangle.cs" />
+    <Compile Include="Geometry\Sphere.cs" />
+    <Compile Include="HuiZhaoInfo.cs" />
+    <Compile Include="Math\ASVD.cs" />
+    <Compile Include="Math\CCSMatrix.cs" />
+    <Compile Include="Geometry\Collision.cs" />
+    <Compile Include="Converter\BaseConverter.cs" />
+    <Compile Include="Converter\FieldPropertyDescriptor.cs" />
+    <Compile Include="Converter\MatrixConverter.cs" />
+    <Compile Include="Converter\QuaternionConverter.cs" />
+    <Compile Include="Converter\Vector2Converter.cs" />
+    <Compile Include="Converter\Vector3Converter.cs" />
+    <Compile Include="Converter\Vector4Converter.cs" />
+    <Compile Include="Geometry\Enums.cs" />
+    <Compile Include="Geometry\Gjk.cs" />
+    <Compile Include="Geometry\MathHelper.cs" />
+    <Compile Include="Math\Complex.cs" />
+    <Compile Include="Math\DenseMatrixComplex.cs" />
+    <Compile Include="Math\DenseMatrixDouble.cs" />
+    <Compile Include="Math\DenseMatrixQuaterion.cs" />
+    <Compile Include="Math\Eigen.cs" />
+    <Compile Include="Math\EigenPair.cs" />
+    <Compile Include="Math\MathHelper.cs" />
+    <Compile Include="Math\Matrix2D.cs" />
+    <Compile Include="Math\Matrix3D.cs" />
+    <Compile Include="Math\Matrix4D.cs" />
+    <Compile Include="Geometry\Plane.cs" />
+    <Compile Include="Math\Quaternion.cs" />
+    <Compile Include="Geometry\Ray.cs" />
+    <Compile Include="Math\RowBasedMatrix.cs" />
+    <Compile Include="Math\SparseMatrix.cs" />
+    <Compile Include="Geometry\Utilities.cs" />
+    <Compile Include="Math\SparseMatrixComplex.cs" />
+    <Compile Include="Math\SparseMatrixDouble.cs" />
+    <Compile Include="Math\SparseMatrixQuaterion.cs" />
+    <Compile Include="Math\SVD2.cs" />
+    <Compile Include="Math\SVDInfo.cs" />
+    <Compile Include="Math\Vector2D.cs" />
+    <Compile Include="Math\Vector3D.cs" />
+    <Compile Include="Math\Vector4D.cs" />
+    <Compile Include="MeshChangeDelegate.cs" />
+    <Compile Include="Mesh\FaceMesh.cs" />
+    <Compile Include="Mesh\Mesh.cs" />
+    <Compile Include="Mesh\MeshOperators.cs" />
+    <Compile Include="Mesh\MeshRecord.cs" />
+    <Compile Include="Mesh\MeshSelection.cs" />
+    <Compile Include="Mesh\MeshSelectionRecord.cs" />
+    <Compile Include="Mesh\Record.cs" />
+    <Compile Include="Math\SVD.cs" />
+    <Compile Include="TransformController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataStructure\Set.cs" />
+    <Compile Include="Thread\ThreadOperator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

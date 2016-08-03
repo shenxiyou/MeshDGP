@@ -1,0 +1,6 @@
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+createNode polyTrgNodeCSharp -n ptrg;
+polyPlane -w 1 -h 1 -sx 10 -sy 10 -ax 0 1 0 -ch 1 -n pp1;
+select  -r pp1Shape;
+setAttr pp1Shape.userTrg  -type "string" "triangulate";

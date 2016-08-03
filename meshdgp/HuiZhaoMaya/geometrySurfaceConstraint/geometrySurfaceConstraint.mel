@@ -1,0 +1,28 @@
+//
+//	Demo/Test for .NET example geometrySurfaceConstraint.
+//
+
+loadPlugin -qt examples.nll.dll;
+
+// 1. cylinder constrained to plane
+file -f -new;
+polyPlane -w 1 -h 1 -sx 10 -sy 10 -ax 0 1 0 -cuv 2 -ch 1;
+scale -r 15 15 15;
+polyCylinder -r 1 -h 2 -sx 20 -sy 1 -sz 1 -ax 0 1 0 -rcp 0 -cuv 3 -ch 1;
+select -cl;
+select -r pPlane1 pCylinder1;
+geometrySurfaceConstraintCmdCSharp -weight 1;
+
+// 2. cylinder constrained to one of two planes
+// depending on plane weight
+file -f -new;
+polyPlane -w 1 -h 1 -sx 10 -sy 10 -ax 0 1 0 -cuv 2 -ch 1;
+scale -r 10 10 10;
+polyPlane -w 1 -h 1 -sx 10 -sy 10 -ax 0 1 0 -cuv 2 -ch 1;
+scale -r 15 15 15;
+polyCylinder -r 1 -h 2 -sx 20 -sy 1 -sz 1 -ax 0 1 0 -rcp 0 -cuv 3 -ch 1;
+select -cl;
+select -r pPlane1 pPlane2 pCylinder1;
+geometrySurfaceConstraintCmdCSharp -weight 1.0;
+ // change plane weight to move constrained object
+geometrySurfaceConstraintCmdCSharp -e -w 10.0 pPlane2 pCylinder1;

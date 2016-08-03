@@ -1,0 +1,191 @@
+I:\develop\10.31\bin\Debug\ToolLibrary.dll
+I:\develop\10.31\bin\Debug\ToolLibrary.pdb
+I:\develop\10.31\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\10.31\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\10.31\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\11.9\bin\Debug\ToolLibrary.dll
+I:\develop\11.9\bin\Debug\ToolLibrary.pdb
+I:\develop\11.9\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\11.9\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\11.9\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\11.9\bin\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\11.9\bin\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\11.9\ToolLibrary\obj\Debug\ToolLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\11.9\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\11.9\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\LinearSystem\11.9\bin\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\LinearSystem\11.9\bin\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\LinearSystem\11.9\ToolLibrary\obj\Debug\ToolLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\LinearSystem\11.9\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\LinearSystem\11.9\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MineStone 2.22\bin\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MineStone 2.22\bin\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MineStone 2.22\ToolLibrary\obj\Debug\ToolLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MineStone 2.22\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MineStone 2.22\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MileStone 2.26\bin\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MileStone 2.26\bin\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MileStone 2.26\ToolLibrary\obj\Debug\ToolLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 2.26\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MileStone 2.26\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MileStone 2.27\bin\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MileStone 2.27\bin\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MileStone 2.27\ToolLibrary\obj\Debug\ToolLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 2.27\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MileStone 2.27\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\Michael\Desktop\MileStone 3.1\bin\Debug\ToolLibrary.dll
+C:\Users\Michael\Desktop\MileStone 3.1\bin\Debug\ToolLibrary.pdb
+C:\Users\Michael\Desktop\MileStone 3.1\ToolLibrary\obj\Debug\ToolLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\MileStone 3.1\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\Michael\Desktop\MileStone 3.1\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MileStone 3.3\bin\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MileStone 3.3\bin\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MileStone 3.3\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 3.3\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MileStone 3.3\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MileStone 3.6\bin\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MileStone 3.6\bin\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MileStone 3.6\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MileStone 3.6\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MileStone 3.6\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 3.7\bin\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MileStone 3.7\bin\Debug\ToolLibrary.pdb
+C:\Users\Corsy\Desktop\MileStone 3.7\ToolLibrary\obj\Debug\ToolLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Corsy\Desktop\MileStone 3.7\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\Corsy\Desktop\MileStone 3.7\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.8\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\MileStone 3.13\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\MileStone 3.22\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\MileStone 3.22\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\MileStone 3.22\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\MileStone 3.22\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\MileStone 3.22\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\MileStone 3.22\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\MileStone 3.22\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\MileStone 3.22\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\MileStone 3.22\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\MileStone 3.22\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect3.24\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect3.24\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect3.24\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.24\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect3.24\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.26\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect3.27\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect3.27\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect3.27\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.27\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect3.27\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect3.28\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect3.28\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect3.28\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect3.28\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect3.28\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect3.28\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.1\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\New Folder\Perfect4.2\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect4.3\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect4.3\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect4.3\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect4.3\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect4.3\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.3\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.11\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.12\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Pefect4.15\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Pefect4.15\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Pefect4.15\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Pefect4.15\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Pefect4.15\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Pefect4.15\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Pefect4.16\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Pefect4.16\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Pefect4.16\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Pefect4.16\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Pefect4.16\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect4.17\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect4.17\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect4.17\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect4.17\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect4.17\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect4.20\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect5.3\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect5.3\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect5.3\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect5.3\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect5.3\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.4\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.6\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.7\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.8\ToolLibrary\obj\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect5.10\bin\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect5.10\bin\Debug\ToolLibrary.pdb
+C:\Users\bell\Desktop\develop\Perfect5.10\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bell\Desktop\develop\Perfect5.10\ToolLibrary\obj\Debug\ToolLibrary.dll
+C:\Users\bell\Desktop\develop\Perfect5.10\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\ToolLibrary\obj\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\bin\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\bin\Debug\ToolLibrary.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\ToolLibrary\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\ToolLibrary\obj\Debug\ToolLibrary.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\ToolLibrary\obj\Debug\ToolLibrary.pdb

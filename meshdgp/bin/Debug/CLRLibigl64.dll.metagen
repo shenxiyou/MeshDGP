@@ -1,0 +1,125 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly CLRLibigl64, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly HuiZhaoBasicMesh, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly HuiZhaoHalfEdgeMesh, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class arap_wrap: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    precompute(TriMesh, Int32[], Int32): PrivateScope, Public, Static, HideBySig
+    precompute_demo(TriMesh): PrivateScope, Public, Static, HideBySig
+    solve(Vector3D[]): PrivateScope, Public, Static, HideBySig
+    solve_demo(Double): PrivateScope, Public, Static, HideBySig
+Class MatrixOPWrap: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    slice(Double[], Int32[]): PrivateScope, Public, Static, HideBySig
+    slice(SparseMatrix, Int32[], Int32[]): PrivateScope, Public, Static, HideBySig
+    setdiff(Int32, Int32[]): PrivateScope, Public, Static, HideBySig
+    slice_into(Double[], Int32[], Double[], Int32[]): PrivateScope, Public, Static, HideBySig
+    slice_into(SparseMatrix, SparseMatrix, Int32[], Int32[]): PrivateScope, Public, Static, HideBySig
+    mult(SparseMatrix, SparseMatrix): PrivateScope, Public, Static, HideBySig
+    svd(Matrix3D): PrivateScope, Public, Static, HideBySig
+    SVDInfo(Matrix3D): PrivateScope, Public, Static, HideBySig
+Class CurvatureInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    GraphicResearchHuiZhao.Vector3D[] Dir1 : Public
+    GraphicResearchHuiZhao.Vector3D[] Dir2 : Public
+    Double[] Cur1 : Public
+    Double[] Cur2 : Public
+Class MeshInfoWrap: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetMesh(TriMesh): PrivateScope, Public, HideBySig
+    BuildLaplaceCotHalf(TriMesh): PrivateScope, Public, HideBySig
+    BuildDiagnalMassInverse(TriMesh): PrivateScope, Public, HideBySig
+    BuildGradient(TriMesh): PrivateScope, Public, HideBySig
+    BuildDivergence(TriMesh): PrivateScope, Public, HideBySig
+    BuildLaplaceV1(TriMesh): PrivateScope, Public, HideBySig
+    BuildGaussianCurvature(TriMesh): PrivateScope, Public, HideBySig
+    BuildMeanCurvature(TriMesh): PrivateScope, Public, HideBySig
+    BuildMeanCurvatureV3(TriMesh): PrivateScope, Public, HideBySig
+    BuildCurvature(TriMesh): PrivateScope, Public, HideBySig
+Struct SolverCore: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class SystemWithConstriantsInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    GraphicResearchHuiZhao.SparseMatrix leftA : Public
+    Int32[] unknownIndex : Public
+    Int32[] knownIndex : Public
+    Double[] knownValue : Public
+    Double[] rightB : Public
+    GraphicResearchHuiZhao.SparseMatrix L_in_in : Public
+    GraphicResearchHuiZhao.SparseMatrix L_in_out : Public
+    Double[] right : Public
+Struct SystemInfo: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Methods:
+    <MarshalCopy>(SystemInfo*, SystemInfo*): PrivateScope, Public, Static, SpecialName
+    <MarshalDestroy>(SystemInfo*): PrivateScope, Public, Static, SpecialName
+Class PDESolver_Wrap: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    solveSystemWithConstraints(SparseMatrix, Int32[], Int32[], Double[], Double[]): PrivateScope, Public, HideBySig
+    solveSystem(SparseMatrix, Double[]): PrivateScope, Public, HideBySig
+    preCompute(SparseMatrix): PrivateScope, Public, HideBySig
+    preCompute(SparseMatrix, Int32[], Int32[]): PrivateScope, Public, HideBySig
+    solveByPreCompute(Double[]): PrivateScope, Public, HideBySig
+    solveByPreCompute(Double[], Double[]): PrivateScope, Public, HideBySig
+    getSystemInfo(SystemInfo*): PrivateScope, Public, HideBySig
+    processSystem(SparseMatrix, Int32[], Int32[], Double[], Double[]): PrivateScope, Public, HideBySig
+    SetType(Int32): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class QuadraticSolver: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Boolean pd : Public
+  Methods:
+    preCompute(SparseMatrix, Int32[]): PrivateScope, Public, HideBySig
+    preCompute(SparseMatrix, Int32[], SparseMatrix): PrivateScope, Public, HideBySig
+    solve(Double[], Double[]): PrivateScope, Public, HideBySig
+    solve(Double[], Double[], Double[]): PrivateScope, Public, HideBySig
+    solveAtOnce(SparseMatrix, Int32[], Double[], Double[]): PrivateScope, Public, HideBySig
+    solveAtOnce(SparseMatrix, Int32[], SparseMatrix, Double[], Double[], Double[]): PrivateScope, Public, HideBySig
+    activeSetSolve(SparseMatrix, Int32[], SparseMatrix, Double[], Double[], Double[], SparseMatrix, Double[], Double[], Double[]): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class arapFirst_wrap: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    setType(Int32): PrivateScope, Public, HideBySig
+    setIterative(Int32): PrivateScope, Public, HideBySig
+    precompute(TriMesh, Int32[]): PrivateScope, Public, HideBySig
+    solve(Vector3D[]): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class min_quad_with_fixed_wrap: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    set_mesh(TriMesh): PrivateScope, Public, HideBySig
+    build_laplace(): PrivateScope, Public, HideBySig
+    build_minv(): PrivateScope, Public, HideBySig
+    precompute(SparseMatrix, Int32[]): PrivateScope, Public, HideBySig
+    precompute(SparseMatrix, Int32[], SparseMatrix, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    solve(Double[], Double[]): PrivateScope, Public, HideBySig
+    solve(Double[], Double[], Double[]): PrivateScope, Public, HideBySig
+    test1(): PrivateScope, Public, HideBySig
+    test2(): PrivateScope, Public, HideBySig
+    active_set_solve(SparseMatrix, Double[], Int32[], Double[], SparseMatrix, Double[], SparseMatrix, Double[], Double[], Double[]): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig

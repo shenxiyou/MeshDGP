@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<NodeBinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Model="byrnie" Animation="kick_rightleg">
+  <Model>
+    <Joint Index="0" Name="abdomen" Parent="-1" />
+    <Joint Index="1" Name="thigh.L" Parent="0" />
+    <Joint Index="2" Name="calf.L" Parent="1" />
+    <Joint Index="3" Name="foot.L" Parent="2" />
+    <Joint Index="4" Name="thigh.R" Parent="0" />
+    <Joint Index="5" Name="calf.R" Parent="4" />
+    <Joint Index="6" Name="foot.R" Parent="5" />
+    <Joint Index="7" Name="spine" Parent="0" />
+    <Joint Index="8" Name="thorax" Parent="7" />
+    <Joint Index="9" Name="head" Parent="8" />
+    <Joint Index="10" Name="shoulder.L" Parent="8" />
+    <Joint Index="11" Name="upperarm.L" Parent="10" />
+    <Joint Index="12" Name="forearm.L" Parent="11" />
+    <Joint Index="13" Name="hand.L" Parent="12" />
+    <Joint Index="14" Name="item.L" Parent="13" />
+    <Joint Index="15" Name="shoulder.R" Parent="8" />
+    <Joint Index="16" Name="upperarm.R" Parent="15" />
+    <Joint Index="17" Name="forearm.R" Parent="16" />
+    <Joint Index="18" Name="hand.R" Parent="17" />
+    <Joint Index="19" Name="item.R" Parent="18" />
+  </Model>
+  <Animation>
+    <Joint Index="0" Name="abdomen" Parent="-1" />
+    <Joint Index="1" Name="thigh.L" Parent="0" />
+    <Joint Index="2" Name="calf.L" Parent="1" />
+    <Joint Index="3" Name="foot.L" Parent="2" />
+    <Joint Index="4" Name="thigh.R" Parent="0" />
+    <Joint Index="5" Name="calf.R" Parent="4" />
+    <Joint Index="6" Name="foot.R" Parent="5" />
+    <Joint Index="7" Name="spine" Parent="0" />
+    <Joint Index="8" Name="thorax" Parent="7" />
+    <Joint Index="9" Name="head" Parent="8" />
+    <Joint Index="10" Name="shoulder.L" Parent="8" />
+    <Joint Index="11" Name="upperarm.L" Parent="10" />
+    <Joint Index="12" Name="forearm.L" Parent="11" />
+    <Joint Index="13" Name="hand.L" Parent="12" />
+    <Joint Index="14" Name="item.L" Parent="13" />
+    <Joint Index="15" Name="shoulder.R" Parent="8" />
+    <Joint Index="16" Name="upperarm.R" Parent="15" />
+    <Joint Index="17" Name="forearm.R" Parent="16" />
+    <Joint Index="18" Name="hand.R" Parent="17" />
+    <Joint Index="19" Name="item.R" Parent="18" />
+  </Animation>
+  <Binding>
+    <Bind Model="0" Animation="0" />
+    <Bind Model="1" Animation="1" />
+    <Bind Model="2" Animation="2" />
+    <Bind Model="3" Animation="3" />
+    <Bind Model="4" Animation="4" />
+    <Bind Model="5" Animation="5" />
+    <Bind Model="6" Animation="6" />
+    <Bind Model="7" Animation="7" />
+    <Bind Model="8" Animation="8" />
+    <Bind Model="9" Animation="9" />
+    <Bind Model="10" Animation="10" />
+    <Bind Model="11" Animation="11" />
+    <Bind Model="12" Animation="12" />
+    <Bind Model="13" Animation="13" />
+    <Bind Model="14" Animation="14" />
+    <Bind Model="15" Animation="15" />
+    <Bind Model="16" Animation="16" />
+    <Bind Model="17" Animation="17" />
+    <Bind Model="18" Animation="18" />
+    <Bind Model="19" Animation="19" />
+  </Binding>
+</NodeBinder>

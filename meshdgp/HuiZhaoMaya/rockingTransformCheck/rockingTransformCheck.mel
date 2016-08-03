@@ -1,0 +1,11 @@
+//
+// Demo/Test for .NET example rockingTransformCheck.
+//
+
+loadPlugin -qt examples.nll.dll;
+file -f -new;
+polyPlane -w 1 -h 1 -sx 10 -sy 10 -ax 0 1 0 -tx 1 -ch 1;
+rotate -r -ws -15 -15 -15 ;
+createNode rockingTransformCheckCSharp;
+parent pPlane1 rockingTransformCheckCSharp1;
+setAttr rockingTransformCheckCSharp1.rockx 10;

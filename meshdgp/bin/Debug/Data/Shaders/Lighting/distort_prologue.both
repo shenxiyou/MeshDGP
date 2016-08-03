@@ -1,0 +1,59 @@
+#ifdef DISTORT
+
+// Author: Philip Rideout
+// Copyright (C) 2005 3Dlabs, Inc.
+// See 3Dlabs-License.txt for license information
+//
+// Simple cube-mapping assumes the object is at the origin and that the environment is a unit cube (or sphere).
+// However, in deLight's theater mode, the object sits on the floor, and the environment is a rectangular room.
+// This function will "localize" a reflection vector, given its origin, direction, and environment bounds.
+// Note that this assumes the origin is inside the cube, which is fine for objects inside the theater.
+//
+// example usage:
+//	vec3 tc = reflect(normalize(Position), normalize(Normal));
+//	vec4 color = textureCube(cubemap, localize(Vertex, tc));
+//
+
+uniform vec3 MinCorner; // lower-left-near corner; in deLight's theater, it's (-6, -1, -6);
+uniform vec3 MaxCorner; // upper-right-far corner; in deLight's theater, it's (+6, +6, +6);
+
+vec3 localize(vec3 origin, vec3 direction)
+{
+    float distance = 100.0; // ie, infinity
+    float t;
+
+    if (direction.x != 0.0)
+    {
+        t = (MinCorner.x - origin.x) / direction.x;
+        if (t > 0.0 && t < distance) distance = t;
+        t = (MaxCorner.x - origin.x) / direction.x;
+        if (t > 0.0 && t < distance) distance = t;
+    }
+
+    if (direction.y != 0.0)
+    {
+        t = (MinCorner.y - origin.y) / direction.y;
+        if (t > 0.0 && t < distance) distance = t;
+        t = (MaxCorner.y - origin.y) / direction.y;
+        if (t > 0.0 && t < distance) distance = t;
+    }
+
+    if (direction.z != 0.0)
+    {
+        t = (MinCorner.z - origin.z) / direction.z;
+        if (t > 0.0 && t < distance) distance = t;
+        t = (MaxCorner.z - origin.z) / direction.z;
+        if (t > 0.0 && t < distance) distance = t;
+    }
+
+    vec3 intersection = origin + direction * distance;
+
+    // scale to a unit cube before returning
+    return 2.0 * (intersection - MinCorner) / (MaxCorner - MinCorner) + vec3(-1);
+}
+
+#else
+
+vec3 localize(vec3 origin, vec3 direction) { return direction; }
+
+#endif

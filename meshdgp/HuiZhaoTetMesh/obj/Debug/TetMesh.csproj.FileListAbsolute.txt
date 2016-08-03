@@ -1,0 +1,14 @@
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\TetMesh\bin\Debug\TetMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\TetMesh\bin\Debug\TetMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\TetMesh\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\TetMesh\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\TetMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\TetMesh\obj\Debug\TetMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect5.10\TetMesh\obj\Debug\TetMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\TetMesh\bin\Debug\TetMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\TetMesh\bin\Debug\TetMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\TetMesh\bin\Debug\BasicMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\TetMesh\bin\Debug\BasicMesh.pdb
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\TetMesh\obj\Debug\ResolveAssemblyReference.cache
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\TetMesh\obj\Debug\TetMesh.dll
+I:\develop\2013.2.26TheOneVersion\Perfect2013.10.24\TetMesh\obj\Debug\TetMesh.pdb

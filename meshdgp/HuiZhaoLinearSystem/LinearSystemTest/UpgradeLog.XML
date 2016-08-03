@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LinearSystemTest">
+</Property><Property Name="Solution File" Value="I:\快盘\HuiZhaoGraphicResearch\LinearSystem\LinearSystemTest\LinearSystemTest.sln">
+</Property><Property Name="Date" Value="2014年5月21日">
+</Property><Property Name="Time" Value="17:11:44">
+</Property></Properties><Event ErrorLevel="2" Project="trimesh2" Source="..\trimesh2\trimesh2.vcproj" Description="The following error has occurred during XML parsing:&#xA;&#xA;File: I:\快盘\HuiZhaoGraphicResearch\LinearSystem\trimesh2\trimesh2.vcproj&#xA;Line: 5&#xA;Column: 21&#xA;Error Message:&#xA;Invalid pointer&#xA;&#xA;The file 'I:\快盘\HuiZhaoGraphicResearch\LinearSystem\trimesh2\trimesh2.vcproj' has failed to load.">
+</Event><Event ErrorLevel="2" Project="trimesh2" Source="..\trimesh2\trimesh2.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="trimesh2" Source="..\trimesh2\trimesh2.vcproj" Description="Not Converted">
+</Event></UpgradeLog>
