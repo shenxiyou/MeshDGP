@@ -20,6 +20,7 @@ MeshDGP can also be used to learn the basic algorithms in 3ds Max, Maya
 # Demo
  
  <http://meshdgp.github.io/MeshDGP/MeshDGP.html>
+ 
  <http://meshdgp.github.io/video.html>
 
 # Features
